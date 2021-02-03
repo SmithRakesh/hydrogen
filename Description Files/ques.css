@@ -1,0 +1,36 @@
+ body{
+            background-color:rgb(194, 138, 149);
+        }
+        h1{
+            text-align: center;
+            color: brown;
+        }
+        .display{
+            background: none;
+           border: none;
+           margin-left: 250px;
+           margin-top: 20px;
+           font-size: 20px;
+           color:rgb(63, 3, 3);
+        }
+        button{
+            background-color: wheat;
+            height: 50px;
+            margin-left: 650px;
+            border: none;
+            border-radius: 10px;
+        }
+        input{
+            height: 30px;
+        }
+        #btnback{
+            margin-left: 1150px;
+            color:brown;
+            font-size: 20px;
+        }
+        #crct{
+            margin-left: 500px;
+            margin-top: -50px;
+            color:white;
+        }
+    
