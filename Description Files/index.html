@@ -1,20 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INdEX FILE </title>
-    <link rel="stylesheet" href="index.css">
+    <title>Index</title>
 </head>
-
 <body>
-    <h1>Welcome to Quiz !!!!</h1>
-    <div class="res" id="res"></div>
+    
+    <div class="res"></div>
 
-    <h4>Cick on Question to know about options and answer</h4>
+    <script>
+        window.addEventListener("load",()=>{
+            fetchprod()
+        })
 
-    <script src="index.js"></script>
+        const fetchprod = async()=>{
+            var url ="http://localhost:3008/bedroom"
+
+            fetch(url)
+            .then(res => res.json())
+            .then(resp => console.log(resp))
+            .catch(err => console.log(err))
+        } 
+
+       function display(data)
+        {
+
+            for(i in data)
+            {
+                var div = document.createElement("div")
+
+                var res = document.createElement("div")
+
+                var img = document.createElement("img")
+                img.src = data[i].img
+
+                res.append(img)
+
+
+                var title = document.createElement("h3")
+                title.src = data[i].title
+
+                res.append(title)
+
+                div.append(res)
+            }
+        }
+    </script>
 </body>
-
 </html>

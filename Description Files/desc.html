@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <title>Furlenco</title>
+    <style>
+        * {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .container {
+            width: 100%;
+        }
+
+        .left {
+            width: 63%;
+            /* border: 1px solid black; */
+            height: 1200px;
+            float: left;
+            padding: 10px
+        }
+
+        .right {
+            width: 30%;
+            /* border: 1px solid black; */
+            height: 700px;
+            padding: 10px;
+            margin-top: 10px;
+            float: left;
+            margin-left: 50px;
+            text-align: center;
+            background-color: #FCFCFE;
+        }
+
+        img {
+            width: 100%;
+            height: 500px;
+        }
+
+        .price_details {
+            /* border: 1px solid; */
+            margin-top: -90px;
+        }
+
+        #display_price {
+            margin-top: 80px;
+            animation: mymove 1s infinite
+        }
+
+        .off_rent {
+            height: 60px;
+            /* border: 1px solid black; */
+        }
+
+        .off_rent img {
+            width: 20px;
+            height: 20px;
+        }
+
+        .off_time {
+            height: 30px;
+            /* border: 1px solid black; */
+            display: flex;
+            margin-left: 75px;
+            color: grey;
+            margin-top: -50px;
+            font-size: 14px;
+        }
+
+        #demo {
+            margin-top: -1px;
+        }
+
+        .off_time img {
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 4px;
+            width: 15px;
+        }
+
+        .delivery_Desc {
+            margin-top: 100px;
+            color: #999999;
+        }
+
+        .KYC_desc {
+            font-size: 12px;
+            text-align: left;
+            line-height: 23px;
+            /* border:1px solid; */
+            margin-top: 55px;
+        }
+
+        .save_more {
+            padding: 10px;
+            margin-left: 30px;
+            margin-top: -40px;
+        }
+
+        #foot_price {
+            padding: 10px;
+            margin-left: 70px
+        }
+
+        span {
+            color: black;
+        }
+
+        .btn_add_cart button {
+            width: 300px;
+            height: 40px;
+            margin-bottom: 5px;
+            margin-top: 5px;
+            color: white;
+            background-color: #346AA0;
+            text-align: center;
+            font-size: 16px;
+            border: #346AA0;
+            border-radius: 25px;
+            cursor: grabbing;
+        }
+
+        #select_btn {
+            background: transparent;
+            color: #346AA0;
+
+            border: 1px solid #346AA0;
+        }
+
+        a {
+            text-decoration: none;
+            color: #346AA0;
+            font-size: 12px;
+            font-weight: 200A;
+        }
+
+        .off_rent {
+            margin-top: 10px;
+        }
+
+        .off_rent_img {
+
+            text-align: left;
+            margin-left: 15px;
+            margin-top: 10px;
+        }
+
+        .off_rent_desc {
+            font-size: 12px;
+            color: #333333;
+            margin-left: 46px;
+            margin-top: -40px;
+            width: 300px;
+            line-height: 30px;
+        }
+
+        #save_more_img {
+            width: 20px;
+            height: 15px;
+            margin-left: 50px;
+            position: relative;
+            top: -80px;
+            right: -300px;
+            /* border: 1px solid black; */
+        }
+
+
+        #tooltip_div {
+            visibility: hidden;
+            width: 200px;
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px 0;
+            /* border: 1px solid black; */
+            /* Position the tooltip */
+            position: absolute;
+            z-index: 1;
+            top: 250px;
+            right: 10px;
+
+        }
+
+        .KYC_desc:hover #tooltip_div {
+            visibility: visible;
+        }
+
+        #div_btm_brdr {
+
+            width: 250px;
+        }
+
+
+        @keyframes mymove {
+            50% {
+                transform: rotate(10deg);
+            }
+        }
+
+        .package_content_img {
+            border: 1px solid black;
+            margin-top: -400px;
+        }
+
+        .package_content_img img {
+            width: 120px;
+            height: 120px;
+            border: 1px solid rgb(238, 233, 233);
+            margin-left: 10px;
+            margin-right: 20px;
+
+        }
+
+        /* .package_calendar {
+            border:1px solid black;
+            margin-top: -100px;
+        } */
+
+        #right_cond {
+            width: 800px;
+            margin-left: 30px;
+            text-align: left;
+            font-size: 14px;
+            color: grey;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .mint_cond button {
+            width: 250px;
+            height: 40px;
+            border-top-right-radius: 155px;
+            border-bottom-right-radius: 155px;
+            border: none;
+            background-color: #fdb34A;
+            color: White;
+            font-size: 20px;
+        }
+
+        .package_include {
+            margin-top: 300px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left" id="left">
+
+            <div class="img_div"></div>
+
+            <div id="prod_title"></div>
+
+            <div id="prod_explan"></div>
+
+            <div class="package_content">
+                <div class="package_calendar">
+                    <p>Product tenture</p>
+                    <h3 id="month_tenture"></h3>
+                    
+                    <div class="package_content_img"></div>
+
+                    <div class="mint_cond">
+                        <button> Mint Condition</button>
+                        <p id="right_cond">Packages delivered to you are as good as new. In fact, they are better than
+                            new.They
+                            are restored to their original condition and subjected to rigorous quality tests before
+                            shipment.
+                            All soft furnishings included are brand new.</p>
+                        <div class="package_include">
+                            <h1> What’s Included In The Package </h1>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+        <div class="right" id="right">
+            <div id="product_title"></div>
+
+            <div class="price_details">
+                <p style="font-size: 16px;">Monthly Rental</p>
+            </div>
+
+            <div class="delivery_Desc">
+                <p id="display_price"></p>
+                <p style="font-size: 12px;">(inclusive of delivery & setup)</p>
+                <p style="font-size: 12px;"> Free delivery in <span style="font-size: 14px;"> <b>72 hours </b> </span>
+                </p>
+            </div>
+
+            <div class="btn_add_cart">
+                <button>ADD TO CART</button><br>
+                <button id="select_btn">SELECT APPLICANCES & ADD ONS</button><br>
+                <a href=""> <b> Need Help? </b></a>
+            </div>
+            <div class="off_rent">
+                <div class="off_rent_img">
+                    <img src="https://assets.furlenco.com/s3-furlenco-images/lenco-icons/static-icons/ic_offer_tag.svg"
+                        alt="tag">
+                </div>
+
+                <div class="off_rent_desc">
+                    <p>Get rent-free for 4 months. Get flat 50% off per month. Hurry! Offer ends at midnight. T&C Apply
+                    </p>
+                    <br><br>
+                    <h5 class="off_time"> Offer ends in <img
+                            src="https://assets.furlenco.com/s3-furlenco-images/lenco-icons/static-icons/ic_time.svg"
+                            alt="">
+                        <p id="demo"></p>
+                    </h5>
+                </div>
+            </div>
+
+            <div class="KYC_desc delivery_Desc">
+                <ul>
+                    <li class="save_more1">Minimum rental tenure in 3 months </li>
+
+                    <li> &#8377; 1356 to be paid as refundable security deposit</li>
+                    <li>KYC documents to be submitted before delivery</li>
+                </ul>
+                <div class="save_more2">
+                    <img class="save_more_img" id="save_more_img"
+                        src="https://assets.furlenco.com/s3-furlenco-images/lenco-icons/interaction-icons/ic-info.svg"
+                        alt="">
+                </div>
+                <div id="tooltip_div">
+                    <ul>
+                        <li>
+                            The minimum tenure for this product is 3 months. If you return this product anytime before
+                            the minimum tenure, you will be charged rent for 3 months.
+                        </li>
+                        <li>The delivery and setup of all furniture is free of cost. No additional or hidden charges.
+                        </li>
+                        <li>We require you to complete your submission of KYC documents after placing the order to
+                            schedule delivery.</li>
+                    </ul>
+                </div>
+
+                <div class="save_more">
+                    <p id="div_btm_brdr"> Save more by choosing our long term plans.</p>
+
+                    <p>100% refund on cancellation within 7 days</p>
+                </div>
+                <div class="save_more">
+                    <p>Furlencon First Rewards Program </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script>
+        // document.getElementById("save_more_img").addEventListener("mouseover", () => {
+        //     document.getElementById("tooltip_div").style.display = "block"
+        // })
+        window.addEventListener("load", () => {
+            let query = window.location.search
+            if (query !== "") {
+                renderData(query)
+            }
+
+        })
+
+        function renderData(query) {
+            let querys = new URLSearchParams(query)
+            let id = querys.get('id')
+
+            var url = `http://localhost:3008/bedroom?id=${id}`
+            console.log(url)
+            fetch(url)
+                .then(res => res.json())
+                .then(resp => displayData(resp))
+                .catch(err => console.log(err))
+        }
+
+
+        function displayData(resp) {
+            for (i in resp) {
+
+                var ldiv = document.getElementById("left")
+                ldiv.setAttribute("class", "left")
+
+                var lres = document.createElement("div")
+                var rres = document.createElement("div")
+                // ldiv.setAttribute("class","img_div_img")
+
+                var img = document.createElement("img")
+                img.src = resp[i].img
+                lres.append(img)
+
+                var basciBtn = document.createElement("button")
+                basciBtn.innerHTML = "&#8377; " + resp[i].tot_value
+                basciBtn.style.backgroundColor = "red"
+                lres.append(basciBtn)
+
+                var valueBtn = document.createElement("button")
+                valueBtn.innerHTML = "&#8377; " + resp[i].tot_prime
+                valueBtn.style.backgroundColor = "red"
+                lres.append(valueBtn)
+
+                console.log(basciBtn)
+
+                var rdiv = document.getElementById("product_title")
+                var disPric = document.getElementById("display_price")
+
+
+                var ltitl = document.getElementById("prod_title")
+                var lexp = document.getElementById("prod_explan")
+                var lten = document.querySelector(".package_calendar")
+                var he = document.createElement("h1")
+                he.textContent = resp[i].title;
+                he.style.fontSize = "16px"
+                he.style.padding = "8px"
+                ltitl.append(he)
+
+
+                var ht = document.createElement("p")
+                ht.textContent = resp[i].explanation;
+                ht.style.fontSize = "16px"
+                ht.style.padding = "8px"
+
+                lexp.append(ht)
+
+                var hten = document.createElement("h3")
+                hten.innerHTML = "Monthly tenture " + resp[i].tenture + " months";
+                hten.style.fontSize = "16px"
+                hten.style.padding = "8px"
+                hten.style.color = "black"
+                lten.append(hten)
+
+                lpackimg = document.querySelector(".package_content_img")
+                lpackimg_div = document.createElement("div")
+
+                // lpackimg_div_1 = document.createElement("img")
+                // lpackimg_div_1.src = resp[i].basic[i].img_1
+                // lpackimg_div.append(lpackimg_div_1)
+
+
+                // lpackimg_div_2 = document.createElement("img")
+                // lpackimg_div_2.src = resp[i].basic[i].img_2
+                // lpackimg_div.append(lpackimg_div_2)
+
+                // lpackimg_div_3 = document.createElement("img")
+                // lpackimg_div_3.src = resp[i].basic[i].img_3
+                // lpackimg_div.append(lpackimg_div_3)
+
+
+                // lpackimg_div_4 = document.createElement("img")
+                // lpackimg_div_4.src = resp[i].value[i].img_1
+                // lpackimg_div.append(lpackimg_div_4)
+
+
+         
+
+                var hw = document.createElement("h1")
+                hw.textContent = resp[i].name;
+                hw.style.fontSize = "16px"
+                hw.style.padding = "8px"
+
+                rres.append(hw)
+
+                var priceDisplay = document.createElement("h1")
+                priceDisplay.innerHTML = "&#8377; " + resp[i].tot_value
+                priceDisplay.style.fontSize = "20px"
+                // priceDisplay.style.marginTop = "40px"
+                disPric.append(priceDisplay)
+
+
+                lpackimg = document.querySelector(".package_content_img")
+                lpackimg_div2 = document.createElement("div")
+
+                basciBtn.addEventListener("click", () => {
+                    priceDisplay.innerHTML = "&#8377; " + resp[i].tot_value
+                    img.src = resp[i].value_img
+                    let valueD = resp[i].value
+
+                    for (var j = 0; j < valueD.length; j++) {
+                        lpackimg_div_1 = document.createElement("img")
+                        lpackimg_div_1.src = valueD[j]
+                        lpackimg_div.append(lpackimg_div_1)
+                        lpackimg.append(lpackimg_div2)
+                    }
+                })
+
+               valueBtn.addEventListener("click", () => {
+                    priceDisplay.innerHTML = "&#8377; " + resp[i].tot_prime
+                    img.src = resp[i].prime_img
+
+                    let valueP = resp[i].prime
+
+                    for (var k = 0; k < valueP.length; k++) {
+                        lpackimg_div_1 = document.createElement("img")
+                        lpackimg_div_1.src = valueP[k]
+                        lpackimg_div.append(lpackimg_div_1)
+                        lpackimg.append(lpackimg_div)
+                    }
+                })
+
+                ldiv.append(lres, ltitl, lexp, lten, lpackimg)
+
+                rdiv.append(rres)
+
+                rdiv.append(disPric)
+
+                console.log(resp[i].img)
+
+                console.log(resp[i].basic[i].img_1)
+            }
+        }
+
+
+
+        var countDownDate = new Date("Feb 3, 2022 15:37:25").getTime();
+        var x = setInterval(function () {
+            var now = new Date().getTime();
+
+            var distance = countDownDate - now;
+
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("demo").innerHTML = hours + "h " + minutes + "m " + seconds + "s ";
+
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("demo").innerHTML = "EXPIRED";
+            }
+        }, 1000);
+    </script>
+</body>
+
+</html>
