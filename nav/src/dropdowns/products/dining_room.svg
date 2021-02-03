@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46" height="24" viewBox="0 0 46 24">
+    <defs>
+        <linearGradient id="ic_dining_room_a" x1="-60.384%" x2="61.429%" y1="130.931%" y2="33.968%">
+            <stop offset="0%" stop-color="#A3DBFF"/>
+            <stop offset="100%" stop-color="#346AA0"/>
+        </linearGradient>
+        <path id="ic_dining_room_b" d="M0 0h37.281v3.966H0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path stroke="#346AA0" stroke-linecap="round" stroke-width="1.2" d="M11.992 10.168v12.586"/>
+        <g transform="translate(4.06 5.753)">
+            <use fill="url(#ic_dining_room_a)" xlink:href="#ic_dining_room_b"/>
+            <path stroke="#346AA0" stroke-width="1.2" d="M.6.6h36.081v2.766H.6z"/>
+        </g>
+        <path stroke="#346AA0" stroke-linecap="round" stroke-width="1.2" d="M32.615 10.168v12.586"/>
+        <g stroke="#346AA0" stroke-linecap="round" stroke-width="1.2">
+            <path d="M.745.66v22.043M1.222 12.975h7.445v9.648"/>
+        </g>
+        <g stroke="#346AA0" stroke-linecap="round" stroke-width="1.2">
+            <path d="M44.655.66v22.043M44.178 12.975h-7.445v9.648"/>
+        </g>
+    </g>
+</svg>
