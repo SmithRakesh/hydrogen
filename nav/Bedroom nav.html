@@ -3,7 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title></title>
+        <title>Rent Bed & Bedroom</title>
+        <link rel="shortcut icon" href="src/main_logo_title.png" />
         <style>
             body {
                 font-family: Roboto, Helvetica, sans-serif;
@@ -15,7 +16,7 @@
             .material-icons {
                 color: #356BA0;
             }
-            nav {
+            .offersContainer {
                 display: flex;
                 margin: 0.5% 15%;
                 position: sticky;
@@ -82,6 +83,14 @@
             .menu a:hover {
                 background-color: rgb(236, 236, 236);
             }
+            .location > select > option {
+                width: 10vw;
+                font-size: 1.2em;
+                padding: 3% 10%;
+            }
+            .location:hover {
+                background-color: rgb(236, 236, 236);
+            }
             .menu > div > select:hover {
                 background-color: rgb(236, 236, 236);
                 cursor: pointer;
@@ -119,6 +128,9 @@
                 box-shadow: 1px 1px 10px gray;
                 border-radius: 10px;
                 background-color: white;
+            }
+            .nav_dropdowns > div:hover {
+                transform: scale(1.1);
             }
             .nav_dropdowns > div > a {
                 display: flex;
@@ -254,6 +266,9 @@
                 font-size: 0.9em;
                 text-decoration: none;
             }
+            .categories a {
+                text-align: center;
+            }
 
         </style>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -261,11 +276,11 @@
     </head>
     <body>
         <div class="container">
-            <nav>
+            <div class="offersContainer">
                 <img src="src/nav_offers.svg">
                 <p class="offers">GO RENT-FREE FOR 4 MONTHS. GET FLAT 50% OFF PER MONTH. HURRY! OFFER ENDS AT MIDNIGHT. T&C APPLY</p>
                 <button class="explore">Explore</button>
-            </nav>
+            </div>
             <div class="menu">
                 <a href=""><img class="main_logo" src="src/main_logo.png"></a>
                 <a href="" id="menu_products">PRODUCTS</a>
@@ -280,17 +295,16 @@
                     <img src="src/nav_offers.svg" />2 OFFERS
                 </a>
                 <a href="">
-                    <span class="material-icons">
-                    person_outline
+                    <span>
+                        <img src="src/menu/user.svg">
                     </span> LOGIN
                 </a>
                 <a href="" id="menu_cart">
-                    <span class="material-icons">
-                    shopping_cart
+                    <span>
+                        <img src="src/menu/cart.svg">
                     </span>
                 </a>
-                <!-- <a href="" class="rightBorder" id="menu_location"> -->
-                <div>
+                <div class="location">
                     <span class="material-icons">
                         location_on
                     </span>
@@ -414,6 +428,9 @@
             window.addEventListener('load',addEvents);
 
             function addEvents() {
+                //selecting all a tags to add preventDefault
+                document.querySelectorAll('a').forEach(ele => ele.addEventListener('click',() => event.preventDefault()));
+
                 //Adding Mouse events to show Menu items
                 document.getElementById('menu_products').addEventListener('mouseover',showMenu);
                 document.getElementById('menu_collection').addEventListener('mouseover',showMenu);
