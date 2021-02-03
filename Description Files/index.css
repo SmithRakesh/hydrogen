@@ -1,0 +1,26 @@
+body{
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+.res{
+    width: 100%;
+    margin: auto;
+}
+.res button{
+   background: none;
+   border: none;
+   margin-left: 500px;
+   margin-top: 20px;
+   font-size: 20px;
+}
+button:hover{
+    color:white;
+}
+h1{
+    text-align: center;
+    color: navajowhite;
+}
+h4{
+    color: wheat;
+    margin-top: 200px;
+}

@@ -1,0 +1,71 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "question": [
+    {
+      "id": "1",
+      "question": "What is this context in javascript",
+      "option_1": "this is a new keyword",
+      "option_2": "this refers to existing variable value",
+      "option_3": "its the value of this keyword",
+      "option_4": "its a prototype value",
+      "answer": 3,
+      "explanation": "context is nothing but its the value of this keyword"
+    },
+    {
+      "id": "2",
+      "question": "Why promise in java script",
+      "option_1": "to fullfill the request",
+      "option_2": "to reject the request",
+      "option_3": "cancel the request",
+      "option_4": "make code synchronous",
+      "answer": 4,
+      "explanation": "make code synchronous with its 3 states"
+    },
+    {
+      "id": "3",
+      "question": "What is constructor in Java script",
+      "option_1": "its a prototype",
+      "option_2": "its used to initialise a set of value",
+      "option_3": "replace the value",
+      "option_4": "copy to other varaible",
+      "answer": 2,
+      "explanation": "its used to initialise a set of value , to set default value for an object"
+    },
+    {
+      "id": "4",
+      "question": "What is call() Java script",
+      "option_1": "exectues the funcion with given this value wit arguments provided",
+      "option_2": "its used to initialise a set of value",
+      "option_3": "replace the value",
+      "option_4": "copy to other varaible",
+      "answer": 1,
+      "explanation": "exectues the funcion with given this value wit arguments provided"
+    },
+    {
+      "id": "5",
+      "question": "What is apply() Java script",
+      "option_1": "exectues the funcion with given this value wit arguments provided",
+      "option_2": "same as call but arguments is passed as array",
+      "option_3": "replace the value",
+      "option_4": "copy to other varaible",
+      "answer": 2,
+      "explanation": "same as call but arguments is passed as array"
+    }
+  ]
+}
