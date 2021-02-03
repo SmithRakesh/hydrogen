@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34" height="24" viewBox="0 0 34 24">
+    <defs>
+        <linearGradient id="ic_appliances_a" x1="-60.384%" x2="61.429%" y1="130.931%" y2="33.968%">
+            <stop offset="0%" stop-color="#A3DBFF"/>
+            <stop offset="100%" stop-color="#346AA0"/>
+        </linearGradient>
+        <path id="ic_appliances_b" d="M3.6 4.8h18V18h-18z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(.7 .8)">
+        <path stroke="#346AA0" stroke-width="1.2" d="M.6.6h31.2v21.6H.6z"/>
+        <use fill="url(#ic_appliances_a)" xlink:href="#ic_appliances_b"/>
+        <path stroke="#346AA0" stroke-width="1.2" d="M4.2 5.4v12H21v-12H4.2z"/>
+        <circle cx="26.4" cy="7.2" r="2.4" stroke="#346AA0" stroke-width="1.2"/>
+        <path stroke="#346AA0" stroke-linecap="round" stroke-width="1.2" d="M24.48 13.2h3.958M24.48 15.6h3.958"/>
+    </g>
+</svg>

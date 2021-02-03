@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="33" height="49" viewBox="0 0 33 49">
+    <defs>
+        <linearGradient id="a" x1="-60.384%" x2="61.429%" y1="130.931%" y2="33.968%">
+            <stop offset="0%" stop-color="#A3DBFF"/>
+            <stop offset="100%" stop-color="#346AA0"/>
+        </linearGradient>
+        <path id="b" d="M12.997 29.457l-4.961 2.6.947-5.508-4.014-3.9 5.547-.805 2.481-5.011 2.481 5.011 5.548.804-4.014 3.901.947 5.509z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="rotate(-25 34.613 19.709)">
+            <use fill="url(#a)" xlink:href="#b"/>
+            <path stroke="#346AA0" d="M17.295 31.145l-.82-4.77 3.474-3.378-4.802-.695-2.15-4.342-2.149 4.342-4.802.695 3.475 3.377-.821 4.771 4.297-2.253 4.298 2.253z"/>
+            <path stroke="#346AA0" d="M12.294-.5h1.338c4 0 7.46 2.79 8.307 6.7l2.217 10.249 1.359 13.34a7.5 7.5 0 0 1-7.462 8.26H7.844a7.5 7.5 0 0 1-7.458-8.285l1.338-12.688L3.972 6.268A8.5 8.5 0 0 1 12.294-.5z"/>
+            <ellipse cx="13.411" cy="5.827" stroke="#346AA0" rx="2.448" ry="2.442"/>
+        </g>
+        <path stroke="#346AA0" stroke-linecap="round" d="M9.368 14.47c1.9-4.883 1.7-9.525-.596-13.928"/>
+    </g>
+</svg>

@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+        <style>
+            body {
+                font-family: Roboto, Helvetica, sans-serif;
+                margin: 0;
+            }
+            a {
+                text-decoration: none;
+            }
+            .material-icons {
+                color: #356BA0;
+            }
+            nav {
+                display: flex;
+                margin: 0.5% 15%;
+                position: sticky;
+            }
+            .offers {
+                margin: 0 1%;
+                font-size: 0.8em;
+                position: relative;
+                top: 5px;
+                right: 35px;
+            }
+            .offers:hover {
+                color: rgb(207, 154, 18);
+                cursor: pointer;
+            }
+            .explore {
+                background-color: #356BA0;
+                color: white;
+                border-radius: 25px;
+                border: none;
+            }
+            .explore:hover {
+                background-color: #6a91bb;
+                cursor: pointer;
+            }
+            .menu {
+                position: sticky;
+                border: 2px solid lightgray;
+                display: grid;
+                padding: 0 5%;
+                grid-template-columns: 15% 10% 10% 15% 5% 15% 10% 5% 15%;
+            }
+            .main_logo {
+                height: 5vh;
+            }
+            .menu > a {
+                letter-spacing: 1px;
+                border-right: 2px solid lightgray;
+                margin: 0;
+                padding: 3% 5%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color:rgb(99, 99, 99);
+                font-size: 0.9em;
+                font-weight: 500;
+            }
+            .menu > div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .menu > div > select {
+                color:rgb(99, 99, 99);
+                font-size: 0.9em;
+                font-weight: 500;
+                border: none;
+                padding: 1%;
+                text-decoration: none;
+                background: transparent;
+                appearance: none;
+                letter-spacing: 2px;
+            }
+            .menu a:hover {
+                background-color: rgb(236, 236, 236);
+            }
+            .menu > div > select:hover {
+                background-color: rgb(236, 236, 236);
+                cursor: pointer;
+            }
+            .menu > a:nth-child(1):hover {
+                background: none;
+            }
+            .menu > * > span,img {
+                padding: 0 3%;
+                color: #356BA0;
+            }
+            #products,
+            #collection,
+            #build_your_own,
+            #cart {
+                display: none;
+            }
+            .nav_dropdowns {
+                background-color: rgb(248, 248, 248);
+                position: absolute;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                padding: 1.3% 0;
+                border-bottom: 0.1px solid rgb(241, 241, 241);
+            }
+            .nav_dropdowns > div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 6.5vw;
+                height: 10vh;
+                padding: 1% 0.7%;
+                margin: 0 0.5%;
+                box-shadow: 1px 1px 10px gray;
+                border-radius: 10px;
+                background-color: white;
+            }
+            .nav_dropdowns > div > a {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                font-size: 0.8em;
+                text-align: center;
+                color: #356BA0;
+            }
+            .nav_dropdowns > div > a > img{
+                padding: 7% 0 10%;
+            }
+            .nav_dropdowns > div {
+                cursor: pointer;
+            }
+            .nav_dropdowns_build_your_own {
+                background-color: #fcfcfc;
+                position: absolute;
+                width: 100%;
+                height: 10vh;
+                display: flex;
+                justify-content: center;
+                padding: 2.3% 0;
+                border-bottom: 0.1px solid rgb(241, 241, 241);
+            }
+            .nav_dropdowns_build_your_own > div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 1% 3%;
+            }
+            .nav_dropdowns_build_your_own > div:nth-child(1) {
+                color: grey;
+                width: 25%;
+                letter-spacing: 1.5px;
+                border-right: 1px solid gray;
+            }
+            .nav_dropdowns_build_your_own > div > img {
+                width: 65%;
+            }
+            .nav_dropdowns_build_your_own > div > button {
+                font-size: 1em;
+                color: white;
+                background-color: #356BA0;
+                padding: 1% 3%;
+                border: none;
+                border-radius: 25px;
+            }
+            .nav_dropdowns_build_your_own > div > button:hover{
+                background-color: #6a91bb;
+                cursor: pointer;
+            }
+            .nav_dropdowns_cart {
+                height: 27vh;
+                width: 25vw;
+                position: absolute;
+                left: 57%;
+                border-top: 5px solid rgb(240, 180, 30);
+                border-bottom: 5px solid goldenrod;
+                background-color: white;
+                box-shadow: 1px 1px 10px gray;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .nav_dropdowns_cart > img {
+                width: 40%;
+            }
+            .nav_dropdowns_cart > p {
+                margin: 0;
+                color: rgb(114, 113, 113);
+            }
+            .head {
+                letter-spacing: 10px;
+                text-align: center;
+                font-size: 1.5em;
+                color:rgb(99, 99, 99);
+                padding: 2%;
+                /* border-bottom: 2px solid lightgray; */
+            }
+            .filters {
+                background-color: rgb(245, 245, 245);
+                display: flex;
+                padding: 0.5%;
+                margin: 1% 5%;
+            }
+            .filters > div {
+                background-color:white;
+                color:#356BA0;
+                border: 2px solid #356BA0;
+                border-radius: 25px;
+                padding: 0.3% 1%;
+                margin: 0 0.5%;
+            }
+            .filters > div:nth-child(1) {
+                background-color: #356BA0;
+                color: white;
+            }
+            .filters > div:hover {
+                cursor: pointer;
+                background-color: #acd5ff;
+            }
+            .categories {
+                display: flex;
+                justify-content: center;
+                border-bottom: 2px solid lightgray;
+                position: sticky;
+            }
+            .categories > div {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding: 1%;
+                margin: 0 1%;
+                border-bottom: 4px solid white;
+            }
+            .categories > div:nth-child(1) {
+                border-bottom: 4px solid rgb(253, 191, 32);
+            }
+            .categories > div:hover {
+                cursor: pointer;
+            }
+            .categories > div > img {
+                height: 5vh;
+            }
+            .categories > div > * {
+                margin: 1% 0;
+                color: #356BA0;
+                padding: 1% 0;
+                font-size: 0.9em;
+                text-decoration: none;
+            }
+
+        </style>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <nav>
+                <img src="src/nav_offers.svg">
+                <p class="offers">GO RENT-FREE FOR 4 MONTHS. GET FLAT 50% OFF PER MONTH. HURRY! OFFER ENDS AT MIDNIGHT. T&C APPLY</p>
+                <button class="explore">Explore</button>
+            </nav>
+            <div class="menu">
+                <a href=""><img class="main_logo" src="src/main_logo.png"></a>
+                <a href="" id="menu_products">PRODUCTS</a>
+                <a href="" id="menu_collection">COLLECTION</a>
+                <a href="" id="menu_build_your_own">BUILD YOUR OWN</a>
+                <a href="">
+                    <span class="material-icons">
+                        search
+                    </span>
+                </a>
+                <a href="">
+                    <img src="src/nav_offers.svg" />2 OFFERS
+                </a>
+                <a href="">
+                    <span class="material-icons">
+                    person_outline
+                    </span> LOGIN
+                </a>
+                <a href="" id="menu_cart">
+                    <span class="material-icons">
+                    shopping_cart
+                    </span>
+                </a>
+                <!-- <a href="" class="rightBorder" id="menu_location"> -->
+                <div>
+                    <span class="material-icons">
+                        location_on
+                    </span>
+                    <select>
+                        <option value="BENGALURU">BENGALURU</option>
+                        <option value="MUMBAI">MUMBAI</option>
+                        <option value="PUNE">PUNE</option>
+                        <option value="DELHI">DELHI</option>
+                        <option value="GURUGRAM">GURUGRAM</option>
+                        <option value="NOIDA">NOIDA</option>
+                        <option value="HYDERABAD">HYDERABAD</option>
+                        <option value="CHENNAI">CHENNAI</option>
+                    </select>
+                </div>
+            </div>
+            <div class="nav_dropdowns" id="products">
+                <div>
+                    <a href=""><img src="src/dropdowns/products/bedroom.svg" />BEDROOM</a>
+                </div>
+                <div>
+                    <a href=""><img src="src/dropdowns/products/living_room.svg" />LIVING ROOM</a>
+                </div>
+                <div>
+                    <a href=""><img src="src/dropdowns/products/appliances.svg" />APPLIANCES</a>
+                </div>
+                <div>
+                    <a href=""><img src="src/dropdowns/products/sp_deals.svg" />SPECIAL DEALS</a>
+                </div>
+                <div>
+                    <a href=""><img src="src/dropdowns/products/full_home.svg" />FULL HOME</a>
+                </div>
+                <div>
+                    <a href=""><img src="src/dropdowns/products/storage.svg" />STORAGE</a>
+                </div>
+                <div>
+                    <a href=""><img src="src/dropdowns/products/study_room.svg" />WORKSTATIONS</a>
+                </div>
+                <div>
+                    <a href=""><img src="src/dropdowns/products/kids.svg" />KIDS ROOM</a>
+                </div>
+                <div>
+                    <a href=""><img src="src/dropdowns/products/dining_room.svg" />DINING ROOM</a>
+                </div>
+                <div>
+                    <a href=""><img src="src/dropdowns/products/bike-rental_2.svg" />2-WHEELER</a>
+                </div>
+            </div>
+            <div class="nav_dropdowns" id="collection">
+                <div>
+                    <a href=""><img src="src/dropdowns/collection/2020.svg" />20-20 COLLECTION</a>
+                </div>
+                <div>
+                    <a href=""><img src="src/dropdowns/collection/most_popular.svg" />MOST POPULAR</a>
+                </div>
+                <div>
+                    <a href=""><img src="src/dropdowns/collection/essentials.svg" />ESSENTIALS</a>
+                </div>
+                <div>
+                    <a href=""><img src="src/dropdowns/collection/newly_launched_rocket.svg" />NEWLY LAUNCHED</a>
+                </div>
+                <div>
+                    <a href=""><img src="src/dropdowns/collection/storage.svg" />STORAGE COMBOS</a>
+                </div>
+                <div>
+                    <a href=""><img src="src/dropdowns/collection/award_winning.svg" />AWARD WINNERS</a>
+                </div>
+                <div>
+                    <a href=""><img src="src/dropdowns/collection/fab_rich.svg" />FAB RICH COLLECTION</a>
+                </div>
+            </div>
+            <div class="nav_dropdowns_build_your_own" id="build_your_own">
+                <div>
+                    <p>Unleash the designer in you and create<br/> a package that suits your needs.</p>
+                </div>
+                <div>
+                    <img src="src/dropdowns/build_your_own/build_your_own_steps.png" />
+                    <button class="">GET STARTED</button>
+                </div>
+            </div>
+            <div class="nav_dropdowns_cart" id="cart">
+                <p>YOUR SHOPPING CART IS EMPTY</p>
+                <img src="src/dropdowns/empty_cart.png" />
+                <p>But it does not have to be</p>
+            </div>
+            <div class="head">
+                <p>BEDROOM</p>
+            </div>
+            <div class="filters">
+                <div class="filter" id="type">Types of Furniture</div>
+                <div class="filter" id="design">Design Styles</div>
+            </div>
+            <div class="categories">
+                <div class="category">
+                    <img src="src/queen_bed.svg"/>
+                    <a href="">Queen Bed</a>
+                </div>
+                <div class="category">
+                    <img src="src/storage_bed.svg"/>
+                    <a href="">Storage Bed</a>
+                </div>
+                <div class="category">
+                    <img src="src/single_bed.svg"/>
+                    <a href="">Single Bed</a>
+                </div>
+                <div class="category">
+                    <img src="src/multifunctional.svg"/>
+                    <a href="">Multifunctional</a>
+                </div>
+                <div class="category">
+                    <img src="src/bedroom_storage.svg"/>
+                    <a href="">Bedroom Strorage</a>
+                </div>
+                <div class="category">
+                    <img src="src/deals_and_combos.svg"/>
+                    <a href="">Deals & Combos</a>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            window.addEventListener('load',addEvents);
+
+            function addEvents() {
+                //Adding Mouse events to show Menu items
+                document.getElementById('menu_products').addEventListener('mouseover',showMenu);
+                document.getElementById('menu_collection').addEventListener('mouseover',showMenu);
+                document.getElementById('menu_build_your_own').addEventListener('mouseover',showMenu);
+                document.getElementById('menu_cart').addEventListener('mouseover',showMenu);
+
+                //Adding Events for categories
+                let categories = document.querySelectorAll('.category');
+                categories.forEach(ele => ele.addEventListener('click',() => selectCategory(categories)));
+
+                //Adding Events for filter buttons
+                let filters = document.querySelectorAll('.filter');
+                filters.forEach(ele => ele.addEventListener('click',() => selectFilter(filters)));
+            }
+            function showMenu() {
+                if (event.target.id === 'menu_products') {
+                    // console.log('Products');
+                    document.getElementById('products').style.display = 'flex';
+                    // document.getElementById('menu_products').addEventListener('mouseleave',closeMenu);
+                    document.getElementById('products').addEventListener('mouseleave',closeMenu);
+                }
+                else if (event.target.id === 'menu_collection') {
+                    // console.log('Collections');
+                    document.getElementById('collection').style.display = 'flex';
+                    document.getElementById('collection').addEventListener('mouseleave',closeMenu);
+                }
+                else if (event.target.id === 'menu_build_your_own') {
+                    // console.log('Build your own');
+                    document.getElementById('build_your_own').style.display = 'flex';
+                    document.getElementById('build_your_own').addEventListener('mouseleave',closeMenu);
+                }
+                else if (event.target.id === 'menu_cart') {
+                    // console.log('Build your own');
+                    document.getElementById('cart').style.display = 'flex';
+                    document.getElementById('cart').addEventListener('mouseleave',closeMenu);
+                }
+            }
+
+            function closeMenu() {
+                if (event.target.id === 'products' || event.target.id === 'menu_products') {
+                    // console.log('Products');
+                    document.getElementById('products').style.display = 'none';
+                }
+                else if (event.target.id === 'collection' || event.target.id === 'menu_collection') {
+                    // console.log('Collections');
+                    document.getElementById('collection').style.display = 'none';
+                }
+                else if (event.target.id === 'build_your_own' || event.target.id === 'menu_build_your_own') {
+                    // console.log('Build your own');
+                    document.getElementById('build_your_own').style.display = 'none';
+                }
+                else if (event.target.id === 'cart' || event.target.id === 'menu_cart') {
+                    // console.log('Collections');
+                    document.getElementById('cart').style.display = 'none';
+                }
+            }
+            
+            function selectCategory(categories) {
+                event.preventDefault();
+                // console.log(event.target.parentNode);
+                if (event.target.parentNode.className === 'category') {
+                    //Resetting all items border to white
+                    categories.forEach(ele => ele.style.borderBottom = '4px solid white');
+                    //Setting border only for the selected item
+                    event.target.parentNode.style.borderBottom = '4px solid rgb(253, 191, 32)';
+                }
+            }
+            function selectFilter(filters) {
+                event.preventDefault();
+                // console.log(event.target.parentNode);
+                if (event.target.parentNode.className === 'filters') {
+                    //Resetting all buttons to unselected
+                    filters.forEach(ele => {
+                        ele.style.backgroundColor = 'white';
+                        ele.style.color = '#356BA0';
+                    });
+                    //Setting styles for selected only
+                    event.target.style.color = 'white';
+                    event.target.style.backgroundColor = '#356BA0';
+                }
+            }
+        </script>
+    </body>
+</html>
