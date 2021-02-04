@@ -1,0 +1,75 @@
+.divContainer {
+    width: 100%;
+    height: 100%;
+}
+
+#res {
+
+    width: 78%;
+    height: 100%;
+    /* border:1px solid black; */
+    float: left;
+    /* border: 1px solid red; */
+    margin-left: 300px;
+}
+
+img {
+    width: 100%;
+}
+
+.tval {
+    width: 100%;
+    background: #D6D6D6;
+    padding-left: 10px;
+    height: 50px;
+    padding-top: 18px;
+
+    /* border: 1px solid blue; */
+}
+
+.val {
+    width: 300px;
+    box-shadow: 1px 1px 2px rgb(224, 223, 223);
+    padding: 15px;
+    text-align: justify;
+    /* border: 1px solid black; */
+    float: left;
+    margin-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.val:hover {
+    box-shadow: 1px 1px 35px rgb(224, 223, 223);
+}
+
+.wish_leftbar {
+    width: 20%;
+    height: 500px;
+    /* border:1px solid black; */
+    float: left;
+    text-align: center;
+    background: #F8F8F8;
+    margin-top: 63px;
+    position: fixed;
+}
+
+.wish_leftbar a {
+    text-decoration: none;
+
+}
+
+.wish_leftbar>div:hover {
+    background: #FFFF;
+
+}
+
+.wish_leftbar>div {
+    height: 50px;
+    /* border: 1px solid black; */
+    margin-top: 50px;
+    font-size: 18px;
+    padding-top: 15px;
+}
