@@ -1,0 +1,64 @@
+{
+    "wishlist":[
+        {
+        "img":"https://assets.furlenco.com/image/upload/dpr_1.0,f_auto,q_auto/v1/furlenco-images-2/uploads/production/add_on/34/1440w_84f1e636.jpg",
+        "Title":"Refrigerator",
+        "price":"1590/mon",
+        "description":"Sit back and enjoy your favorite TV show or movie with a cup of hot coffee. The sleek design of this appliance adds to the aesthetics of your home decor."
+    },
+    {
+        "img":"https://assets.furlenco.com/image/upload/dpr_1.0,f_auto,q_auto/v1/furlenco-images-2/uploads/production/furniture_item/909/1440w_2745f430.jpg",
+        "Title":"Double-door Refrigerator",
+        "price":"2,919/mon",
+        "description":"Sit back and enjoy your favorite TV show or movie with a cup of hot coffee. The sleek design of this appliance adds to the aesthetics of your home decor."
+    },   
+    {
+        "img":"https://assets.furlenco.com/image/upload/dpr_1.0,f_auto,q_auto/v1/furlenco-images-2/uploads/production/add_on/315/1440w_f648ff36.png",
+        "Title":"81 inch led TV",
+        "price":"1499/mon",
+        "description":"Sit back and enjoy your favorite TV show or movie with a cup of hot coffee. The sleek design of this appliance adds to the aesthetics of your home decor."
+    },
+    {
+        "img":"https://assets.furlenco.com/image/upload/dpr_1.0,f_auto,q_auto/v1/furlenco-images-2/uploads/production/furniture_item/668/1440w_20c07b55.jpg",
+        "Title":"LED TV 99.05cm",
+        "price":"1299/mon",
+        "description":"Sit back and enjoy your favorite TV show or movie with a cup of hot coffee. The sleek design of this appliance adds to the aesthetics of your home decor."
+    },
+    {
+        "img":"https://assets.furlenco.com/image/upload/dpr_1.0,f_auto,q_auto/v1/furlenco-images-2/uploads/production/add_on/1090/1440w_35b9d4a8.jpg",
+        "Title":"32Inch led TV",
+        "price":"1899/mon",
+        "description":"Sit back and enjoy your favorite TV show or movie with a cup of hot coffee. The sleek design of this appliance adds to the aesthetics of your home decor."
+    },
+    {
+        "img":"https://assets.furlenco.com/image/upload/dpr_1.0,f_auto,q_auto/v1/furlenco-images-2/uploads/production/add_on/1145/1440w_68c5bf08.jpg",
+        "Title":"Washing machine",
+        "price":"2459/mon",
+        "description":"Sit back and enjoy your favorite TV show or movie with a cup of hot coffee. The sleek design of this appliance adds to the aesthetics of your home decor."
+    },
+    {
+        "img":"https://assets.furlenco.com/image/upload/dpr_1.0,f_auto,q_auto/v1/furlenco-images/new-uploads/production/items/1199/mobile/EmCcIOdc__1.jpg",
+        "Title":"Bolt - Water Purifier",
+        "price":"999/mon",
+        "description":"Our single door refrigerator gives you quick ice making technology and toughened glass shelves.Capacity: 181-190L"
+    }
+],
+"login":[
+    {
+        "username":"smith@gmail.com",
+        "password":"furlenco"
+    },
+    {
+        "username":"martin@gmail.com",
+        "password":"furlenco" 
+    },
+    {
+        "username":"pavithra@gmail.com",
+        "password":"furlenco"
+    },
+    {
+        "username":"reddy@gmail.com",
+        "password":"furlenco" 
+    }
+    ]
+}
