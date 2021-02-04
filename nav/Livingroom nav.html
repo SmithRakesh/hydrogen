@@ -44,6 +44,8 @@
             }
             .menu {
                 position: sticky;
+                top: 0;
+                background-color: white;
                 border: 2px solid lightgray;
                 display: grid;
                 padding: 0 5%;
@@ -69,19 +71,29 @@
                 justify-content: center;
                 align-items: center;
             }
-            .menu > div > select {
-                color:rgb(99, 99, 99);
-                font-size: 0.9em;
-                font-weight: 500;
-                border: none;
-                padding: 1%;
-                text-decoration: none;
-                background: transparent;
-                appearance: none;
-                letter-spacing: 2px;
-            }
             .menu a:hover {
                 background-color: rgb(236, 236, 236);
+            }
+            .search_bar {
+                position: absolute;
+                top: 4.7vh;
+                left: 22.6vw;
+                display: none;
+            }
+            .search_bar > input {
+                font-size: 1.4em;
+                padding: 2.7%;
+                width: 30vw;
+                border: 2px solid darkblue;
+            }
+            .search_icon {
+                position: absolute;
+                top: 0.1vw;
+                left: 18.1em;
+                padding: 3%;
+            }
+            .search_icon:hover {
+                cursor: pointer;
             }
             .menu > div > select:hover {
                 background-color: rgb(236, 236, 236);
@@ -121,6 +133,9 @@
                 border-radius: 10px;
                 background-color: white;
             }
+            .nav_dropdowns > div:hover {
+                transform: scale(1.03);
+            }
             .nav_dropdowns > div > a {
                 display: flex;
                 flex-direction: column;
@@ -136,9 +151,6 @@
             }
             .nav_dropdowns > div {
                 cursor: pointer;
-            }
-            .nav_dropdowns > div:hover {
-                transform: scale(1.1);
             }
             .nav_dropdowns_build_your_own {
                 background-color: #fcfcfc;
@@ -177,24 +189,28 @@
                 background-color: #6a91bb;
                 cursor: pointer;
             }
-            .nav_dropdowns_cart {
+            #menu_cart:hover .show_cart {
+                display: flex;
+            }
+            .show_cart {
+                display: none;
                 height: 27vh;
                 width: 25vw;
                 position: absolute;
+                top: 7vh;
                 left: 57%;
                 border-top: 5px solid rgb(240, 180, 30);
                 border-bottom: 5px solid goldenrod;
                 background-color: white;
                 box-shadow: 1px 1px 10px gray;
-                display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
             }
-            .nav_dropdowns_cart > img {
+            .show_cart > img {
                 width: 40%;
             }
-            .nav_dropdowns_cart > p {
+            .show_cart > p {
                 margin: 0;
                 color: rgb(114, 113, 113);
             }
@@ -233,6 +249,8 @@
                 justify-content: center;
                 border-bottom: 2px solid lightgray;
                 position: sticky;
+                top: 7vh;
+                background-color: white;
             }
             .categories > div {
                 display: flex;
@@ -261,7 +279,193 @@
             .categories a {
                 text-align: center;
             }
+            .login:hover .logout_dropdown {
+                display: block;
+            }
+            .logout_dropdown {
+                position: absolute;
+                width: 15vw;
+                left: 67vw;
+                top: 6.7vh;
+                display: none;
+                background-color: white;
+                box-shadow: 1px 1px 15px lightgray;
+            }
+            .logout_dropdown > p {
+                color: #356BA0;
+                margin: 0;
+                font-size: 1.2em;
+                padding: 3% 10%;
+            }
+            .logout_dropdown > p:hover {
+                color: white;
+                background-color: #356BA0;
+                cursor: pointer;
+            }
+            .location:hover {
+                cursor: pointer;
+            }
+            .location:hover .location_selectable {
+                display: block;
+            }
+            .location_selectable {
+                display: none;
+                position: absolute;
+                top: 6.5vh;
+                width: 13.5vw;
+                background-color: white;
+                border-radius: 10px;
+                box-shadow: 1px 1px 20px lightgray;
+            }
+            .location_selectable > p {
+                margin: 0;
+                padding: 3% 30%;
+                color: #356BA0;
+                font-size: 1.1em;
+            }
+            .location_selectable > p:hover {
+                background-color: #356BA0;
+                color: white;
+                cursor: pointer;
+            }
+            /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
+
+            /* ///////////////////////////////////////////STYLE-FOOTER//////////////////////////////////////////////////////////// */
+            .footer_1 {
+                background-color: #F5F6FA;
+            }
+            .footer_1_1 {
+                display: flex;
+                align-items: center;
+                justify-content: left;
+                border-bottom: 1px solid rgb(177, 177, 177);
+                padding: 3% 0;
+                /* border:1px solid red; */
+                margin: 0 5%;
+            }
+            .footer_1_1 > * {
+                color: rgb(85, 85, 85);
+                padding: 0 1.5%;
+                font-size: 1.1em;
+            }
+            .footer_1_1 > a:nth-child(3) {
+                border-left: 3px solid gray;
+            }
+            .footer_1_1 > .border {
+                border-right: 3px solid gray;
+            }
+            .footer_1_1 > *:hover {
+                color: black;
+            }
+            .footer_1_1 > img {
+                width: 4vw;
+            }
+            .footer_1_2 {
+                display: grid;
+                grid-template-columns: 30% 20% 25% 25%;              
+                border-bottom: 1px solid rgb(228, 228, 228);
+                padding: 3% 0;
+                /* border:1px solid red; */
+                margin: 0 5%;
+                font-size: 0.90em;
+            }
+            .footer_1_2 > div {
+                padding: 0 10%;
+            }
+            .footer_1_2 > .footer_1_2_div:nth-child(2),
+            .footer_1_2_div:nth-child(3) {
+                border-left: 1px solid gray;
+            }
+            .footer_1_2 > div:nth-child(3) {
+                border-right: 1px solid gray;
+            }
+            .footer_1_2 > div > * {
+                color: rgb(85, 85, 85);
+                padding: 0 1.5%;
+                font-size: 1.1em;
+                /* margin: 0; */
+            }
+            .footer_1_2 > div:nth-child(1) > a {
+                color: #356BA0;
+                padding-left: 0;
+                position: relative;
+                left: -0.3vw;
+                /* border: 1px solid gray; */
+            }
+            .footer_1_2 > div:nth-child(1) > a:hover {
+                color: black;
+                cursor: default;
+            }
+            .footer_1_2 > div:nth-child(1) > a > img {
+                position: relative;
+                top: 0.3em;
+                border: 1px solid white;
+                border-radius: 50%;
+                padding: 0;
+            }
+            .footer_1_2 > div:nth-child(1) > a > img:hover {
+                border: 1px solid #356BA0;
+            }
+            .footer_1_2 > div:nth-child(3) > img {
+                width: 7em;
+                filter: brightness(90%);
+            }
+            .footer_1_2 > div:nth-child(3) > img:hover {
+                filter: brightness(150%);
+                cursor: pointer;
+            }
+            .footer_1_2 > div:nth-child(4) > img {
+                padding: 0;
+                border: 5px double white;
+                border-radius: 50%;
+            }
+
+            .footer_1_2 > div:nth-child(4) > img:hover {
+                border: 5px double #556BA0;
+                cursor: pointer;
+            }
+
+            .footer_1_2 > div > button {
+                border: 2px solid #356BA0;
+                color: rgb(73, 73, 73);
+                font-size: 1em;
+                padding: 0 1.5%;
+                border-radius: 25px;
+            }
+            .footer_1_2 > div > button:hover {
+                color: white;
+                background-color: #356BA0;
+                cursor: pointer;
+            }
+            .footer_info {
+                padding: 1% 5%;
+                font-size: 1.01em;
+                letter-spacing: 0.07em;
+                line-height: 2.7vh;
+                border-bottom: 1px solid lightgray;
+            }
+            .footer_info > h3 {
+                font-weight: 500;
+                color: black;
+            }
+            .footer_info > p {
+                color: rgb(80, 80, 80);
+            }
+
+            .footer_img_copyright {
+                background-color: #F5F6FA;
+                padding: 1% 0;
+            }
+            .footer_img_copyright > div > img {
+                width: 90%;
+                justify-content: center;
+            }
+            .footer_img_copyright > div {
+                text-align: center;
+                color: rgb(133, 133, 133);
+                padding: 0.5%;
+            }
         </style>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
         rel="stylesheet">
@@ -278,40 +482,57 @@
                 <a href="" id="menu_products">PRODUCTS</a>
                 <a href="" id="menu_collection">COLLECTION</a>
                 <a href="" id="menu_build_your_own">BUILD YOUR OWN</a>
-                <a href="">
-                    <span class="material-icons">
+                <a href="" class="search">
+                    <span class="search material-icons">
                         search
                     </span>
                 </a>
                 <a href="">
                     <img src="src/nav_offers.svg" />2 OFFERS
                 </a>
-                <a href="">
-                    <span>
-                        <img src="src/menu/user.svg">
+                <a href="" class="login" id="logged_out">
+                    <span class="login" id="logged_out">
+                        <img  class="login" id="logged_out" src="src/menu/user.svg">
                     </span> LOGIN
+                    <div class="logout_dropdown">
+                        <p class="wishlist">WISHLIST</p>
+                        <p class="setting">SETTING</p>
+                        <p class="logout">LOGOUT</p>
+                    </div>
                 </a>
                 <a href="" id="menu_cart">
                     <span>
                         <img src="src/menu/cart.svg">
                     </span>
+                    <div class="show_cart" id="cart">
+                        <p>YOUR SHOPPING CART IS EMPTY</p>
+                        <img src="src/dropdowns/empty_cart.png" />
+                        <p>But it does not have to be</p>
+                    </div>
                 </a>
-                <div>
+                <div class="location">
                     <span class="material-icons">
                         location_on
                     </span>
-                    <select>
-                        <option value="BENGALURU">BENGALURU</option>
-                        <option value="MUMBAI">MUMBAI</option>
-                        <option value="PUNE">PUNE</option>
-                        <option value="DELHI">DELHI</option>
-                        <option value="GURUGRAM">GURUGRAM</option>
-                        <option value="NOIDA">NOIDA</option>
-                        <option value="HYDERABAD">HYDERABAD</option>
-                        <option value="CHENNAI">CHENNAI</option>
-                    </select>
+                    <div id="location_selected">BENGALURU</div>
+                    <div class="location_selectable">
+                        <p>BENGALURU</p>
+                        <p>MUMBAI</p>
+                        <p>PUNE</p>
+                        <p>DELHI</p>
+                        <p>GURUGRAM</p>
+                        <p>HYDERABAD</p>
+                        <p>CHENNAI</p>
+                    </div>
                 </div>
             </div>
+
+            <div class="search_bar">
+                <input class="search_input" placeholder="What are you looking for?" />
+                <span class="material-icons search_icon">search</span>
+            </div>
+            
+
             <div class="nav_dropdowns" id="products">
                 <div>
                     <a href=""><img src="src/dropdowns/products/bedroom.svg" />BEDROOM</a>
@@ -376,11 +597,6 @@
                     <button class="">GET STARTED</button>
                 </div>
             </div>
-            <div class="nav_dropdowns_cart" id="cart">
-                <p>YOUR SHOPPING CART IS EMPTY</p>
-                <img src="src/dropdowns/empty_cart.png" />
-                <p>But it does not have to be</p>
-            </div>
             <div class="head">
                 <p>LIVING ROOM</p>
             </div>
@@ -410,6 +626,71 @@
                     <a href="">Deals & Combos</a>
                 </div>
             </div>
+
+            <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+            <div></div>
+
+            <!-- ///////////////////////////////////////////////HTML-FOOTER///////////////////////////////////////////////////////////// -->
+            <div class="footer">
+                <div class="footer_1">
+                    <div class="footer_1_1">
+                        <img src="src/main_logo_footer.png" />
+                        <a href="">About Us</a>
+                        <a class="border"href="">Refer A Friend</a>
+                        <a class="border"href="">Career</a>
+                        <a class="border"href="">FAQ</a>
+                        <a class="border"href="">Blog</a>
+                        <a class="border"href="">Furniture Package</a>
+                        <a class="border"href="">Privacy</a>
+                        <a class="border"href="">T&C</a>
+                        <a href="">How it Works</a>
+                    </div>
+                    <div class="footer_1_2">
+                        <div class="footer_1_2_div">
+                            <p>CONNECT WITH US</p>
+                            <a href="">
+                                <img src="//assets.furlenco.com/s3-furlenco-images/optimus/footer/email.svg" />
+                                customercare@furlenco.com</a>
+                            <br/>
+                            <a href="">
+                                <img src="//assets.furlenco.com/s3-furlenco-images/optimus/footer/phone.svg" />
+                                080-9876543210 (10 AM to 7:30 PM)</a>
+                        </div>
+                        <div class="footer_1_2_div">
+                            <p>NEED HELP?</p>
+                            <p>Want us to call you back?</p>
+                            <button>Get in touch</button>
+                        </div>
+                        <div class="footer_1_2_div">
+                            <p>EXPERIENCE OUR APP ON MOBILE</p>
+                            <img src="src/google-play-hover.svg" />
+                            <img src="src/app-store-hover.svg" />
+                        </div>
+                        <div class="footer_1_2_div">
+                            <p>FOLLOW US ON</p>
+                            <img class="social" id="facebook" src="//assets.furlenco.com/s3-furlenco-images/optimus/footer/facebook.svg" />
+                            <img class="social" id="twitter" src="//assets.furlenco.com/s3-furlenco-images/optimus/footer/twitter.svg" />
+                            <img class="social" id="linkedin" src="//assets.furlenco.com/s3-furlenco-images/optimus/footer/linkedin.svg" />
+                            <img class="social" id="instagram" src="//assets.furlenco.com/s3-furlenco-images/optimus/footer/instagram.svg" />
+                            <img class="social" id="youtube" src="//assets.furlenco.com/s3-furlenco-images/optimus/footer/youtube.svg" />
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_info">
+                    <h3 class="footer_place">Bengaluru</h3>
+                    <p class="footer_place_info">Welcome to the Silicon Valley of India. Bengaluru has some of the world’s fastest growing companies, the best weather in the country and everything else that can make you call it home. Spread across the most convenient locations across the city, are some of the best residential facilities and office spaces. With Furlenco, you can rent furniture and appliances of your choice, and furnish your space. Be it bedroom, living room, dining room, balcony or the kids room - you’ll have everything your home needs.</p>
+    
+                    <h3 class="footer_abt_place">Furlenco: Your furniture solution in Namma Bengaluru</h3>
+                    <p class="footer_abt_place_info">Is this the sofa I want? Can I afford this bed? Will this table last me a while? These are the kind of questions you’ll have when you start looking for furniture. Now, renting furniture might not be the first thing you’ll think of, but it has answers to all of your questions. What are they? You’ll find out if you keep reading.</p>
+                </div>
+                <div class="footer_img_copyright">
+                    <div class="footer_img">
+                        <img src="src/footer-illustration.svg" />
+                    </div>
+                    <div class="footer_copyright">Copyright © 2021 Kieraya Furnishing Solutions Pvt. Ltd.</div>
+                </div>
+            </div>
         </div>
 
         <script>
@@ -418,12 +699,26 @@
             function addEvents() {
                 //selecting all a tags to add preventDefault
                 document.querySelectorAll('a').forEach(ele => ele.addEventListener('click',() => event.preventDefault()));
-                
+
+                //apperance & dissaperance of the searchbar 
+                document.querySelector('body').addEventListener('click', () => {
+                    // console.log(event.target);
+                    if(event.target.className === 'search' || event.target.className === 'search material-icons' || event.target.className === 'search_input' || event.target.className === 'material-icons search_icon') {
+                        document.querySelector('.search_bar').style.display = 'block';
+                    }
+                    else if (event.target.className === 'login') {
+                        handleLogin();
+                        document.querySelector('.search_bar').style.display = 'none';
+                    }
+                    else {
+                        document.querySelector('.search_bar').style.display = 'none';
+                    }
+                });
+
                 //Adding Mouse events to show Menu items
                 document.getElementById('menu_products').addEventListener('mouseover',showMenu);
                 document.getElementById('menu_collection').addEventListener('mouseover',showMenu);
                 document.getElementById('menu_build_your_own').addEventListener('mouseover',showMenu);
-                document.getElementById('menu_cart').addEventListener('mouseover',showMenu);
 
                 //Adding Events for categories
                 let categories = document.querySelectorAll('.category');
@@ -449,11 +744,6 @@
                     // console.log('Build your own');
                     document.getElementById('build_your_own').style.display = 'flex';
                     document.getElementById('build_your_own').addEventListener('mouseleave',closeMenu);
-                }
-                else if (event.target.id === 'menu_cart') {
-                    // console.log('Build your own');
-                    document.getElementById('cart').style.display = 'flex';
-                    document.getElementById('cart').addEventListener('mouseleave',closeMenu);
                 }
             }
 
@@ -499,6 +789,30 @@
                     event.target.style.color = 'white';
                     event.target.style.backgroundColor = '#356BA0';
                 }
+            }
+
+            function handleLogin() {
+                console.log(event.target);
+                if (event.target.id === 'logged_out') {
+                    showLogin();
+                }
+                else {
+                    showLogout();
+                }
+            }
+
+            function showLogin() {
+                console.log('Login module');
+                // console.log(event.target)
+
+                //on successive login change ids to logged-in
+                // document.querySelectorAll('#logged_out').forEach(ele => ele.id = 'logged_in');
+            }
+            function showLogout() {
+                console.log('Logout module');
+
+                //on successive logout change ids to logged-out
+                // document.querySelectorAll('#logged_in').forEach(ele => ele.id = 'logged_out');
             }
         </script>
     </body>
