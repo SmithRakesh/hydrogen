@@ -1,0 +1,485 @@
+{
+    "bedroom":[
+        {
+            "queen_bed": [
+                {
+                    "id": 10,
+                    "basic_img": "https://assets.furlenco.com/image/upload/c_fit,dpr_2.0,f_auto,q_auto,w_360/v1/furlenco-images/n4N6O1Ox_mobile_Allen-Queen-Bed-Basic-Mobile.jpg",
+                    "value_img": "https://assets.furlenco.com/image/upload/c_fit,dpr_2.0,f_auto,q_auto,w_360/v1/furlenco-images/MltlkcLM_mobile_Allen-Queen-Bed-value-Mobile.jpg",
+                    "title": "Allen Bedroom",
+                    "basic_img_items": [
+                        "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1151/mobile/z1D0GYjX___FUR2777_1.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/483/1440w_7a303aac.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/802/1440w_be6d6dd5.jpg"
+                    ],
+                    "value_img_items": [
+                        "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1151/mobile/z1D0GYjX___FUR2777_1.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/917/1440w_f230d405.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/483/1440w_7a303aac.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/802/1440w_be6d6dd5.jpg"
+                    ],
+                    "desc": "Rent our Allen Bedroom package. Includes a sturdy metal-frame queen bed, a night-stand that is attached to the bed, a comfortable 4 inch foam mattress, a bedsheet and pillows with covers. All soft furnishings provided are brand new.",
+                    "types": ["basic","value"],
+                    "discounted": true,
+                    "total_basic_original": 949,
+                    "total_basic_discounted": 749,
+                    "total_value_original": 999,
+                    "total_value_discounted": 849
+                },
+                {
+                    "id": 11,
+                    "basic_img": "https://assets.furlenco.com/image/upload/c_fit,dpr_2.0,f_auto,q_auto,w_360/v1/furlenco-images/sNSR73td_mobile_Allen-Queen-Bed-Basic-Mobile.jpg",
+                    "value_img": "https://assets.furlenco.com/image/upload/c_fit,dpr_2.0,f_auto,q_auto,w_360/v1/furlenco-images/4j8wtPYa_mobile_Allen-Queen-Bed-value-Mobile.jpg",
+                    "title": "Allen Queen Bed with Premium 6' Mattress",
+                    "basic_img_items": [
+                        "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1151/mobile/z1D0GYjX___FUR2777_1.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/802/1440w_be6d6dd5.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/1064/1440w_ae1287b1.jpg"
+                    ],
+                    "value_img_items": [
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/917/1440w_f230d405.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/802/1440w_be6d6dd5.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/1064/1440w_ae1287b1.jpg",
+                        "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1151/mobile/z1D0GYjX___FUR2777_1.jpg"
+                    ],
+                    "desc": "Rent our Allen Bedroom package. Includes a sturdy metal-frame queen bed, a night-stand that is attached to the bed, a comfortable 6'' premium foam mattress, a bedsheet and pillows with covers. All soft furnishings provided are brand new. *The color of the mattress may vary from the image.",
+                    "types": ["basic","value"],
+                    "discounted": true,
+                    "total_basic_original": 1049,
+                    "total_basic_discounted": 949,
+                    "total_value_original": 1149,
+                    "total_value_discounted": 999
+                },
+                {
+                    "id": 12,
+                    "basic_img": "https://assets.furlenco.com/image/upload/c_fit,dpr_2.0,f_auto,q_auto,w_360/v1/furlenco-images/tRhW1egd_mobile_Manhatten-Allen-Queen-Bed-Value-Mobile.jpg",
+                    "value_img": "https://assets.furlenco.com/image/upload/c_fit,dpr_2.0,f_auto,q_auto,w_360/v1/furlenco-images/Uqk1BTqk_mobile_Manhatten-Allen-Queen-Bed-Prime-Mobile.jpg",
+                    "title": "Santorini Bedroom - Aqua",
+                    "basic_img_items": [
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/483/1440w_7a303aac.jpg",
+                        "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1210/mobile/DQxVwuz0___FUR6528.jpg",
+                        "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1187/mobile/bL3qJyyD___FUR4320_2%20(2).jpg"
+                    ],
+                    "value_img_items": [
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/917/1440w_f230d405.jpg",
+                        "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1210/mobile/DQxVwuz0___FUR6528.jpg",
+                        "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1187/mobile/bL3qJyyD___FUR4320_2%20(2).jpg",
+                        "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1187/mobile/bL3qJyyD___FUR4320_2%20(2).jpg"
+                    ],
+                    "desc": "Bring home the contemporary with our Santorini Queen Bedroom. This package includes a metal-frame queen bed with a cushioned headboard and footboard, a detachable nightstand on both sides, a mattress, a bedsheet, and pillows with covers. All soft furnishings provided are brand new.",
+                    "types": ["basic","value"],
+                    "discounted": false,
+                    "total_basic_original": 899,
+                    "total_value_original": 949
+                },
+                {
+                    "id": 13,
+                    "basic_img": "https://assets.furlenco.com/image/upload/c_fit,dpr_2.0,f_auto,q_auto,w_360/v1/furlenco-images/llXOn7mw_mobile_Manhatten-Allen-Queen-Bed-Value-Mobile.jpg",
+                    "value_img": "https://assets.furlenco.com/image/upload/c_fit,dpr_2.0,f_auto,q_auto,w_360/v1/furlenco-images/rg06eHNA_mobile_Manhatten-Allen-Queen-Bed-Prime-Mobile.jpg",
+                    "title": "Santorini Bedroom - Aqua with Premium 6'' Mattress",
+                    "basic_img_items": [
+                        "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1187/mobile/bL3qJyyD___FUR4320_2%20(2).jpg",
+                        "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1210/mobile/DQxVwuz0___FUR6528.jpg",
+                        "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1210/mobile/DQxVwuz0___FUR6528.jpg"
+                    ],
+                    "value_img_items": [
+                        "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1210/mobile/DQxVwuz0___FUR6528.jpg",
+                        "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1187/mobile/bL3qJyyD___FUR4320_2%20(2).jpg",
+                        "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1210/mobile/DQxVwuz0___FUR6528.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/917/1440w_f230d405.jpg"
+                    ],
+                    "desc": "Bring home the contemporary with our Santorini Queen Bedroom. This package includes a metal-frame queen bed with a cushioned headboard and footboard, a detachable nightstand on both sides, a mattress, a bedsheet, and pillows with covers. All soft furnishings provided are brand new. *The color of the mattress may vary from the image.",
+                    "types": ["basic","value"],
+                    "discounted": false,
+                    "total_basic_original": 999,
+                    "total_value_original": 1099
+                },
+                {
+                    "id": 14,
+                    "basic_img": "https://assets.furlenco.com/image/upload/c_fit,dpr_2.0,f_auto,q_auto,w_360/v1/furlenco-images/EoqjGyXi_mobile_Bordo-Queen-Delphie-Basic-Mobile.jpg",
+                    "value_img": "https://assets.furlenco.com/image/upload/c_fit,dpr_2.0,f_auto,q_auto,w_360/v1/furlenco-images/5XC66WY6_mobile_Bordo-Queen-Delphie-Value-Mobile.jpg",
+                    "prime_img": "https://assets.furlenco.com/image/upload/c_fit,dpr_2.0,f_auto,q_auto,w_360/v1/furlenco-images/HpNWsj8y_mobile_Bordo-Queen-Delphie-Prime-Mobile.jpg",
+                    "title": "Bordo Queen Bedroom - Damask",
+                    "basic_img_items": [
+                        "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1173/mobile/GZhYxKBc___FUR4320_2%20(1).jpg",
+                        "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1155/mobile/DNAcEQ7x___FUR3827_2.jpg"
+                    ],
+                    "value_img_items": [
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/11/1440w_4224a6ff.jpg",
+                        "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1155/mobile/DNAcEQ7x___FUR3827_2.jpg",
+                        "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1173/mobile/GZhYxKBc___FUR4320_2%20(1).jpg"
+                    ],
+                    "prime_img_items": [
+                        "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1155/mobile/DNAcEQ7x___FUR3827_2.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/11/1440w_4224a6ff.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/home_decor_item/1098/1440w_fd83a96e.jpg",
+                        "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1173/mobile/GZhYxKBc___FUR4320_2%20(1).jpg"
+                    ],
+                    "desc": "Bring home a piece of Greece with our timeless Bordo Queen Bedroom - Fabric. This package includes a wooden queen bed with a mattress, bedsheet, and pillows with covers. It also comes with a wooden side table. All soft furnishings provided are brand new.",
+                    "types": ["basic","value","prime"],
+                    "discounted": false,
+                    "total_basic_original": 949,
+                    "total_value_original": 1149,
+                    "total_prime_original": 1199
+                }
+            ]
+        },
+        {
+            "storage_bed": [
+                {
+                    "id": 20,
+                    "basic_img": "https://assets.furlenco.com/image/upload/c_fit,dpr_2.0,f_auto,q_auto,w_360/v1/furlenco-images/3pYw34Ok_mobile_Allen-Queen-Bed-Basic-Mobile.jpg",
+                    "value_img": "https://assets.furlenco.com/image/upload/c_fit,dpr_2.0,f_auto,q_auto,w_360/v1/furlenco-images/RsgE7MTJ_mobile_Allen-Queen-Bed-Value-Mobile.jpg",
+                    "title": "Allen Queen Storage Bed",
+                    "basic_img_items": [
+                        "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1151/mobile/z1D0GYjX___FUR2777_1.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/483/1440w_7a303aac.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/917/1440w_f230d405.jpg"
+                    ],
+                    "value_img_items": [
+                        "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1151/mobile/z1D0GYjX___FUR2777_1.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/967/1440w_97c58d0a.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/483/1440w_7a303aac.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/802/1440w_be6d6dd5.jpg"
+
+                    ],
+                    "desc": "Rent our Allen Queen Storage Bed. Includes a sturdy, metal-frame, queen bed with two easy-to-pull-out drawers for ample storage space, a comfortable 4 inch foam mattress, a night-stand that is attached to the bed, a bedsheet, and a pillow with a cover. All soft furnishings provided are brand new.",
+                    "types": ["basic","value"],
+                    "discounted": false,
+                    "total_basic_original": 1049,
+                    "total_value_original": 1149
+                },
+                {
+                    "id": 21,
+                    "basic_img": "https://assets.furlenco.com/image/upload/c_fit,dpr_2.0,f_auto,q_auto,w_360/v1/furlenco-images/rk4bBGkW_mobile_Allen-Queen-Bed-Basic-Mobile.jpg",
+                    "value_img": "https://assets.furlenco.com/image/upload/c_fit,dpr_2.0,f_auto,q_auto,w_360/v1/furlenco-images/8ctL0kWA_mobile_Allen-Queen-Bed-Value-Mobile-2.jpg",
+                    "title": "Allen Queen Storage Bed with Premium 6'' Mattress",
+                    "basic_img_items": [
+                        "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1151/mobile/z1D0GYjX___FUR2777_1.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/802/1440w_be6d6dd5.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/967/1440w_97c58d0a.jpg"
+                    ],
+                    "value_img_items": [
+                        "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1151/mobile/z1D0GYjX___FUR2777_1.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/1064/1440w_ae1287b1.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/967/1440w_97c58d0a.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/967/1440w_97c58d0a.jpg"
+
+                    ],
+                    "desc": "Rent our Allen Queen Storage Bed. Includes a sturdy, metal-frame, queen bed with 2 easy-to-pull-out drawers on both the sides of the bed for ample storage space, a comfortable 6'' foam mattress, a night-stand that is attached to the bed, a bedsheet, and a pillow with a cover. All soft furnishings provided are brand new. *The color of the mattress may vary from the image.",
+                    "types": ["basic","value"],
+                    "discounted": false,
+                    "total_basic_original": 1299,
+                    "total_value_original": 1399
+                },
+                {
+                    "id": 22,
+                    "basic_img": "https://assets.furlenco.com/image/upload/c_fit,dpr_2.0,f_auto,q_auto,w_360/v1/furlenco-images/UrnQEnxc_mobile_Manhatten-Allen-Storge-Queen-Bed-Value-Mobile.jpg",
+                    "value_img": "https://assets.furlenco.com/image/upload/c_fit,dpr_2.0,f_auto,q_auto,w_360/v1/furlenco-images/JrvbAh5X_mobile_Manhatten-Allen-Storge-Queen-Bed-Prime-Mobile.jpg",
+                    "title": "Santorini Storage Bedroom - Aqua",
+                    "basic_img_items": [
+                       "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1187/mobile/bL3qJyyD___FUR4320_2%20(2).jpg",
+                       "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/917/1440w_f230d405.jpg"
+                    ],
+                    "value_img_items": [
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/483/1440w_7a303aac.jpg",
+                        "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1187/mobile/bL3qJyyD___FUR4320_2%20(2).jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/917/1440w_f230d405.jpg",
+                        "https://assets.furlenco.com/image/upload/dpr_2.0,f_auto,q_auto/v1/furlenco-images-2/uploads/production/furniture_item/967/1440w_97c58d0a.jpg"
+
+                    ],
+                    "desc": "Rent our Santorini Queen Storage Bedroom for a classic look with extra storage space. This package includes a metal-frame queen bed with a cushioned headboard and footboard, two spacious pull-out drawers, a detachable nightstand on both sides, a mattress, a bedsheet, and pillows with covers. All soft furnishings provided are brand new.",
+                    "types": ["basic","value"],
+                    "discounted": false,
+                    "total_basic_original": 1249,
+                    "total_value_original": 1549
+                },
+                {
+                    "id": 23,
+                    "basic_img": "https://assets.furlenco.com/image/upload/c_fit,dpr_2.0,f_auto,q_auto,w_360/v1/furlenco-images/4yvRdrVJ_mobile_Mobile_2.jpg",
+                    "value_img": "https://assets.furlenco.com/image/upload/c_fit,dpr_2.0,f_auto,q_auto,w_360/v1/furlenco-images/6FIN3EZM_mobile_Mobile.jpg",
+                    "title": "Vitello Storage Bed with Premium 6'' Mattress",
+                    "basic_img_items": [
+                       "https://d26iwjla857pn6.cloudfront.net/uploads/production/soft_furnishing/975/1440w_b06f183c.jpg",
+                       "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/772/1440w_17f993d7.jpg",
+                       "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/1064/1440w_ae1287b1.jpg"
+                    ],
+                    "value_img_items": [
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/121/1440w_0fb7901c.png",
+                        "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1187/mobile/bL3qJyyD___FUR4320_2%20(2).jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/home_decor_item/410/1440w_bbdb121b.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/772/1440w_17f993d7.jpg"
+                    ],
+                    "desc": "Rent our Vitello Storage Bedroom and keep your bedroom neat and clutter free. Includes a wooden, queen bed with storage and a cushioned headboard, and a premium 6'' mattress. Also includes pillows with matching bedsheet and pillow covers. *The color of the mattress may vary from the image.",
+                    "types": ["basic","value"],
+                    "discounted": false,
+                    "total_basic_original": 1699,
+                    "total_value_original": 1849
+                }
+            ]
+        },
+        {
+            "single_bed": [
+                {
+                    "id": 30,
+                    "prime_img": "https://assets.furlenco.com/image/upload/c_fit,dpr_2.0,f_auto,q_auto,w_360/v1/furlenco-images/Izk0utBn_mobile_Allen-Single-Bed-Value-Mobile.jpg",
+                    "title": "Allen Single Bedroom",
+                    "prime_img_items": [
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/917/1440w_f230d405.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/915/1440w_73d98793.jpg",
+                        "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1152/mobile/FiL5R4sD___FUR2777_1.jpg"
+
+                    ],
+                    "desc": "Rent our Allen Single Bedroom package. Includes a sturdy, metal-frame, single bed, a comfortable 4 inch foam mattress, a night-stand that is attached to the bed, a bedsheet, and a pillow with a cover. All soft furnishings provided are brand new.",
+                    "types": ["prime"],
+                    "discounted": true,
+                    "total_prime_original": 699,
+                    "total_prime_discounted": 499
+                },
+                {
+                    "id": 31,
+                    "prime_img": "https://assets.furlenco.com/image/upload/c_fit,dpr_2.0,f_auto,q_auto,w_360/v1/furlenco-images/7SilSb2r_mobile_Mobile.jpg",
+                    "title": "Allen Single Bedroom with Premium 6'' Mattress",
+                    "prime_img_items": [
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/1080/1440w_d496fe12.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/991/1440w_3d8d40b5.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/917/1440w_f230d405.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/916/1440w_df8abf57.jpg"
+                    ],
+                    "desc": "Rent our Allen Single Bedroom package. Includes a sturdy, metal-frame, single bed, a premium 6'' foam mattress, a night-stand that is attached to the bed, a bedsheet, and a pillow with a cover. All soft furnishings provided are brand new. *The color of the mattress may vary from the image.",
+                    "types": ["prime"],
+                    "discounted": true,
+                    "total_prime_original": 849,
+                    "total_prime_discounted": 699
+                },
+                {
+                    "id": 32,
+                    "basic_img": "https://assets.furlenco.com/image/upload/c_fit,dpr_2.0,f_auto,q_auto,w_360/v1/furlenco-images/P59XyBrZ_mobile_Allen-Single-Bed-COD-Mobile.jpg",
+                    "title": "Allen Single Bedroom with Fusil Chest of Drawer",
+                    "basic_img_items": [
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/107/1440w_6a7420b4.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/916/1440w_df8abf57.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/915/1440w_73d98793.jpg"
+                    ],
+                    "desc": "Allen Single Bedroom with Fusil Chest of Drawers Combo comes with our customer's favourite Allen Single Bedroom with a gorgeous Fusil Chest with 4 Drawers & some Storage space",
+                    "types": ["basic"],
+                    "discounted": true,
+                    "total_prime_original": 949,
+                    "total_prime_discounted": 849
+                },
+                {
+                    "id": 33,
+                    "basic_img": "https://assets.furlenco.com/image/upload/c_fit,dpr_2.0,f_auto,q_auto,w_360/v1/furlenco-images/Way7Z4fE_mobile_Mobile.jpg",
+                    "value_img": "https://assets.furlenco.com/image/upload/c_fit,dpr_2.0,f_auto,q_auto,w_360/v1/furlenco-images/q0tA379e_mobile_Pico-Single-Bed-Value-Mobile.jpg",
+                    "title": "Pico Single Bed",
+                    "basic_img_items": [
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/199/1440w_84070b6a.jpg"
+                    ],
+                    "value_img_items": [
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/soft_furnishing/857/1440w_4e788d09.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/199/1440w_84070b6a.jpg"
+                    ],
+                    "desc": "Rent our Pico Single Bedroom package, a classic single bedroom solution for your room. Includes a solid, wooden single bed with a slatted headboard, a comfortable 4'' foam mattress, bedsheet, pillow and pillow covers.",
+                    "types": ["basic,value"],
+                    "discounted": false,
+                    "total_basic_original": 649,
+                    "total_value_original": 699
+                }
+            ]
+        },
+        {
+            "multifunctional": [
+                {
+                    "id": 40,
+                    "basic_img": "https://assets.furlenco.com/image/upload/c_fit,dpr_2.0,f_auto,q_auto,w_360/v1/furlenco-images/0w1hQCTC_mobile_Mobile__70_.jpg",
+                    "value_img": "https://assets.furlenco.com/image/upload/c_fit,dpr_2.0,f_auto,q_auto,w_360/v1/furlenco-images/cDzLkDdm_mobile_Mobile-3__3_.jpg",
+                    "prime_img": "https://assets.furlenco.com/image/upload/c_fit,dpr_2.0,f_auto,q_auto,w_360/v1/furlenco-images/IJaAtdbz_mobile_Mobile__72_.jpg",
+                    "title": "Bounce (Blue)",
+                    "basic_img_items": [
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/193/1440w_46b375bd.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/194/1440w_ad05046b.jpg"
+                    ],
+                    "value_img_items": [
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/193/1440w_46b375bd.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/194/1440w_ad05046b.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/210/1440w_62fa953c.jpg"
+                    ],
+                    "prime_img_items": [
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/210/1440w_62fa953c.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/soft_furnishing/799/1440w_dd93d1db.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/soft_furnishing/800/1440w_784fcd1c.jpg"
+                    ],
+                    "desc": "Rent the Bounce, an award-winning, floor-seating solution that is perfect for house parties. It can be placed all together, as individual seating units or a sofa. It comes with 4 floor pads that are held together by Velcro and 2 pouffes. Available in 2 colours.",
+                    "types": ["basic,value,prime"],
+                    "discounted": false,
+                    "total_basic_original": 999,
+                    "total_value_original": 1149,
+                    "total_prime_original": 1249
+                },
+                {
+                    "id": 41,
+                    "basic_img": "https://assets.furlenco.com/image/upload/c_fit,dpr_2.0,f_auto,q_auto,w_360/v1/furlenco-images/xWQ00b1s_mobile_Bounce_Brown_Mobile.jpg",
+                    "value_img": "https://assets.furlenco.com/image/upload/c_fit,dpr_2.0,f_auto,q_auto,w_360/v1/furlenco-images/AOB2X6zY_mobile_Mobile__74_.jpg",
+                    "prime_img": "https://assets.furlenco.com/image/upload/c_fit,dpr_2.0,f_auto,q_auto,w_360/v1/furlenco-images/RjNwdimo_mobile_Mobile__75_.jpg",
+                    "title": "Bounce Brown",
+                    "basic_img_items": [
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/252/1440w_fed042b4.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/251/1440w_145aa042.jpg"
+                    ],
+                    "value_img_items": [
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/210/1440w_62fa953c.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/252/1440w_fed042b4.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/251/1440w_145aa042.jpg"
+                    ],
+                    "prime_img_items": [
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/210/1440w_62fa953c.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/soft_furnishing/799/1440w_dd93d1db.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/soft_furnishing/800/1440w_784fcd1c.jpg"
+                    ],
+                    "desc": "Rent the Bounce, an award-winning, floor-seating solution that is perfect for house parties. It can be placed together, as individual seating units or a sofa. Includes 4 floor pads that are held together by Velcro, 2 pouffes, a utility box with a folding laptop table, and large cushions. Available in 2 colours - blue and brown. All soft furnishings provided are brand new.",
+                    "types": ["basic,value,prime"],
+                    "discounted": false,
+                    "total_basic_original": 999,
+                    "total_value_original": 1149,
+                    "total_prime_original": 1249
+                }
+            ]
+        },
+        {
+            "bedroom_storage": [
+                {
+                    "id": 50,
+                    "basic_img": "https://assets.furlenco.com/image/upload/c_fit,dpr_2.0,f_auto,q_auto,w_360/v1/furlenco-images/u27akA3V_mobile_Mobile.jpg",
+                    "title": "Lana Wardrobe",
+                    "basic_img_items": [
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/82/1440w_9588ba92.jpg"
+                    ],
+                    "desc": "Rent our Lana Wardrobe, a simple two-door wardrobe with an in-built mirror to help keep your space clutter free.",
+                    "types": ["basic"],
+                    "discounted": false,
+                    "total_basic_original": 549
+                },
+                {
+                    "id": 51,
+                    "basic_img": "https://assets.furlenco.com/image/upload/c_fit,dpr_2.0,f_auto,q_auto,w_360/v1/furlenco-images/c19IZliv_mobile_Mobile_2__2_.jpg",
+                    "title": "Ebony Twin wardrobe",
+                    "basic_img_items": [
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/804/1440w_353113b9.jpg"
+                    ],
+                    "desc": "Feel the need for more space? Rent our awesome Ebony twin wardrobe and never worry about your clothes on the floor again.",
+                    "types": ["basic"],
+                    "discounted": true,
+                    "total_basic_original": 1149,
+                    "total_basic_discounted": 849
+                },
+                {
+                    "id": 52,
+                    "basic_img": "https://assets.furlenco.com/image/upload/c_fit,dpr_2.0,f_auto,q_auto,w_360/v1/furlenco-images/rTIUWk6Z_mobile_Mobile.jpg",
+                    "title": "Mezzo Twin Wardrobe combo",
+                    "basic_img_items": [
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/1014/1440w_b8caa90d.jpg"
+                    ],
+                    "desc": "Rent our Twin Wardrobe Combo for all the storage space you'll ever need. Includes 2 double-door wardrobes with mirrors.",
+                    "types": ["basic"],
+                    "discounted": true,
+                    "total_basic_original": 1199,
+                    "total_basic_discounted": 999
+                },
+                {
+                    "id": 53,
+                    "basic_img": "https://assets.furlenco.com/image/upload/c_fit,dpr_2.0,f_auto,q_auto,w_360/v1/furlenco-images/ewRSvyr2_mobile_Mobile__5_.jpg",
+                    "title": "Storage Essentials",
+                    "basic_img_items": [
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/82/1440w_9588ba92.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/197/1440w_8c8e6117.jpg"
+                    ],
+                    "desc": "Rent our Twin Wardrobe Combo for all the storage space you'll ever need. Includes 2 double-door wardrobes with mirrors.",
+                    "types": ["basic"],
+                    "discounted": false,
+                    "total_basic_original": 999
+                },
+                {
+                    "id": 54,
+                    "basic_img": "https://assets.furlenco.com/image/upload/c_fit,dpr_2.0,f_auto,q_auto,w_360/v1/furlenco-images/pCDzRJoM_mobile_Mobile.jpg",
+                    "title": "Fusil Lifestyle Essentials",
+                    "basic_img_items": [
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/198/1440w_e8a13edd.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/197/1440w_8c8e6117.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/196/1440w_c9c4c4b4.png"
+                    ],
+                    "desc": "Rent our Fusil Lifestyle Essentials package to stay organized! Includes a wooden chest of drawers, a dressing table, and an entertainment unit.",
+                    "types": ["basic"],
+                    "discounted": false,
+                    "total_basic_original": 1249
+                }
+
+            ]
+        },
+        {
+            "deals_n_combos": [
+                {
+                    "id": 60,
+                    "basic_img": "https://assets.furlenco.com/image/upload/c_fit,dpr_2.0,f_auto,q_auto,w_360/v1/furlenco-images/nazcw6gF_mobile_mobile.jpg",
+                    "title": "Mili Dvi Queen With Ebony Wardrobe",
+                    "basic_img_items": [
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/75/1440w_6986a854.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/804/1440w_353113b9.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/soft_furnishing/529/1440w_832fe575.jpg"
+                    ],
+                    "desc": "Rent our Mili Dvi Queen Bed With Ebony Wardrobe package, that contains the essentials for any bedroom. Includes a wooden queen bed with a comfortable mattress, pillows and bedsheet with matching pillow covers, a two-door wardrobe . All soft furnishings provided are brand new.",
+                    "types": ["basic"],
+                    "discounted": true,
+                    "total_basic_original": 1699,
+                    "total_basic_discounted": 1399
+                },
+                {
+                    "id": 61,
+                    "basic_img": "https://assets.furlenco.com/image/upload/c_fit,dpr_2.0,f_auto,q_auto,w_360/v1/furlenco-images/Ev82iA16_mobile_mobile.jpg",
+                    "title": "Vitello Queen Bed With Lana Wardrobe",
+                    "basic_img_items": [
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/204/1440w_c20b7954.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/82/1440w_9588ba92.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/82/1440w_9588ba92.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/107/1440w_6a7420b4.jpg"
+                    ],
+                    "desc": "Rent our Couple Bedroom Essentials, a luxurious bedroom solution for you and your partner. Includes a wooden queen bed and a two-door wardrobe with a mirror, soft pillows, high-quality bedsheet and covers, and a sturdy chest of drawers. All soft furnishings provided are brand new.",
+                    "types": ["basic"],
+                    "discounted": true,
+                    "total_basic_original": 2349,
+                    "total_basic_discounted": 1799
+                },
+                {
+                    "id": 62,
+                    "basic_img": "https://assets.furlenco.com/image/upload/c_fit,dpr_2.0,f_auto,q_auto,w_360/v1/furlenco-images/Mq67bah9_mobile_Mobile.jpg",
+                    "title": "Bordo Queen Bed With Ebony Wardrobe",
+                    "basic_img_items": [
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/439/1440w_540c5895.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/804/1440w_353113b9.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/soft_furnishing/529/1440w_832fe575.jpg"
+                    ],
+                    "desc": "Rent our Bordo Queen Bed With Ebony Wardrobe package, that contains the essentials for any bedroom. Includes a wooden queen bed with a comfortable mattress, pillows and bedsheet with matching pillow covers, a two-door wardrobe . All soft furnishings provided are brand new.",
+                    "types": ["basic"],
+                    "discounted": true,
+                    "total_basic_original": 1649,
+                    "total_basic_discounted": 1249
+                },
+                {
+                    "id": 63,
+                    "basic_img": "https://assets.furlenco.com/image/upload/c_fit,dpr_2.0,f_auto,q_auto,w_360/v1/furlenco-images/497hzWsy_mobile_bordo_mobile.jpg",
+                    "title": "Bordo Queen Studio",
+                    "basic_img_items": [
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/439/1440w_540c5895.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/806/1440w_2a0649d1.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/soft_furnishing/529/1440w_832fe575.jpg",
+                        "https://d26iwjla857pn6.cloudfront.net/uploads/production/soft_furnishing/999/1440w_9332a2a1.jpg"
+                    ],
+                    "desc": "Rent the Bordo Studio for your studio apartment. It comes with the solid wood, classic Bordo Queen Bed and the elegant 3-Seater Flex Sofa.",
+                    "types": ["basic"],
+                    "discounted": true,
+                    "total_basic_original": 2899,
+                    "total_basic_discounted": 1749
+                }
+            ]
+        }
+    ]
+}
