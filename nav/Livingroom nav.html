@@ -279,9 +279,9 @@
             .categories a {
                 text-align: center;
             }
-            .login:hover .logout_dropdown {
+            /* .login:hover .logout_dropdown {
                 display: block;
-            }
+            } */
             .logout_dropdown {
                 position: absolute;
                 width: 15vw;
@@ -329,7 +329,112 @@
                 cursor: pointer;
             }
             /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
-
+            /* login popup */
+            .modal-bg{
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100vh;
+                background-color: rgba(0, 0 ,0 , 0.5);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                visibility: hidden;
+                opacity: 0;
+                transition: visibility 0 ,opacity 0.5s;
+            }
+            .modal{
+                background-color: white;
+                width: 26%;
+                height: 60%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                flex-direction: column;
+                /* position: relative; */
+                border-radius: 5px;
+                padding: 2%;
+                font-size: 1.2em;
+                color: gray;
+                font-weight: 100;
+            }
+            .modal > input {
+                width: 20vw;
+                font-size: 1em;
+                margin: 2% !important;
+            }
+            .modal-active{
+                visibility: visible;
+                opacity: 1;
+            }
+            .close-btn{
+                position: absolute;
+                width: 30px;
+                height: 30px;
+                top: 7.2vw ;
+                right: 34vw;
+                border: none;
+                border-radius: 50%;
+            }
+            .close-btn {
+                cursor: pointer;
+            }
+            .close-btn:focus{
+                outline: none;
+                border: none;
+            }
+            .login_modal{
+                width: 100px;
+                border: 1px solid lightgray;
+                padding: 5px;
+                background-color: #346aa0;
+                color: #f8f8f8;
+                border-radius: 25px;
+            }
+            .login_modal:hover {
+                background-color: #5a91c7;
+                color: #f8f8f8;
+                cursor: pointer;
+            }
+            .signup{
+                border: 1px solid #346aa0;
+                padding: 1% 3%;
+                color: #356BA0;
+                border-radius: 25px;
+            }
+            .signup:hover {
+                background-color: #356BA0;
+                color: white;
+                cursor: pointer;
+            }
+            .login_modal:focus{
+                outline: none;
+                border: none;
+            }
+            .login-input{
+                padding:5px 15px;
+                width: 10vw;
+                border: 1px solid lightgray;
+            }
+            .login-input:focus{
+                outline: none;
+            }
+            .logo{
+                position: relative;
+                right: 2.8em;
+                width: 3vw;
+                border: 5px solid white;
+                border-radius: 50%;
+                box-shadow: 1px 1px 10px gray;
+            }
+            .login_modal_social {
+                display: flex;
+            }
+            .login_modal_social > img {
+                padding: 4%;
+                margin: 0 20%;
+            }
 
             /* ///////////////////////////////////////////STYLE-FOOTER//////////////////////////////////////////////////////////// */
             .footer_1 {
@@ -629,7 +734,26 @@
 
             <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
-            <div></div>
+            <!-- Login Popup -->
+            <!-- <button class="btn">Click</button> -->
+            <div class="modal-bg">
+                <div class="modal">
+                    <div>Login</div>
+                    <button class="close-btn">&times;</button>
+                    <input class="login-input " type="mail" placeholder="Enter your phone no or mail id" required id="mail" >
+                    <input class="login-input" type="" placeholder="Enter your password" required id="password" >
+                    <input type="submit" class="login_modal" value="LOGIN">
+                    <div>Login Using</div>
+                    <div class="login_modal_social">
+                        <img class="logo" src="https://assets.furlenco.com/s3-furlenco-images/desktop_web/hulk/icons/facebook-inverted.svg" alt="facebook-inverted">
+                        <!--&nbsp;&nbsp; -->
+                        <img class="logo" src="https://assets.furlenco.com/s3-furlenco-images/desktop_web/hulk/icons/google-color.svg" alt="google-color">
+                    </div>
+                    <div>New user</div>
+                    <div>Signup to enjoy 40% faster checkout</div>
+                    <div class="signup">Sign-up</div>
+                </div>
+            </div>
 
             <!-- ///////////////////////////////////////////////HTML-FOOTER///////////////////////////////////////////////////////////// -->
             <div class="footer">
@@ -694,7 +818,10 @@
         </div>
 
         <script>
-            window.addEventListener('load',addEvents);
+             window.addEventListener('load',() => {
+                addEvents();
+                loginModule();
+            });
 
             function addEvents() {
                 //selecting all a tags to add preventDefault
@@ -805,14 +932,50 @@
                 console.log('Login module');
                 // console.log(event.target)
 
+                var username = document.getElementById('mail').value
+                var password = document.getElementById('password').value
+
+                let btn = document.querySelector('.btn')
+                let modalBg = document.querySelector('.modal-bg')
+                let login = document.querySelector('.login_modal')
+                let closeBtn = document.querySelector('.close-btn')
+
+                modalBg.classList.add('modal-active');
+
+                login.addEventListener('click',function(e) {
+                    e.preventDefault();
+
+                    fetch("http://localhost:3008/login").then(res => res.json())
+                    .then(res => {checkuser(res)})
+                    .catch(err=>console.log(err))
+                });
+                function checkuser(data)
+                {
+                    var username = document.getElementById('mail').value
+                    var password = document.getElementById('password').value
+                    for( i in data)
+                    {
+                        if((username=== data[i].username) && (password=== data[i].password))
+                        {
+                            window.location= "card.html"
+                        }
+                    }
+                }
+                closeBtn.addEventListener('click',function() {
+                    modalBg.classList.remove("modal-active")
+                })
+
                 //on successive login change ids to logged-in
                 // document.querySelectorAll('#logged_out').forEach(ele => ele.id = 'logged_in');
+                // document.querySelector('.logout_dropdown').style.display = 'block';
+                // document.querySelector('.login').addEventListener('mouseover',() => document.querySelector('.logout_dropdown').style.display = ' block');
             }
             function showLogout() {
                 console.log('Logout module');
 
                 //on successive logout change ids to logged-out
                 // document.querySelectorAll('#logged_in').forEach(ele => ele.id = 'logged_out');
+                // document.querySelector('.logout_dropdown').style.display = 'none';
             }
         </script>
     </body>
