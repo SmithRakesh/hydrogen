@@ -1,0 +1,914 @@
+{
+    "bedroom":[
+        {
+            "id":"bedroom_1",
+            "img":"https://assets.furlenco.com/image/upload/c_fit,dpr_1.0,f_auto,q_auto,w_360/v1/furlenco-images/ewbof20R_mobile_Bordo-Queen-Delphie-Basic-Mobile.jpg",
+            "name":"Bordo Queen Bedroom - Damask with Premium 6 Mattress",
+            "value":[
+                "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1173/mobile/GZhYxKBc___FUR4320_2%20(1).jpg",
+                "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/11/1440w_4224a6ff.jpg",
+                "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1167/mobile/WjOuJ5tb___FUR3827_2.jpg"
+            ],
+            "value_img":"https://assets.furlenco.com/image/upload/c_fit,dpr_1.0,f_auto,q_auto,w_360/v1/furlenco-images/McRdzNLU_mobile_Bordo-Queen-Delphie-Value-Mobile.jpg",
+            "prime":[
+                "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1173/mobile/GZhYxKBc___FUR4320_2%20(1).jpg",
+                "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/11/1440w_4224a6ff.jpg",
+                "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1167/mobile/WjOuJ5tb___FUR3827_2.jpg",
+                "https://d26iwjla857pn6.cloudfront.net/uploads/production/home_decor_item/1098/1440w_fd83a96e.jpg"
+            ],
+            "prime_img":"https://assets.furlenco.com/image/upload/c_fit,dpr_1.0,f_auto,q_auto,w_360/v1/furlenco-images/PIxjB6Np_mobile_Bordo-Queen-Delphie-Prime-Mobile.jpg",
+            "total":700,
+            "tot_value":850,
+            "tot_prime":900,
+            "value_exp":[
+                {
+                    "title":"Queen Bedsheet with 2 pillows and pillow covers (Red)",
+                     "pexp":"Red oriental design bedsheet with 2 matching pillow covers OR Geometry inspired multi-colour bedsheet with 2 matching pillow covers (one of the two basis stock availability",
+                     "qunt":"1 Unit",
+                     "qexp":"Bedsheet- 270 cm (L) X 228 cm (B), Pillow Cover - 69 cm (L) X 46 cm (B)"
+                },
+                {
+                    "title":"Queen Bedsheet with 2 pillows and pillow covers (Red)",
+                     "pexp":"Red oriental design bedsheet with 2 matching pillow covers OR Geometry inspired multi-colour bedsheet with 2 matching pillow covers (one of the two basis stock availability",
+                     "qunt":"1 Unit",
+                     "qexp":"Bedsheet- 270 cm (L) X 228 cm (B), Pillow Cover - 69 cm (L) X 46 cm (B)"
+                },
+                {
+                    "title":"Queen Bedsheet with 2 pillows and pillow covers (Red)",
+                     "pexp":"Red oriental design bedsheet with 2 matching pillow covers OR Geometry inspired multi-colour bedsheet with 2 matching pillow covers (one of the two basis stock availability",
+                     "qunt":"1 Unit",
+                     "qexp":"Bedsheet- 270 cm (L) X 228 cm (B), Pillow Cover - 69 cm (L) X 46 cm (B)"
+                },
+                {
+                    "title":"Queen Bedsheet with 2 pillows and pillow covers (Red)",
+                     "pexp":"Red oriental design bedsheet with 2 matching pillow covers OR Geometry inspired multi-colour bedsheet with 2 matching pillow covers (one of the two basis stock availability",
+                     "qunt":"1 Unit",
+                     "qexp":"Bedsheet- 270 cm (L) X 228 cm (B), Pillow Cover - 69 cm (L) X 46 cm (B)"
+                }
+            ]
+            
+        },
+        {
+            "id":"bedroom_2",
+            "img":"https://assets.furlenco.com/image/upload/c_fit,dpr_1.0,f_auto,q_auto,w_360/v1/furlenco-images/ewbof20R_mobile_Bordo-Queen-Delphie-Basic-Mobile.jpg",
+            "name":"Bordo Queen Bedroom - Damask with Premium 6 Mattress",
+            "value":[
+                "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1173/mobile/GZhYxKBc___FUR4320_2%20(1).jpg",
+                "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/11/1440w_4224a6ff.jpg",
+                "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1167/mobile/WjOuJ5tb___FUR3827_2.jpg"
+            ],
+            "value_img":"https://assets.furlenco.com/image/upload/c_fit,dpr_1.0,f_auto,q_auto,w_360/v1/furlenco-images/McRdzNLU_mobile_Bordo-Queen-Delphie-Value-Mobile.jpg",
+            "prime":[
+                "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1173/mobile/GZhYxKBc___FUR4320_2%20(1).jpg",
+                "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/11/1440w_4224a6ff.jpg",
+                "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1167/mobile/WjOuJ5tb___FUR3827_2.jpg",
+                "https://d26iwjla857pn6.cloudfront.net/uploads/production/home_decor_item/1098/1440w_fd83a96e.jpg"
+            ],
+            "prime_img":"https://assets.furlenco.com/image/upload/c_fit,dpr_1.0,f_auto,q_auto,w_360/v1/furlenco-images/PIxjB6Np_mobile_Bordo-Queen-Delphie-Prime-Mobile.jpg",
+            "total":600,
+            "tot_value":750,
+            "tot_prime":800,
+            "value_exp":[
+                {
+                    "title":"Queen Bedsheet with 2 pillows and pillow covers (Red)",
+                     "pexp":"Red oriental design bedsheet with 2 matching pillow covers OR Geometry inspired multi-colour bedsheet with 2 matching pillow covers (one of the two basis stock availability",
+                     "qunt":"1 Unit",
+                     "qexp":"Bedsheet- 270 cm (L) X 228 cm (B), Pillow Cover - 69 cm (L) X 46 cm (B)"
+                },
+                {
+                    "title":"Queen Bedsheet with 2 pillows and pillow covers (Red)",
+                     "pexp":"Red oriental design bedsheet with 2 matching pillow covers OR Geometry inspired multi-colour bedsheet with 2 matching pillow covers (one of the two basis stock availability",
+                     "qunt":"1 Unit",
+                     "qexp":"Bedsheet- 270 cm (L) X 228 cm (B), Pillow Cover - 69 cm (L) X 46 cm (B)"
+                },
+                {
+                    "title":"Queen Bedsheet with 2 pillows and pillow covers (Red)",
+                     "pexp":"Red oriental design bedsheet with 2 matching pillow covers OR Geometry inspired multi-colour bedsheet with 2 matching pillow covers (one of the two basis stock availability",
+                     "qunt":"1 Unit",
+                     "qexp":"Bedsheet- 270 cm (L) X 228 cm (B), Pillow Cover - 69 cm (L) X 46 cm (B)"
+                },
+                {
+                    "title":"Queen Bedsheet with 2 pillows and pillow covers (Red)",
+                     "pexp":"Red oriental design bedsheet with 2 matching pillow covers OR Geometry inspired multi-colour bedsheet with 2 matching pillow covers (one of the two basis stock availability",
+                     "qunt":"1 Unit",
+                     "qexp":"Bedsheet- 270 cm (L) X 228 cm (B), Pillow Cover - 69 cm (L) X 46 cm (B)"
+                }
+            ]
+        },
+        {
+            "id":"bedroom_3",
+            "img":"https://assets.furlenco.com/image/upload/c_fit,dpr_1.0,f_auto,q_auto,w_360/v1/furlenco-images/ewbof20R_mobile_Bordo-Queen-Delphie-Basic-Mobile.jpg",
+            "name":"Bordo Queen Bedroom - Damask with Premium 6 Mattress",
+            "value":[
+                    "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1173/mobile/GZhYxKBc___FUR4320_2%20(1).jpg",
+                    "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/11/1440w_4224a6ff.jpg",
+                    "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1167/mobile/WjOuJ5tb___FUR3827_2.jpg"
+                ],
+            "value_img":"https://assets.furlenco.com/image/upload/c_fit,dpr_1.0,f_auto,q_auto,w_360/v1/furlenco-images/McRdzNLU_mobile_Bordo-Queen-Delphie-Value-Mobile.jpg",
+            "prime":[
+                    "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1173/mobile/GZhYxKBc___FUR4320_2%20(1).jpg",
+                    "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/11/1440w_4224a6ff.jpg",
+                    "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1167/mobile/WjOuJ5tb___FUR3827_2.jpg",
+                    "https://d26iwjla857pn6.cloudfront.net/uploads/production/home_decor_item/1098/1440w_fd83a96e.jpg"
+                ],
+            "prime_img":"https://assets.furlenco.com/image/upload/c_fit,dpr_1.0,f_auto,q_auto,w_360/v1/furlenco-images/PIxjB6Np_mobile_Bordo-Queen-Delphie-Prime-Mobile.jpg",
+            "total":500,
+            "tot_value":750,
+            "tot_prime":1000,
+            "value_exp":[
+                {
+                    "title":"Queen Bedsheet with 2 pillows and pillow covers (Red)",
+                     "pexp":"Red oriental design bedsheet with 2 matching pillow covers OR Geometry inspired multi-colour bedsheet with 2 matching pillow covers (one of the two basis stock availability",
+                     "qunt":"1 Unit",
+                     "qexp":"Bedsheet- 270 cm (L) X 228 cm (B), Pillow Cover - 69 cm (L) X 46 cm (B)"
+                },
+                {
+                    "title":"Queen Bedsheet with 2 pillows and pillow covers (Red)",
+                     "pexp":"Red oriental design bedsheet with 2 matching pillow covers OR Geometry inspired multi-colour bedsheet with 2 matching pillow covers (one of the two basis stock availability",
+                     "qunt":"1 Unit",
+                     "qexp":"Bedsheet- 270 cm (L) X 228 cm (B), Pillow Cover - 69 cm (L) X 46 cm (B)"
+                },
+                {
+                    "title":"Queen Bedsheet with 2 pillows and pillow covers (Red)",
+                     "pexp":"Red oriental design bedsheet with 2 matching pillow covers OR Geometry inspired multi-colour bedsheet with 2 matching pillow covers (one of the two basis stock availability",
+                     "qunt":"1 Unit",
+                     "qexp":"Bedsheet- 270 cm (L) X 228 cm (B), Pillow Cover - 69 cm (L) X 46 cm (B)"
+                },
+                {
+                    "title":"Queen Bedsheet with 2 pillows and pillow covers (Red)",
+                     "pexp":"Red oriental design bedsheet with 2 matching pillow covers OR Geometry inspired multi-colour bedsheet with 2 matching pillow covers (one of the two basis stock availability",
+                     "qunt":"1 Unit",
+                     "qexp":"Bedsheet- 270 cm (L) X 228 cm (B), Pillow Cover - 69 cm (L) X 46 cm (B)"
+                }
+            ]
+        },
+        {
+            "id":"bedroom_4",
+            "img":"https://assets.furlenco.com/image/upload/c_fit,dpr_1.0,f_auto,q_auto,w_360/v1/furlenco-images/ewbof20R_mobile_Bordo-Queen-Delphie-Basic-Mobile.jpg",
+            "name":"Bordo Queen Bedroom - Damask with Premium 6 Mattress",
+            "value":[
+                    "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1173/mobile/GZhYxKBc___FUR4320_2%20(1).jpg",
+                    "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/11/1440w_4224a6ff.jpg",
+                    "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1167/mobile/WjOuJ5tb___FUR3827_2.jpg"
+                ],
+                "value_img":"https://assets.furlenco.com/image/upload/c_fit,dpr_1.0,f_auto,q_auto,w_360/v1/furlenco-images/McRdzNLU_mobile_Bordo-Queen-Delphie-Value-Mobile.jpg",
+            "prime":[
+                    "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1173/mobile/GZhYxKBc___FUR4320_2%20(1).jpg",
+                    "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/11/1440w_4224a6ff.jpg",
+                    "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1167/mobile/WjOuJ5tb___FUR3827_2.jpg",
+                    "https://d26iwjla857pn6.cloudfront.net/uploads/production/home_decor_item/1098/1440w_fd83a96e.jpg"
+                ],
+            "prime_img":"https://assets.furlenco.com/image/upload/c_fit,dpr_1.0,f_auto,q_auto,w_360/v1/furlenco-images/PIxjB6Np_mobile_Bordo-Queen-Delphie-Prime-Mobile.jpg",
+            "total":850,
+            "tot_value":950,
+            "tot_prime":1100,
+            "value_exp":[
+                {
+                    "title":"Queen Bedsheet with 2 pillows and pillow covers (Red)",
+                     "pexp":"Red oriental design bedsheet with 2 matching pillow covers OR Geometry inspired multi-colour bedsheet with 2 matching pillow covers (one of the two basis stock availability",
+                     "qunt":"1 Unit",
+                     "qexp":"Bedsheet- 270 cm (L) X 228 cm (B), Pillow Cover - 69 cm (L) X 46 cm (B)"
+                },
+                {
+                    "title":"Queen Bedsheet with 2 pillows and pillow covers (Red)",
+                     "pexp":"Red oriental design bedsheet with 2 matching pillow covers OR Geometry inspired multi-colour bedsheet with 2 matching pillow covers (one of the two basis stock availability",
+                     "qunt":"1 Unit",
+                     "qexp":"Bedsheet- 270 cm (L) X 228 cm (B), Pillow Cover - 69 cm (L) X 46 cm (B)"
+                },
+                {
+                    "title":"Queen Bedsheet with 2 pillows and pillow covers (Red)",
+                     "pexp":"Red oriental design bedsheet with 2 matching pillow covers OR Geometry inspired multi-colour bedsheet with 2 matching pillow covers (one of the two basis stock availability",
+                     "qunt":"1 Unit",
+                     "qexp":"Bedsheet- 270 cm (L) X 228 cm (B), Pillow Cover - 69 cm (L) X 46 cm (B)"
+                },
+                {
+                    "title":"Queen Bedsheet with 2 pillows and pillow covers (Red)",
+                     "pexp":"Red oriental design bedsheet with 2 matching pillow covers OR Geometry inspired multi-colour bedsheet with 2 matching pillow covers (one of the two basis stock availability",
+                     "qunt":"1 Unit",
+                     "qexp":"Bedsheet- 270 cm (L) X 228 cm (B), Pillow Cover - 69 cm (L) X 46 cm (B)"
+                }
+            ]
+        },
+        {
+            "id":"bedroom_5",
+            "img":"https://assets.furlenco.com/image/upload/c_fit,dpr_1.0,f_auto,q_auto,w_360/v1/furlenco-images/ewbof20R_mobile_Bordo-Queen-Delphie-Basic-Mobile.jpg",
+            "name":"Bordo Queen Bedroom - Damask with Premium 6 Mattress",
+            "value":[
+                    "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1173/mobile/GZhYxKBc___FUR4320_2%20(1).jpg",
+                    "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/11/1440w_4224a6ff.jpg",
+                    "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1167/mobile/WjOuJ5tb___FUR3827_2.jpg"
+                ],
+                "value_img":"https://assets.furlenco.com/image/upload/c_fit,dpr_1.0,f_auto,q_auto,w_360/v1/furlenco-images/McRdzNLU_mobile_Bordo-Queen-Delphie-Value-Mobile.jpg",
+            "prime":[
+                    "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1173/mobile/GZhYxKBc___FUR4320_2%20(1).jpg",
+                    "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/11/1440w_4224a6ff.jpg",
+                    "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1167/mobile/WjOuJ5tb___FUR3827_2.jpg",
+                    "https://d26iwjla857pn6.cloudfront.net/uploads/production/home_decor_item/1098/1440w_fd83a96e.jpg"
+                ],
+            "prime_img":"https://assets.furlenco.com/image/upload/c_fit,dpr_1.0,f_auto,q_auto,w_360/v1/furlenco-images/PIxjB6Np_mobile_Bordo-Queen-Delphie-Prime-Mobile.jpg",
+            "total":700,
+            "tot_value":850,
+            "tot_prime":1050,
+            "value_exp":[
+                {
+                    "title":"Queen Bedsheet with 2 pillows and pillow covers (Red)",
+                     "pexp":"Red oriental design bedsheet with 2 matching pillow covers OR Geometry inspired multi-colour bedsheet with 2 matching pillow covers (one of the two basis stock availability",
+                     "qunt":"1 Unit",
+                     "qexp":"Bedsheet- 270 cm (L) X 228 cm (B), Pillow Cover - 69 cm (L) X 46 cm (B)"
+                },
+                {
+                    "title":"Queen Bedsheet with 2 pillows and pillow covers (Red)",
+                     "pexp":"Red oriental design bedsheet with 2 matching pillow covers OR Geometry inspired multi-colour bedsheet with 2 matching pillow covers (one of the two basis stock availability",
+                     "qunt":"1 Unit",
+                     "qexp":"Bedsheet- 270 cm (L) X 228 cm (B), Pillow Cover - 69 cm (L) X 46 cm (B)"
+                },
+                {
+                    "title":"Queen Bedsheet with 2 pillows and pillow covers (Red)",
+                     "pexp":"Red oriental design bedsheet with 2 matching pillow covers OR Geometry inspired multi-colour bedsheet with 2 matching pillow covers (one of the two basis stock availability",
+                     "qunt":"1 Unit",
+                     "qexp":"Bedsheet- 270 cm (L) X 228 cm (B), Pillow Cover - 69 cm (L) X 46 cm (B)"
+                },
+                {
+                    "title":"Queen Bedsheet with 2 pillows and pillow covers (Red)",
+                     "pexp":"Red oriental design bedsheet with 2 matching pillow covers OR Geometry inspired multi-colour bedsheet with 2 matching pillow covers (one of the two basis stock availability",
+                     "qunt":"1 Unit",
+                     "qexp":"Bedsheet- 270 cm (L) X 228 cm (B), Pillow Cover - 69 cm (L) X 46 cm (B)"
+                }
+            ]
+        }
+    ],
+    "living_room":[
+        {
+            "id":"living_1",
+            "img":"https://assets.furlenco.com/image/upload/c_fit,dpr_1.0,f_auto,q_auto,w_360/v1/furlenco-images/yzMqnbUM_mobile_Azure-3-seater-Basic-Mobile.jpg",
+            "name":"Vive Three-seater Living Room - Azure",
+            "value":[
+                "https://assets.furlenco.com/image/upload/dpr_1.0,f_auto,q_auto/v1/furlenco-images/new-uploads/production/items/1146/mobile/CY3wzRqL___FUR1844%20copy.jpg",
+                "https://assets.furlenco.com/image/upload/dpr_1.0,f_auto,q_auto/v1/furlenco-images-2/uploads/production/furniture_item/907/1440w_ae68d5f1.jpg",
+                "https://assets.furlenco.com/image/upload/dpr_1.0,f_auto,q_auto/v1/furlenco-images/new-uploads/production/items/1146/mobile/CY3wzRqL___FUR1844%20copy.jpg"
+            ],
+            "value_img":"https://assets.furlenco.com/image/upload/dpr_1.0,f_auto,q_auto/v1/furlenco-images/kdRoGBtC_tablet_Azure-3-seater-Value-Desktop.jpg",
+            "prime":[
+                "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1173/mobile/GZhYxKBc___FUR4320_2%20(1).jpg",
+                "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/11/1440w_4224a6ff.jpg",
+                "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1167/mobile/WjOuJ5tb___FUR3827_2.jpg",
+                "https://d26iwjla857pn6.cloudfront.net/uploads/production/home_decor_item/1098/1440w_fd83a96e.jpg"
+            ],
+            "prime_img":"https://assets.furlenco.com/image/upload/dpr_1.0,f_auto,q_auto/v1/furlenco-images/LCaz2QCC_tablet_Azure-3-seater-Prime-Desktop.jpg",
+            "total":700,
+            "tot_value":850,
+            "tot_prime":900,
+            "value_exp":[
+                {
+                    "title":"Vive Three-seater Living Room - Azure",
+                     "pexp":"Red oriental design bedsheet with 2 matching pillow covers OR Geometry inspired multi-colour bedsheet with 2 matching pillow covers (one of the two basis stock availability",
+                     "qunt":"1 Unit",
+                     "qexp":"Bedsheet- 270 cm (L) X 228 cm (B), Pillow Cover - 69 cm (L) X 46 cm (B)"
+                },
+                {
+                    "title":"Vive Three-seater Living Room - Azure",
+                     "pexp":"Red oriental design bedsheet with 2 matching pillow covers OR Geometry inspired multi-colour bedsheet with 2 matching pillow covers (one of the two basis stock availability",
+                     "qunt":"1 Unit",
+                     "qexp":"Bedsheet- 270 cm (L) X 228 cm (B), Pillow Cover - 69 cm (L) X 46 cm (B)"
+                },
+                {
+                    "title":"Vive Three-seater Living Room - Azure",
+                     "pexp":"Red oriental design bedsheet with 2 matching pillow covers OR Geometry inspired multi-colour bedsheet with 2 matching pillow covers (one of the two basis stock availability",
+                     "qunt":"1 Unit",
+                     "qexp":"Bedsheet- 270 cm (L) X 228 cm (B), Pillow Cover - 69 cm (L) X 46 cm (B)"
+                },
+                {
+                    "title":"Vive Three-seater Living Room - Azure",
+                     "pexp":"Red oriental design bedsheet with 2 matching pillow covers OR Geometry inspired multi-colour bedsheet with 2 matching pillow covers (one of the two basis stock availability",
+                     "qunt":"1 Unit",
+                     "qexp":"Bedsheet- 270 cm (L) X 228 cm (B), Pillow Cover - 69 cm (L) X 46 cm (B)"
+                }
+            ]
+            
+        },
+        {
+            "id":"living_2",
+            "img":"https://assets.furlenco.com/image/upload/c_fit,dpr_1.0,f_auto,q_auto,w_360/v1/furlenco-images/ewbof20R_mobile_Bordo-Queen-Delphie-Basic-Mobile.jpg",
+            "name":"Bordo Queen Bedroom - Damask with Premium 6 Mattress",
+            "value":[
+                "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1173/mobile/GZhYxKBc___FUR4320_2%20(1).jpg",
+                "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/11/1440w_4224a6ff.jpg",
+                "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1167/mobile/WjOuJ5tb___FUR3827_2.jpg"
+            ],
+            "value_img":"https://assets.furlenco.com/image/upload/c_fit,dpr_1.0,f_auto,q_auto,w_360/v1/furlenco-images/McRdzNLU_mobile_Bordo-Queen-Delphie-Value-Mobile.jpg",
+            "prime":[
+                "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1173/mobile/GZhYxKBc___FUR4320_2%20(1).jpg",
+                "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/11/1440w_4224a6ff.jpg",
+                "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1167/mobile/WjOuJ5tb___FUR3827_2.jpg",
+                "https://d26iwjla857pn6.cloudfront.net/uploads/production/home_decor_item/1098/1440w_fd83a96e.jpg"
+            ],
+            "prime_img":"https://assets.furlenco.com/image/upload/c_fit,dpr_1.0,f_auto,q_auto,w_360/v1/furlenco-images/PIxjB6Np_mobile_Bordo-Queen-Delphie-Prime-Mobile.jpg",
+            "total":600,
+            "tot_value":750,
+            "tot_prime":800,
+            "value_exp":[
+                {
+                    "title":"Queen Bedsheet with 2 pillows and pillow covers (Red)",
+                     "pexp":"Red oriental design bedsheet with 2 matching pillow covers OR Geometry inspired multi-colour bedsheet with 2 matching pillow covers (one of the two basis stock availability",
+                     "qunt":"1 Unit",
+                     "qexp":"Bedsheet- 270 cm (L) X 228 cm (B), Pillow Cover - 69 cm (L) X 46 cm (B)"
+                },
+                {
+                    "title":"Queen Bedsheet with 2 pillows and pillow covers (Red)",
+                     "pexp":"Red oriental design bedsheet with 2 matching pillow covers OR Geometry inspired multi-colour bedsheet with 2 matching pillow covers (one of the two basis stock availability",
+                     "qunt":"1 Unit",
+                     "qexp":"Bedsheet- 270 cm (L) X 228 cm (B), Pillow Cover - 69 cm (L) X 46 cm (B)"
+                },
+                {
+                    "title":"Queen Bedsheet with 2 pillows and pillow covers (Red)",
+                     "pexp":"Red oriental design bedsheet with 2 matching pillow covers OR Geometry inspired multi-colour bedsheet with 2 matching pillow covers (one of the two basis stock availability",
+                     "qunt":"1 Unit",
+                     "qexp":"Bedsheet- 270 cm (L) X 228 cm (B), Pillow Cover - 69 cm (L) X 46 cm (B)"
+                },
+                {
+                    "title":"Queen Bedsheet with 2 pillows and pillow covers (Red)",
+                     "pexp":"Red oriental design bedsheet with 2 matching pillow covers OR Geometry inspired multi-colour bedsheet with 2 matching pillow covers (one of the two basis stock availability",
+                     "qunt":"1 Unit",
+                     "qexp":"Bedsheet- 270 cm (L) X 228 cm (B), Pillow Cover - 69 cm (L) X 46 cm (B)"
+                }
+            ]
+        },
+        {
+            "id":"living_3",
+            "img":"https://assets.furlenco.com/image/upload/c_fit,dpr_1.0,f_auto,q_auto,w_360/v1/furlenco-images/ewbof20R_mobile_Bordo-Queen-Delphie-Basic-Mobile.jpg",
+            "name":"Bordo Queen Bedroom - Damask with Premium 6 Mattress",
+            "value":[
+                    "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1173/mobile/GZhYxKBc___FUR4320_2%20(1).jpg",
+                    "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/11/1440w_4224a6ff.jpg",
+                    "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1167/mobile/WjOuJ5tb___FUR3827_2.jpg"
+                ],
+            "value_img":"https://assets.furlenco.com/image/upload/c_fit,dpr_1.0,f_auto,q_auto,w_360/v1/furlenco-images/McRdzNLU_mobile_Bordo-Queen-Delphie-Value-Mobile.jpg",
+            "prime":[
+                    "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1173/mobile/GZhYxKBc___FUR4320_2%20(1).jpg",
+                    "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/11/1440w_4224a6ff.jpg",
+                    "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1167/mobile/WjOuJ5tb___FUR3827_2.jpg",
+                    "https://d26iwjla857pn6.cloudfront.net/uploads/production/home_decor_item/1098/1440w_fd83a96e.jpg"
+                ],
+            "prime_img":"https://assets.furlenco.com/image/upload/c_fit,dpr_1.0,f_auto,q_auto,w_360/v1/furlenco-images/PIxjB6Np_mobile_Bordo-Queen-Delphie-Prime-Mobile.jpg",
+            "total":500,
+            "tot_value":750,
+            "tot_prime":1000,
+            "value_exp":[
+                {
+                    "title":"Queen Bedsheet with 2 pillows and pillow covers (Red)",
+                     "pexp":"Red oriental design bedsheet with 2 matching pillow covers OR Geometry inspired multi-colour bedsheet with 2 matching pillow covers (one of the two basis stock availability",
+                     "qunt":"1 Unit",
+                     "qexp":"Bedsheet- 270 cm (L) X 228 cm (B), Pillow Cover - 69 cm (L) X 46 cm (B)"
+                },
+                {
+                    "title":"Queen Bedsheet with 2 pillows and pillow covers (Red)",
+                     "pexp":"Red oriental design bedsheet with 2 matching pillow covers OR Geometry inspired multi-colour bedsheet with 2 matching pillow covers (one of the two basis stock availability",
+                     "qunt":"1 Unit",
+                     "qexp":"Bedsheet- 270 cm (L) X 228 cm (B), Pillow Cover - 69 cm (L) X 46 cm (B)"
+                },
+                {
+                    "title":"Queen Bedsheet with 2 pillows and pillow covers (Red)",
+                     "pexp":"Red oriental design bedsheet with 2 matching pillow covers OR Geometry inspired multi-colour bedsheet with 2 matching pillow covers (one of the two basis stock availability",
+                     "qunt":"1 Unit",
+                     "qexp":"Bedsheet- 270 cm (L) X 228 cm (B), Pillow Cover - 69 cm (L) X 46 cm (B)"
+                },
+                {
+                    "title":"Queen Bedsheet with 2 pillows and pillow covers (Red)",
+                     "pexp":"Red oriental design bedsheet with 2 matching pillow covers OR Geometry inspired multi-colour bedsheet with 2 matching pillow covers (one of the two basis stock availability",
+                     "qunt":"1 Unit",
+                     "qexp":"Bedsheet- 270 cm (L) X 228 cm (B), Pillow Cover - 69 cm (L) X 46 cm (B)"
+                }
+            ]
+        },
+        {
+            "id":"living_4",
+            "img":"https://assets.furlenco.com/image/upload/c_fit,dpr_1.0,f_auto,q_auto,w_360/v1/furlenco-images/ewbof20R_mobile_Bordo-Queen-Delphie-Basic-Mobile.jpg",
+            "name":"Bordo Queen Bedroom - Damask with Premium 6 Mattress",
+            "value":[
+                    "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1173/mobile/GZhYxKBc___FUR4320_2%20(1).jpg",
+                    "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/11/1440w_4224a6ff.jpg",
+                    "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1167/mobile/WjOuJ5tb___FUR3827_2.jpg"
+                ],
+                "value_img":"https://assets.furlenco.com/image/upload/c_fit,dpr_1.0,f_auto,q_auto,w_360/v1/furlenco-images/McRdzNLU_mobile_Bordo-Queen-Delphie-Value-Mobile.jpg",
+            "prime":[
+                    "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1173/mobile/GZhYxKBc___FUR4320_2%20(1).jpg",
+                    "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/11/1440w_4224a6ff.jpg",
+                    "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1167/mobile/WjOuJ5tb___FUR3827_2.jpg",
+                    "https://d26iwjla857pn6.cloudfront.net/uploads/production/home_decor_item/1098/1440w_fd83a96e.jpg"
+                ],
+            "prime_img":"https://assets.furlenco.com/image/upload/c_fit,dpr_1.0,f_auto,q_auto,w_360/v1/furlenco-images/PIxjB6Np_mobile_Bordo-Queen-Delphie-Prime-Mobile.jpg",
+            "total":850,
+            "tot_value":950,
+            "tot_prime":1100,
+            "value_exp":[
+                {
+                    "title":"Queen Bedsheet with 2 pillows and pillow covers (Red)",
+                     "pexp":"Red oriental design bedsheet with 2 matching pillow covers OR Geometry inspired multi-colour bedsheet with 2 matching pillow covers (one of the two basis stock availability",
+                     "qunt":"1 Unit",
+                     "qexp":"Bedsheet- 270 cm (L) X 228 cm (B), Pillow Cover - 69 cm (L) X 46 cm (B)"
+                },
+                {
+                    "title":"Queen Bedsheet with 2 pillows and pillow covers (Red)",
+                     "pexp":"Red oriental design bedsheet with 2 matching pillow covers OR Geometry inspired multi-colour bedsheet with 2 matching pillow covers (one of the two basis stock availability",
+                     "qunt":"1 Unit",
+                     "qexp":"Bedsheet- 270 cm (L) X 228 cm (B), Pillow Cover - 69 cm (L) X 46 cm (B)"
+                },
+                {
+                    "title":"Queen Bedsheet with 2 pillows and pillow covers (Red)",
+                     "pexp":"Red oriental design bedsheet with 2 matching pillow covers OR Geometry inspired multi-colour bedsheet with 2 matching pillow covers (one of the two basis stock availability",
+                     "qunt":"1 Unit",
+                     "qexp":"Bedsheet- 270 cm (L) X 228 cm (B), Pillow Cover - 69 cm (L) X 46 cm (B)"
+                },
+                {
+                    "title":"Queen Bedsheet with 2 pillows and pillow covers (Red)",
+                     "pexp":"Red oriental design bedsheet with 2 matching pillow covers OR Geometry inspired multi-colour bedsheet with 2 matching pillow covers (one of the two basis stock availability",
+                     "qunt":"1 Unit",
+                     "qexp":"Bedsheet- 270 cm (L) X 228 cm (B), Pillow Cover - 69 cm (L) X 46 cm (B)"
+                }
+            ]
+        },
+        {
+            "id":"living_5",
+            "img":"https://assets.furlenco.com/image/upload/c_fit,dpr_1.0,f_auto,q_auto,w_360/v1/furlenco-images/ewbof20R_mobile_Bordo-Queen-Delphie-Basic-Mobile.jpg",
+            "name":"Bordo Queen Bedroom - Damask with Premium 6 Mattress",
+            "value":[
+                    "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1173/mobile/GZhYxKBc___FUR4320_2%20(1).jpg",
+                    "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/11/1440w_4224a6ff.jpg",
+                    "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1167/mobile/WjOuJ5tb___FUR3827_2.jpg"
+                ],
+                "value_img":"https://assets.furlenco.com/image/upload/c_fit,dpr_1.0,f_auto,q_auto,w_360/v1/furlenco-images/McRdzNLU_mobile_Bordo-Queen-Delphie-Value-Mobile.jpg",
+            "prime":[
+                    "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1173/mobile/GZhYxKBc___FUR4320_2%20(1).jpg",
+                    "https://d26iwjla857pn6.cloudfront.net/uploads/production/furniture_item/11/1440w_4224a6ff.jpg",
+                    "https://d24xw9xsv7y3uu.cloudfront.net/new-uploads/production/items/1167/mobile/WjOuJ5tb___FUR3827_2.jpg",
+                    "https://d26iwjla857pn6.cloudfront.net/uploads/production/home_decor_item/1098/1440w_fd83a96e.jpg"
+                ],
+            "prime_img":"https://assets.furlenco.com/image/upload/c_fit,dpr_1.0,f_auto,q_auto,w_360/v1/furlenco-images/PIxjB6Np_mobile_Bordo-Queen-Delphie-Prime-Mobile.jpg",
+            "total":700,
+            "tot_value":850,
+            "tot_prime":1050,
+            "value_exp":[
+                {
+                    "title":"Queen Bedsheet with 2 pillows and pillow covers (Red)",
+                     "pexp":"Red oriental design bedsheet with 2 matching pillow covers OR Geometry inspired multi-colour bedsheet with 2 matching pillow covers (one of the two basis stock availability",
+                     "qunt":"1 Unit",
+                     "qexp":"Bedsheet- 270 cm (L) X 228 cm (B), Pillow Cover - 69 cm (L) X 46 cm (B)"
+                },
+                {
+                    "title":"Queen Bedsheet with 2 pillows and pillow covers (Red)",
+                     "pexp":"Red oriental design bedsheet with 2 matching pillow covers OR Geometry inspired multi-colour bedsheet with 2 matching pillow covers (one of the two basis stock availability",
+                     "qunt":"1 Unit",
+                     "qexp":"Bedsheet- 270 cm (L) X 228 cm (B), Pillow Cover - 69 cm (L) X 46 cm (B)"
+                },
+                {
+                    "title":"Queen Bedsheet with 2 pillows and pillow covers (Red)",
+                     "pexp":"Red oriental design bedsheet with 2 matching pillow covers OR Geometry inspired multi-colour bedsheet with 2 matching pillow covers (one of the two basis stock availability",
+                     "qunt":"1 Unit",
+                     "qexp":"Bedsheet- 270 cm (L) X 228 cm (B), Pillow Cover - 69 cm (L) X 46 cm (B)"
+                },
+                {
+                    "title":"Queen Bedsheet with 2 pillows and pillow covers (Red)",
+                     "pexp":"Red oriental design bedsheet with 2 matching pillow covers OR Geometry inspired multi-colour bedsheet with 2 matching pillow covers (one of the two basis stock availability",
+                     "qunt":"1 Unit",
+                     "qexp":"Bedsheet- 270 cm (L) X 228 cm (B), Pillow Cover - 69 cm (L) X 46 cm (B)"
+                }
+            ]
+        }
+    ],
+    "appliances":[
+        {
+            "id":"appliances_1",
+            "img":"",
+            "name":"",
+            "value":[
+                    "",
+                    "",
+                    ""
+                ],
+                "value_img":"",
+            "prime":[
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+            "prime_img":"",
+            "total":700,
+            "tot_value":850,
+            "tot_prime":1050,
+            "value_exp":[
+                {
+                    "title":"",
+                     "pexp":"",
+                     "qunt":"",
+                     "qexp":""
+                },
+                {
+                    "title":"",
+                     "pexp":"",
+                     "qunt":"",
+                     "qexp":""
+                },
+                {
+                    "title":"",
+                     "pexp":"",
+                     "qunt":"",
+                     "qexp":""
+                },
+                {
+                    "title":"",
+                     "pexp":"",
+                     "qunt":"",
+                     "qexp":""
+                }
+            ]
+        },
+        {
+            "id":"appliances_1",
+            "img":"",
+            "name":"",
+            "value":[
+                    "",
+                    "",
+                    ""
+                ],
+                "value_img":"",
+            "prime":[
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+            "prime_img":"",
+            "total":700,
+            "tot_value":850,
+            "tot_prime":1050,
+            "value_exp":[
+                {
+                    "title":"",
+                     "pexp":"",
+                     "qunt":"",
+                     "qexp":""
+                },
+                {
+                    "title":"",
+                     "pexp":"",
+                     "qunt":"",
+                     "qexp":""
+                },
+                {
+                    "title":"",
+                     "pexp":"",
+                     "qunt":"",
+                     "qexp":""
+                },
+                {
+                    "title":"",
+                     "pexp":"",
+                     "qunt":"",
+                     "qexp":""
+                }
+            ]
+        },
+        {
+            "id":"appliances_1",
+            "img":"",
+            "name":"",
+            "value":[
+                    "",
+                    "",
+                    ""
+                ],
+                "value_img":"",
+            "prime":[
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+            "prime_img":"",
+            "total":700,
+            "tot_value":850,
+            "tot_prime":1050,
+            "value_exp":[
+                {
+                    "title":"",
+                     "pexp":"",
+                     "qunt":"",
+                     "qexp":""
+                },
+                {
+                    "title":"",
+                     "pexp":"",
+                     "qunt":"",
+                     "qexp":""
+                },
+                {
+                    "title":"",
+                     "pexp":"",
+                     "qunt":"",
+                     "qexp":""
+                },
+                {
+                    "title":"",
+                     "pexp":"",
+                     "qunt":"",
+                     "qexp":""
+                }
+            ]
+        }
+    ],
+    "full_home":[
+        {
+            "id":"full_home_1",
+            "img":"",
+            "name":"",
+            "value":[
+                    "",
+                    "",
+                    ""
+                ],
+                "value_img":"",
+            "prime":[
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+            "prime_img":"",
+            "total":700,
+            "tot_value":850,
+            "tot_prime":1050,
+            "value_exp":[
+                {
+                    "title":"",
+                     "pexp":"",
+                     "qunt":"",
+                     "qexp":""
+                },
+                {
+                    "title":"",
+                     "pexp":"",
+                     "qunt":"",
+                     "qexp":""
+                },
+                {
+                    "title":"",
+                     "pexp":"",
+                     "qunt":"",
+                     "qexp":""
+                },
+                {
+                    "title":"",
+                     "pexp":"",
+                     "qunt":"",
+                     "qexp":""
+                }
+            ]
+        
+        },
+        {
+            "id":"full_home_1",
+            "img":"",
+            "name":"",
+            "value":[
+                    "",
+                    "",
+                    ""
+                ],
+                "value_img":"",
+            "prime":[
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+            "prime_img":"",
+            "total":700,
+            "tot_value":850,
+            "tot_prime":1050,
+            "value_exp":[
+                {
+                    "title":"",
+                     "pexp":"",
+                     "qunt":"",
+                     "qexp":""
+                },
+                {
+                    "title":"",
+                     "pexp":"",
+                     "qunt":"",
+                     "qexp":""
+                },
+                {
+                    "title":"",
+                     "pexp":"",
+                     "qunt":"",
+                     "qexp":""
+                },
+                {
+                    "title":"",
+                     "pexp":"",
+                     "qunt":"",
+                     "qexp":""
+                }
+            ]
+        
+        },
+        {
+            "id":"full_home_1",
+            "img":"",
+            "name":"",
+            "value":[
+                    "",
+                    "",
+                    ""
+                ],
+                "value_img":"",
+            "prime":[
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+            "prime_img":"",
+            "total":700,
+            "tot_value":850,
+            "tot_prime":1050,
+            "value_exp":[
+                {
+                    "title":"",
+                     "pexp":"",
+                     "qunt":"",
+                     "qexp":""
+                },
+                {
+                    "title":"",
+                     "pexp":"",
+                     "qunt":"",
+                     "qexp":""
+                },
+                {
+                    "title":"",
+                     "pexp":"",
+                     "qunt":"",
+                     "qexp":""
+                },
+                {
+                    "title":"",
+                     "pexp":"",
+                     "qunt":"",
+                     "qexp":""
+                }
+            ]
+        
+        }
+        
+    ],
+    "storage":[
+        {
+            "id":"storage_1",
+            "img":"",
+            "name":"",
+            "value":[
+                    "",
+                    "",
+                    ""
+                ],
+                "value_img":"",
+            "prime":[
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+            "prime_img":"",
+            "total":700,
+            "tot_value":850,
+            "tot_prime":1050,
+            "value_exp":[
+                {
+                    "title":"",
+                     "pexp":"",
+                     "qunt":"",
+                     "qexp":""
+                },
+                {
+                    "title":"",
+                     "pexp":"",
+                     "qunt":"",
+                     "qexp":""
+                },
+                {
+                    "title":"",
+                     "pexp":"",
+                     "qunt":"",
+                     "qexp":""
+                },
+                {
+                    "title":"",
+                     "pexp":"",
+                     "qunt":"",
+                     "qexp":""
+                }
+            ]
+        
+        },
+        {
+            "id":"storage_1",
+            "img":"",
+            "name":"",
+            "value":[
+                    "",
+                    "",
+                    ""
+                ],
+                "value_img":"",
+            "prime":[
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+            "prime_img":"",
+            "total":700,
+            "tot_value":850,
+            "tot_prime":1050,
+            "value_exp":[
+                {
+                    "title":"",
+                     "pexp":"",
+                     "qunt":"",
+                     "qexp":""
+                },
+                {
+                    "title":"",
+                     "pexp":"",
+                     "qunt":"",
+                     "qexp":""
+                },
+                {
+                    "title":"",
+                     "pexp":"",
+                     "qunt":"",
+                     "qexp":""
+                },
+                {
+                    "title":"",
+                     "pexp":"",
+                     "qunt":"",
+                     "qexp":""
+                }
+            ]
+        
+        },
+        {
+            "id":"storage_1",
+            "img":"",
+            "name":"",
+            "value":[
+                    "",
+                    "",
+                    ""
+                ],
+                "value_img":"",
+            "prime":[
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+            "prime_img":"",
+            "total":700,
+            "tot_value":850,
+            "tot_prime":1050,
+            "value_exp":[
+                {
+                    "title":"",
+                     "pexp":"",
+                     "qunt":"",
+                     "qexp":""
+                },
+                {
+                    "title":"",
+                     "pexp":"",
+                     "qunt":"",
+                     "qexp":""
+                },
+                {
+                    "title":"",
+                     "pexp":"",
+                     "qunt":"",
+                     "qexp":""
+                },
+                {
+                    "title":"",
+                     "pexp":"",
+                     "qunt":"",
+                     "qexp":""
+                }
+            ]
+        
+        }
+    ]
+}
