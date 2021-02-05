@@ -1,0 +1,270 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 100%;
+}
+
+.left {
+    width: 63%;
+    /* border: 1px solid black; */
+    height: 1200px;
+    float: left;
+    padding: 10px
+}
+
+.right {
+    position: fixed;
+    left: 850px;
+    width: 30%;
+    /* border: 1px solid black; */
+    height: 700px;
+    padding: 10px;
+    margin-top: 10px;
+    float: left;
+    margin-left: 50px;
+    text-align: center;
+    background-color: #FCFCFE;
+}
+
+img {
+    width: 100%;
+    height: 500px;
+}
+
+.price_details {
+    /* border: 1px solid; */
+    margin-top: -90px;
+}
+
+#display_price {
+    margin-top: 80px;
+    animation: mymove 1s infinite
+}
+
+.off_rent {
+    height: 60px;
+    /* border: 1px solid black; */
+}
+
+.off_rent img {
+    width: 20px;
+    height: 20px;
+}
+
+.off_time {
+    height: 30px;
+    /* border: 1px solid black; */
+    display: flex;
+    margin-left: 75px;
+    color: grey;
+    margin-top: -50px;
+    font-size: 14px;
+}
+
+#demo {
+    margin-top: -1px;
+}
+
+.off_time img {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 4px;
+    width: 15px;
+}
+
+.delivery_Desc {
+    margin-top: 100px;
+    color: #999999;
+}
+
+.KYC_desc {
+    font-size: 12px;
+    text-align: left;
+    line-height: 23px;
+    /* border:1px solid; */
+    margin-top: 55px;
+}
+
+.save_more {
+    padding: 10px;
+    margin-left: 30px;
+    margin-top: -40px;
+}
+
+#foot_price {
+    padding: 10px;
+    margin-left: 70px
+}
+
+span {
+    color: black;
+}
+
+.btn_add_cart button {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: white;
+    background-color: #346AA0;
+    text-align: center;
+    font-size: 16px;
+    border: #346AA0;
+    border-radius: 25px;
+    cursor: grabbing;
+}
+
+#select_btn {
+    background: transparent;
+    color: #346AA0;
+
+    border: 1px solid #346AA0;
+}
+
+a {
+    text-decoration: none;
+    color: #346AA0;
+    font-size: 12px;
+    font-weight: 200A;
+}
+
+.off_rent {
+    margin-top: 10px;
+}
+
+.off_rent_img {
+
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.off_rent_desc {
+    font-size: 12px;
+    color: #333333;
+    margin-left: 46px;
+    margin-top: -40px;
+    width: 300px;
+    line-height: 30px;
+}
+
+#save_more_img {
+    width: 20px;
+    height: 15px;
+    margin-left: 50px;
+    position: relative;
+    top: -80px;
+    right: -300px;
+    /* border: 1px solid black; */
+}
+
+
+#tooltip_div {
+    visibility: hidden;
+    width: 200px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    /* border: 1px solid black; */
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 250px;
+    right: 10px;
+
+}
+
+.KYC_desc:hover #tooltip_div {
+    visibility: visible;
+}
+
+#div_btm_brdr {
+
+    width: 250px;
+}
+
+
+@keyframes mymove {
+    50% {
+        transform: rotate(10deg);
+    }
+}
+
+.package_content_img {
+    /* border: 1px solid black; */
+    margin-top: -300px;
+}
+
+.package_content_img img {
+    width: 120px;
+    height: 120px;
+    border: 1px solid rgb(238, 233, 233);
+    margin-left: 10px;
+    margin-right: 20px;
+
+}
+
+/* .package_calendar {
+    border:1px solid black;
+    margin-top: -100px;
+} */
+
+#right_cond {
+    width: 800px;
+    margin-left: 30px;
+    text-align: left;
+    font-size: 14px;
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mint_cond button {
+    width: 250px;
+    height: 40px;
+    border-top-right-radius: 155px;
+    border-bottom-right-radius: 155px;
+    border: none;
+    background-color: #fdb34A;
+    color: White;
+    font-size: 20px;
+}
+
+.package_include {
+    margin-top: 300px;
+    /* border: 1px solid black; */
+}
+
+.btnbasic {
+    width: 100px;
+    height: 50px;
+    background: #346AA0;
+    color: White;
+    margin-left: 5px;
+    font-size: 20px;
+    border: none;
+}
+
+.lpack {
+    width: 20%;
+    /* border: 1px solid black; */
+    float: left;
+    margin-right: 20px;
+  
+    
+}
+.lpack img{
+    width: 200px;
+    height: 200px;
+}
+
+.rpack {
+    width: 60%;
+    /* border: 1px solid black; */
+    float: left;
+    margin-left: 50px;
+    margin-top: 10px;
+}
