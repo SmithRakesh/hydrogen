@@ -178,8 +178,7 @@ function loadPrime(ei){
         }
     })
 }
-let x=JSON.parse(localStorage.getItem("addCart"))
+// let x=JSON.parse(localStorage.getItem("addCart"))
 
-    console.log(x.length)
-    document.getElementById("num_cart").textContent=x.length
-
+//     console.log(x.length)
+//     document.getElementById("num_cart").textContent=x.length

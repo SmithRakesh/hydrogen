@@ -1,3 +1,167 @@
+window.addEventListener('load',() => {
+    addEvents();
+    loginModule();
+});
+
+function addEvents() {
+    //selecting all a tags to add preventDefault
+    document.querySelectorAll('a').forEach(ele => ele.addEventListener('click',() => event.preventDefault()));
+
+    //apperance & dissaperance of the searchbar 
+    document.querySelector('body').addEventListener('click', () => {
+        // console.log(event.target);
+        if(event.target.className === 'search' || event.target.className === 'search material-icons' || event.target.className === 'search_input' || event.target.className === 'material-icons search_icon') {
+            document.querySelector('.search_bar').style.display = 'block';
+        }
+        else if (event.target.className === 'login') {
+            handleLogin();
+            document.querySelector('.search_bar').style.display = 'none';
+        }
+        else {
+            document.querySelector('.search_bar').style.display = 'none';
+        }
+    });
+
+    //Adding Mouse events to show Menu items
+    document.getElementById('menu_products').addEventListener('mouseover',showMenu);
+    document.getElementById('menu_collection').addEventListener('mouseover',showMenu);
+    document.getElementById('menu_build_your_own').addEventListener('mouseover',showMenu);
+
+    //Adding Events for categories
+    let categories = document.querySelectorAll('.category');
+    categories.forEach(ele => ele.addEventListener('click',() => selectCategory(categories)));
+
+    //Adding Events for filter buttons
+    let filters = document.querySelectorAll('.filter');
+    filters.forEach(ele => ele.addEventListener('click',() => selectFilter(filters)));
+}
+function showMenu() {
+    if (event.target.id === 'menu_products') {
+        // console.log('Products');
+        document.getElementById('products').style.display = 'flex';
+        // document.getElementById('menu_products').addEventListener('mouseleave',closeMenu);
+        document.getElementById('products').addEventListener('mouseleave',closeMenu);
+    }
+    else if (event.target.id === 'menu_collection') {
+        // console.log('Collections');
+        document.getElementById('collection').style.display = 'flex';
+        document.getElementById('collection').addEventListener('mouseleave',closeMenu);
+    }
+    else if (event.target.id === 'menu_build_your_own') {
+        // console.log('Build your own');
+        document.getElementById('build_your_own').style.display = 'flex';
+        document.getElementById('build_your_own').addEventListener('mouseleave',closeMenu);
+    }
+}
+
+function closeMenu() {
+    if (event.target.id === 'products' || event.target.id === 'menu_products') {
+        // console.log('Products');
+        document.getElementById('products').style.display = 'none';
+    }
+    else if (event.target.id === 'collection' || event.target.id === 'menu_collection') {
+        // console.log('Collections');
+        document.getElementById('collection').style.display = 'none';
+    }
+    else if (event.target.id === 'build_your_own' || event.target.id === 'menu_build_your_own') {
+        // console.log('Build your own');
+        document.getElementById('build_your_own').style.display = 'none';
+    }
+    else if (event.target.id === 'cart' || event.target.id === 'menu_cart') {
+        // console.log('Collections');
+        document.getElementById('cart').style.display = 'none';
+    }
+}
+
+function selectCategory(categories) {
+    event.preventDefault();
+    // console.log(event.target.parentNode);
+    if (event.target.parentNode.className === 'category') {
+        //Resetting all items border to white
+        categories.forEach(ele => ele.style.borderBottom = '4px solid white');
+        //Setting border only for the selected item
+        event.target.parentNode.style.borderBottom = '4px solid rgb(253, 191, 32)';
+    }
+}
+function selectFilter(filters) {
+    event.preventDefault();
+    // console.log(event.target.parentNode);
+    if (event.target.parentNode.className === 'filters') {
+        //Resetting all buttons to unselected
+        filters.forEach(ele => {
+            ele.style.backgroundColor = 'white';
+            ele.style.color = '#356BA0';
+        });
+        //Setting styles for selected only
+        event.target.style.color = 'white';
+        event.target.style.backgroundColor = '#356BA0';
+    }
+}
+
+function handleLogin() {
+    console.log(event.target);
+    if (event.target.id === 'logged_out') {
+        showLogin();
+    }
+    else {
+        showLogout();
+    }
+}
+
+function showLogin() {
+    console.log('Login module');
+    // console.log(event.target)
+
+    var username = document.getElementById('mail').value
+    var password = document.getElementById('password').value
+
+    let btn = document.querySelector('.btn')
+    let modalBg = document.querySelector('.modal-bg')
+    let login = document.querySelector('.login_modal')
+    let closeBtn = document.querySelector('.close-btn')
+
+    modalBg.classList.add('modal-active');
+
+    login.addEventListener('click',function(e) {
+        e.preventDefault();
+
+        fetch("http://localhost:3008/login").then(res => res.json())
+        .then(res => {checkuser(res)})
+        .catch(err=>console.log(err))
+    });
+    function checkuser(data)
+    {
+        var username = document.getElementById('mail').value
+        var password = document.getElementById('password').value
+        for( i in data)
+        {
+            if((username=== data[i].username) && (password=== data[i].password))
+            {
+                window.location= "card.html"
+            }
+        }
+    }
+    closeBtn.addEventListener('click',function() {
+        modalBg.classList.remove("modal-active")
+    })
+
+    //on successive login change ids to logged-in
+    // document.querySelectorAll('#logged_out').forEach(ele => ele.id = 'logged_in');
+    // document.querySelector('.logout_dropdown').style.display = 'block';
+    // document.querySelector('.login').addEventListener('mouseover',() => document.querySelector('.logout_dropdown').style.display = ' block');
+}
+function showLogout() {
+    console.log('Logout module');
+
+    //on successive logout change ids to logged-out
+    // document.querySelectorAll('#logged_in').forEach(ele => ele.id = 'logged_out');
+    // document.querySelector('.logout_dropdown').style.display = 'none';
+}
+
+
+
+
+
 
         let query = window.location.search
         if (query !== "") {
@@ -239,3 +403,7 @@
         localStorage.setItem("addCart",JSON.stringify(a))
         })
     }
+    let x=JSON.parse(localStorage.getItem("addCart"))
+
+    console.log(x.length)
+    document.getElementById("num_cart").textContent=x.length
