@@ -171,8 +171,9 @@ function showLogout() {
         let querys = new URLSearchParams(query)
         let id = querys.get('id')
         let main=querys.get('main')
+        console.log(main)
         var url = `http://localhost:3000/${main}?id=${id}`
-        console.log(url)
+        // console.log(url)
         fetch(url)
             .then(res => res.json())
             .then(resp => displayData(resp))
@@ -402,8 +403,17 @@ function showLogout() {
         a.push(res)
         localStorage.setItem("addCart",JSON.stringify(a))
         })
+        location.href="sample.html"
     }
-    let x=JSON.parse(localStorage.getItem("addCart"))
+    let y=JSON.parse(localStorage.getItem("addCart"))
 
-    console.log(x.length)
-    document.getElementById("num_cart").textContent=x.length
+    console.log(y.length)
+    document.getElementById("num_cart").textContent=y.length
+
+
+    let items=JSON.parse(localStorage.getItem("addCart"))
+    out=""
+    for(var i=0;i<items.length;i++){
+        out+=`<div><img class="cart_add_image" src=${items[i][0].img}><p>${items[i][0].tot_value}</p></div>`
+    }
+    document.getElementById("cart").innerHTML=out
