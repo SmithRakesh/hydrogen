@@ -84,15 +84,15 @@
         border: none;
         outline: none;
     }
+    .modal-img{
+        width: 100%;
+    }
     </style>
 </head>
 <body>
     <div class="modal-bg">
         <div class="modal">
-            <div>Validate OTP</div>
-            <div class="content">Enter the OTP, Sent to your Mobile No</div>
-            <input type="text" placeholder="enter the OTP here" class="otp"></input type="number">
-            <input type="submit"  id="submit" value="verify">
+            <img class="modal-img" src="http://www.tools4business.net/wp-content/uploads/2020/10/Payment-success.png" alt="success">
             <div class="close-btn">X</div>
         </div>
     </div>
@@ -108,11 +108,14 @@
             modalBg.classList.remove("modal-active")
         })
 
-        let verify = document.querySelector('#submit')
 
-        verify.addEventListener("click",() => {
-            location = "success.html"
-        })
+        window.setTimeout(() => {
+            location = "landingpage.html"
+        },3000)
+
+        function goTOMainPage() {
+
+        }
 
 </script>
 </html>
