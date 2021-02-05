@@ -75,15 +75,58 @@
             <div class="pay">Proceed to payment</div>
         </div>
     </div>
+   
+       <div class="modal-bg">
+        <div class="modal">
+            <img class="modal-img" src="https://www.sundayguardianlive.com/wp-content/uploads/2019/10/rupay.jpg" alt="rupay logo">
+            <input type="text" id="card" placeholder="Credit or Debit card no" required>
+            <input type="text" id="cvv" placeholder="your CVV" required>
+            <label class="exp-date" for="date">Expiry date of card</label>
+            <input type="date" id="date">
+            <input type="submit" value="Pay" id="submit">
+            <div class="close-btn">X</div>
+        </div>
+       </div>
+    </div>
     <script src="https://kit.fontawesome.com/a2bf3002b0.js" crossorigin="anonymous"></script>
     <script>
-       let btn = document.querySelector('.continue')
+       let btn = document.querySelector('.pay')
        document.querySelector('.top1').addEventListener("click",() => location = "checkout.html")
        document.querySelector('.top2').addEventListener("click",() => location = "checkout2.html")
 
-       btn.addEventListener("click",() => {
-           location = "checkout3.html"
-       })
+       btn.addEventListener("click",payment) 
+
+       let modalBg = document.querySelector('.modal-bg')
+       let closeBtn = document.querySelector('.close-btn')
+
+       function payment() {
+           modalBg.classList.add('modal-active')
+       }
+
+       closeBtn.addEventListener('click',function() {
+            modalBg.classList.remove("modal-active")
+        })
+
+        
+        // let pay = document.getElementById('submit')
+
+        // pay.addEventListener("submit",otp)
+        // function otp(e) {
+        //     e.preventDefault()
+        //     console.log(card,value)
+
+        //     if((card.length === 12) && (cvv.length === 3)){
+        //         location = "otp.html"
+        //     }
+        // }
+
+        // let card = document.getElementById('card')
+        // let cvv = document.getElementById('cvv')
+        // console.log(card,value)
+
+        
+
+
     </script>
 </body>
 </html>
