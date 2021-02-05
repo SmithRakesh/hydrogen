@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="36px" viewBox="0 0 66 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_storage bed</title>
+    <desc>Created with Sketch.</desc>
+    <g id="ICONS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="PLP-3.0-icons" transform="translate(-351.000000, -574.000000)" fill="#346AA0">
+            <g id="ic_storage-bed" transform="translate(351.000000, 574.000000)">
+                <g id="Group" transform="translate(4.000000, 6.000000)">
+                    <polygon id="Rectangle-18" points="2.17590683 7.36803327 55.3560727 7.36803327 55.3560727 11.7801545 2.17590683 11.7801545"></polygon>
+                    <path d="M-7.48968026,9.78388409 L14.0985828,9.78388409 L14.0985828,14.0915764 L-7.48968026,14.0915764 C-8.67921665,14.0915764 -9.64352642,13.1272666 -9.64352642,11.9377302 L-9.64352642,11.9377302 C-9.64352642,10.7481939 -8.67921665,9.78388409 -7.48968026,9.78388409 Z" id="Rectangle-18" transform="translate(2.227528, 11.937730) rotate(90.000000) translate(-2.227528, -11.937730) "></path>
+                    <path d="M47.9508792,12.1475205 L64.8118695,12.1475205 L64.8118695,16.4552128 L47.9508792,16.4552128 C46.7613428,16.4552128 45.797033,15.490903 45.797033,14.3013666 L45.797033,14.3013666 C45.797033,13.1118302 46.7613428,12.1475205 47.9508792,12.1475205 Z" id="Rectangle-18" transform="translate(55.304451, 14.301367) rotate(90.000000) translate(-55.304451, -14.301367) "></path>
+                    <polygon id="Rectangle-18" transform="translate(16.712471, 17.338562) scale(1, -1) translate(-16.712471, -17.338562) " points="5.75448887 12.969697 27.670453 12.969697 27.670453 21.7074272 5.75448887 21.7074272"></polygon>
+                    <polygon id="Rectangle-18" transform="translate(40.494539, 17.338562) scale(1, -1) translate(-40.494539, -17.338562) " points="28.8676888 12.969697 52.1213898 12.969697 52.1213898 21.7074272 28.8676888 21.7074272"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

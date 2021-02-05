@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="42" height="32" viewBox="0 0 42 32">
+    <defs>
+        <linearGradient id="ic_essentials_a" x1="-60.384%" x2="61.429%" y1="130.931%" y2="33.968%">
+            <stop offset="0%" stop-color="#A3DBFF"/>
+            <stop offset="100%" stop-color="#346AA0"/>
+        </linearGradient>
+        <path id="ic_essentials_b" d="M1.062 8.752h35.422v6.14l-35.422-.09z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path stroke="#346AA0" stroke-width="1.2" d="M27.85.8h13.2v26.4h-13.2zM28.45 11.6h13.2M35.65 1.4v10.8"/>
+        <path stroke="#346AA0" stroke-linecap="round" stroke-width="1.2" d="M.99 13.838v16.629M35.85 20.8v9.667"/>
+        <g transform="translate(-.35 13.4)">
+            <use fill="url(#ic_essentials_a)" xlink:href="#ic_essentials_b"/>
+            <path stroke="#346AA0" stroke-width="1.2" d="M1.662 9.352v4.852l34.222.086V9.352H1.662z"/>
+        </g>
+        <path stroke="#346AA0" stroke-linecap="round" stroke-width="1.2" d="M1.259 19.475c2.616-.075 3.818.933 3.605 3.025"/>
+    </g>
+</svg>

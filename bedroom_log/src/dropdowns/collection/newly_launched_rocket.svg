@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="29" height="34" viewBox="0 0 29 34">
+    <defs>
+        <linearGradient id="ic-newly-launched-rocket-a" x1="-60.384%" x2="61.429%" y1="130.931%" y2="33.968%">
+            <stop offset="0%" stop-color="#A3DBFF"/>
+            <stop offset="100%" stop-color="#346AA0"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd" stroke="#346AA0" transform="translate(.5 2)">
+        <path fill="url(#ic-newly-launched-rocket-a)" d="M14.5 31.5c-4.099 0-8-8.666-8-17 0-5.494 2.569-10.46 7.673-14.878l.327-.283.327.283C19.931 4.04 22.5 9.006 22.5 14.5c0 8.334-3.901 17-8 17z"/>
+        <circle cx="14.5" cy="8.5" r="3" fill="#FFF"/>
+        <path d="M7.95 22l-7 4v4l10-1M20.95 22l7 4v4l-10-1"/>
+    </g>
+</svg>
