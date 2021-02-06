@@ -1,6 +1,6 @@
 # Hydrogen
 
-## Clone Furlenco website with HTML,CSS & JS DOM in three days.
+## Clone Furlenco website with HTML,CSS & JS DOM in four days.
 
 ## Furlenco is a website which rents Furnitures and few other household items.
 
