@@ -11,3 +11,9 @@
 * Pavithra,
 * Martin
 
+## Tech Stack
+
+* HTML,
+* CSS,
+* Java Script
+
