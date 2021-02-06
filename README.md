@@ -40,7 +40,6 @@
 \
 \
 \![Settings page](projectImages/settings%20page.png)
-\
-\
-\
+
+
 
