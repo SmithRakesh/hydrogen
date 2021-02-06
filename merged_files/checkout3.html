@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="checkout3.css">
+    <title>checkout</title>
+</head>
+<body>
+    <div class="container">
+        <div class="offer"><span class="gold"><i class="fas fa-gift"></i></span> Go-Rent free for 6-months.Get flat-50% Offer.T&C APPLY</div>
+        <nav class="nav">
+            <img class="logo" src="https://assets.furlenco.com/s3-furlenco-images/desktop_web/hulk/icons/ic-logo-with-text.svg" alt="furlenco logo"/>
+            <div class="icons">
+                <div>
+                    <span></span>
+                    <span>100% REFUND</span>
+                </div>
+                <div>
+                    <span>
+                        <i class="fas fa-truck-moving"></i>
+                    </span>
+                    <span>
+                        FREE DELIVERY AND SET-UP
+                    </span>
+                </div>
+                
+                <div>
+                    <span>
+                        <i class="fas fa-lock"></i>
+                    </span>
+                    <span>
+                        SECURE PAYMENTS
+                    </span>
+                </div>
+            </div>
+        </nav>
+        <div class="details">
+            <div class="top top1">
+                <span class="one">1</span>&nbsp;
+                <span class="your-details">YOUR DETAILS</span>
+                <!-- <hr> -->
+            </div>
+            <div class="top top2">
+                <span class="one">2</span>&nbsp;
+                <span class="your-details"> Delivery Details</span>
+            </div>
+            <div class="top">
+                <span class="one">3</span>&nbsp;
+                <span class="your-details"> Order Summary</span>
+            </div>
+            <div class="user">
+                <div class="user-info">
+                    <div><i class="fas fa-map-marker-alt"></i>Your delivery address <span style="color: rgb(89, 89, 223)">(change)</span></div>
+                </br></br>
+                    <div>sri venkateswara gents pg, Spice Garden layout,</br> Marthahali,</br> Bangalore</div>
+                </br></br>
+                    
+                    <div>530037</div>
+                </br></br>
+
+                    <div>ph: 8341094617</div>
+                </div>
+
+                <div class="payment">
+                    <div>Payment Details</div>
+                    <div>
+                        <ul>
+                            <li>You will pay a refundable security deposit of ₹884/- to confirm your booking right now.</li>
+                            <li>Once the order has been placed, you’ll be required to share address and ID proof documents along with the first month’s rent to schedule your delivery.</li>
+                            <li>Your billing cycle/ rental payment will begin from the date of your delivery.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="Bill Details">Bill Details
+                    <table id="quantity_1"></table>
+                </div>
+                
+        </div>
+        <div class="proceed">
+            <div>Amount to be Paid <span class="price"></span></div>
+            <div class="pay">Proceed to payment</div>
+        </div>
+    </div>
+   
+       <div class="modal-bg">
+        <div class="modal">
+            <img class="modal-img" src="https://www.sundayguardianlive.com/wp-content/uploads/2019/10/rupay.jpg" alt="rupay logo">
+            <input type="text" id="card" placeholder="Credit or Debit card no" required>
+            <input type="text" id="cvv" placeholder="your CVV" required>
+            <label class="exp-date" for="date">Expiry date of card</label>
+            <input type="date" id="date">
+            <input type="submit" value="Pay" id="submit">
+            <div class="close-btn">X</div>
+        </div>
+       </div>
+    </div>
+    <script src="https://kit.fontawesome.com/a2bf3002b0.js" crossorigin="anonymous"></script>
+    <script>
+       let btn = document.querySelector('.pay')
+       document.querySelector('.top1').addEventListener("click",() => location = "checkout.html")
+       document.querySelector('.top2').addEventListener("click",() => location = "checkout2.html")
+
+       btn.addEventListener("click",payment) 
+
+       let modalBg = document.querySelector('.modal-bg')
+       let closeBtn = document.querySelector('.close-btn')
+
+       function payment() {
+           modalBg.classList.add('modal-active')
+       }
+
+       closeBtn.addEventListener('click',function() {
+            modalBg.classList.remove("modal-active")
+        })
+
+        
+        let pay = document.getElementById('submit')
+        console.log(pay)
+        pay.addEventListener("click",() => {
+            location = "otp.html"
+        })
+
+        // pay.addEventListener("submit",otp)
+        // function otp(e) {
+        //     e.preventDefault()
+        //     console.log(card,value)
+
+        //     if((card.length === 12) && (cvv.length === 3)){
+        //         location = "otp.html"
+        //     }
+        // }
+
+        // let card = document.getElementById('card')
+        // let cvv = document.getElementById('cvv')
+        // console.log(card,value)
+
+        
+
+
+    </script>
+    <script src="checkout.js"></script>
+</body>
+</html>

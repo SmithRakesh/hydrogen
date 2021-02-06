@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+    <title>Furlenco</title>
+    <link rel="stylesheet" href="desc.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="offersContainer">
+            <img src="src/nav_offers.svg">
+            <p class="offers">GO RENT-FREE FOR 4 MONTHS. GET FLAT 50% OFF PER MONTH. HURRY! OFFER ENDS AT MIDNIGHT. T&C APPLY</p>
+            <button class="explore">Explore</button>
+        </div>
+        <div class="menu">
+            <a href=""><img class="main_logo" src="src/main_logo.png"></a>
+            <a href="" id="menu_products">PRODUCTS</a>
+            <a href="" id="menu_collection">COLLECTION</a>
+            <a href="" id="menu_build_your_own">BUILD YOUR OWN</a>
+            <a href="" class="search">
+                <span class="search material-icons">
+                    search
+                </span>
+            </a>
+            <a href="">
+                <img src="src/nav_offers.svg" />2 OFFERS
+            </a>
+            <a href="" class="login" id="logged_out">
+                <span class="login" id="logged_out">
+                    <img  class="login" id="logged_out" src="src/menu/user.svg">
+                </span> LOGIN
+                <div class="logout_dropdown">
+                    <p class="wishlist">WISHLIST</p>
+                    <p class="setting">SETTING</p>
+                    <p class="logout">LOGOUT</p>
+                </div>
+            </a>
+            <a href="" id="menu_cart">
+                <span>
+                    <img src="src/menu/cart.svg">
+                </span>
+                <div id="num_cart" class="num_cart"></div>
+                <!-- <div class="show_cart" id="cart">
+                    <p>YOUR SHOPPING CART IS EMPTY</p>
+                    <img src="src/dropdowns/empty_cart.png" />
+                    <p>But it does not have to be</p> -->
+                <!-- </div> -->
+            </a>
+            <div class="location">
+                <span class="material-icons">
+                    location_on
+                </span>
+                <div id="location_selected">BENGALURU</div>
+                <div class="location_selectable">
+                    <p>BENGALURU</p>
+                    <p>MUMBAI</p>
+                    <p>PUNE</p>
+                    <p>DELHI</p>
+                    <p>GURUGRAM</p>
+                    <p>HYDERABAD</p>
+                    <p>CHENNAI</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="search_bar">
+            <input class="search_input" placeholder="What are you looking for?" />
+            <span class="material-icons search_icon">search</span>
+        </div>
+        
+
+        <div class="nav_dropdowns" id="products">
+            <div>
+                <a href=""><img src="src/dropdowns/products/bedroom.svg" />BEDROOM</a>
+            </div>
+            <div>
+                <a href="sample.html"><img src="src/dropdowns/products/living_room.svg" />LIVING ROOM</a>
+            </div>
+            <div>
+                <a href=""><img src="src/dropdowns/products/appliances.svg" />APPLIANCES</a>
+            </div>
+            <div>
+                <a href=""><img src="src/dropdowns/products/sp_deals.svg" />SPECIAL DEALS</a>
+            </div>
+            <div>
+                <a href=""><img src="src/dropdowns/products/full_home.svg" />FULL HOME</a>
+            </div>
+            <div>
+                <a href=""><img src="src/dropdowns/products/storage.svg" />STORAGE</a>
+            </div>
+            <div>
+                <a href=""><img src="src/dropdowns/products/study_room.svg" />WORKSTATIONS</a>
+            </div>
+            <div>
+                <a href=""><img src="src/dropdowns/products/kids.svg" />KIDS ROOM</a>
+            </div>
+            <div>
+                <a href=""><img src="src/dropdowns/products/dining_room.svg" />DINING ROOM</a>
+            </div>
+            <div>
+                <a href=""><img src="src/dropdowns/products/bike-rental_2.svg" />2-WHEELER</a>
+            </div>
+        </div>
+        <div class="nav_dropdowns" id="collection">
+            <div>
+                <a href=""><img src="src/dropdowns/collection/2020.svg" />20-20 COLLECTION</a>
+            </div>
+            <div>
+                <a href=""><img src="src/dropdowns/collection/most_popular.svg" />MOST POPULAR</a>
+            </div>
+            <div>
+                <a href=""><img src="src/dropdowns/collection/essentials.svg" />ESSENTIALS</a>
+            </div>
+            <div>
+                <a href=""><img src="src/dropdowns/collection/newly_launched_rocket.svg" />NEWLY LAUNCHED</a>
+            </div>
+            <div>
+                <a href=""><img src="src/dropdowns/collection/storage.svg" />STORAGE COMBOS</a>
+            </div>
+            <div>
+                <a href=""><img src="src/dropdowns/collection/award_winning.svg" />AWARD WINNERS</a>
+            </div>
+            <div>
+                <a href=""><img src="src/dropdowns/collection/fab_rich.svg" />FAB RICH COLLECTION</a>
+            </div>
+        </div>
+        <div class="nav_dropdowns_build_your_own" id="build_your_own">
+            <div>
+                <p>Unleash the designer in you and create<br/> a package that suits your needs.</p>
+            </div>
+            <div>
+                <img src="src/dropdowns/build_your_own/build_your_own_steps.png" />
+                <button class="">GET STARTED</button>
+            </div>
+        </div>
+
+        <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+        <!-- Login Popup -->
+        <!-- <button class="btn">Click</button> -->
+        <div class="modal-bg">
+            <div class="modal">
+                <div>Login</div>
+                <button class="close-btn">&times;</button>
+                <input class="login-input " type="mail" placeholder="Enter your phone no or mail id" required id="mail" >
+                <input class="login-input" type="" placeholder="Enter your password" required id="password" >
+                <input type="submit" class="login_modal" value="LOGIN">
+                <div>Login Using</div>
+                <div class="login_modal_social">
+                    <img class="logo" src="https://assets.furlenco.com/s3-furlenco-images/desktop_web/hulk/icons/facebook-inverted.svg" alt="facebook-inverted">
+                    <!--&nbsp;&nbsp; -->
+                    <img class="logo" src="https://assets.furlenco.com/s3-furlenco-images/desktop_web/hulk/icons/google-color.svg" alt="google-color">
+                </div>
+                <div>New user</div>
+                <div>Signup to enjoy 40% faster checkout</div>
+                <div class="signup">Sign-up</div>
+            </div>
+        </div>
+
+        <!-- /////////////////////////////////////////////////Description part/////////////////////////////////////////////////////////////////////////// -->
+        <div class="left" id="left">
+
+            <div class="img_div big_img"></div>
+
+            <div id="prod_title"></div>
+
+            <div id="prod_explan"></div>
+
+            <div class="package_content">
+                <div class="package_calendar" id="package_calendar">
+                    <!-- <p>Product tenture <span id=></span></p> -->
+                    <h3 id="month_tenture"></h3>
+
+                    <div class="package_content_img"></div>
+
+                    <div class="mint_cond">
+                        <button> Mint Condition</button>
+                        <p id="right_cond">Packages delivered to you are as good as new. In fact, they are better than
+                            new.They
+                            are restored to their original condition and subjected to rigorous quality tests before
+                            shipment.
+                            All soft furnishings included are brand new.</p>
+                            <div id="tenture_month"></div>
+                        <div class="package_include">
+                            <h1> What’s Included In The Package </h1>
+                            <div id="pack_includes"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="right" id="right">
+            <div id="product_title"></div>
+
+            <div class="price_details">
+                <p style="font-size: 16px;">Monthly Rental</p>
+            </div>
+
+            <div class="delivery_Desc">
+                <p id="display_price"></p>
+                <p style="font-size: 12px;">(inclusive of delivery & setup)</p>
+                <p style="font-size: 12px;"> Free delivery in <span style="font-size: 14px;"> <b>72 hours </b> </span>
+                </p>
+            </div>
+
+            <div class="btn_add_cart">
+                <button onclick="addLocal()">ADD TO CART</button><br>
+                <button id="select_btn">SELECT APPLICANCES & ADD ONS</button><br>
+                <a href=""> <b> Need Help? </b></a>
+            </div>
+            <div class="off_rent">
+                <div class="off_rent_img">
+                    <img src="https://assets.furlenco.com/s3-furlenco-images/lenco-icons/static-icons/ic_offer_tag.svg"
+                        alt="tag">
+                </div>
+
+                <div class="off_rent_desc">
+                    <p>Get rent-free for 4 months. Get flat 50% off per month. Hurry! Offer ends at midnight. T&C Apply
+                    </p>
+                    <br><br>
+                    <h5 class="off_time"> Offer ends in <img
+                            src="https://assets.furlenco.com/s3-furlenco-images/lenco-icons/static-icons/ic_time.svg"
+                            alt="">
+                        <p id="demo"></p>
+                    </h5>
+                </div>
+            </div>
+
+            <div class="KYC_desc delivery_Desc">
+                <ul>
+                    <li class="save_more1">Minimum rental tenure in 3 months </li>
+
+                    <li> &#8377; 1356 to be paid as refundable security deposit</li>
+                    <li>KYC documents to be submitted before delivery</li>
+                </ul>
+                <!-- <div class="save_more2">
+                    <img class="save_more_img" id="save_more_img"
+                        src="https://assets.furlenco.com/s3-furlenco-images/lenco-icons/interaction-icons/ic-info.svg"
+                        alt="">
+                </div>
+                <div id="tooltip_div">
+                    <ul>
+                        <li>
+                            The minimum tenure for this product is 3 months. If you return this product anytime before
+                            the minimum tenure, you will be charged rent for 3 months.
+                        </li>
+                        <li>The delivery and setup of all furniture is free of cost. No additional or hidden charges.
+                        </li>
+                        <li>We require you to complete your submission of KYC documents after placing the order to
+                            schedule delivery.</li>
+                    </ul>
+                </div> -->
+
+                <!-- <div class="save_more">
+                    <p id="div_btm_brdr"> Save more by choosing our long term plans.</p>
+
+                    <p>100% refund on cancellation within 7 days</p>
+                </div>
+                <div class="save_more">
+                    <p>Furlencon First Rewards Program </p>
+                </div> -->
+            </div>
+        </div>
+
+        
+    </div>
+  <script src="desc.js"></script>
+</body>
+
+</html>

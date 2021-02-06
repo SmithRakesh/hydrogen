@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="checkout.css">
+    <title>checkout</title>
+</head>
+<body>
+    <div class="container">
+        <div class="offer"><span class="gold"><i class="fas fa-gift"></i></span> Go-Rent free for 6-months.Get flat-50% Offer.T&C APPLY</div>
+        <nav class="nav">
+            <img class="logo" src="https://assets.furlenco.com/s3-furlenco-images/desktop_web/hulk/icons/ic-logo-with-text.svg" alt="furlenco logo"/>
+            <div class="icons">
+                <div>
+                    <span></span>
+                    <span>100% REFUND</span>
+                </div>
+                <div>
+                    <span>
+                        <i class="fas fa-truck-moving"></i>
+                    </span>
+                    <span>
+                        FREE DELIVERY AND SET-UP
+                    </span>
+                </div>
+                
+                <div>
+                    <span>
+                        <i class="fas fa-lock"></i>
+                    </span>
+                    <span>
+                        SECURE PAYMENTS
+                    </span>
+                </div>
+            </div>
+        </nav>
+        <div class="details">
+            <div class="row1">
+                <span class="one">1</span>&nbsp;
+                <span class="your-details">YOUR DETAILS</span>
+                <!-- <hr> -->
+            </div>
+            <div class="user">
+                <div class="user-info">
+                    <div class="user-content">
+                        <div class="user-head">Enter Your Details</div>
+                        <input class="input" type="text" placeholder="your name" required>
+                        <input class="input" type="number" placeholder="Mobile No" required>
+                        <input class="input mail" type="mail" placeholder="hydrogen@gmail.com">
+                        <div class="continue">Continue</div>
+                    </div>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="orders">
+                    <div class="order-info">
+                      <div class="order-content">
+                          <div class="order-head">Order Details
+                              <table id="quantity_1"></table>
+                          </div>
+                            <!-- <div class="order-title"><span>&nbsp;&nbsp;&nbsp;</span><span class="quantity"></span> </div> -->
+                            <!-- <hr> -->
+                            <!-- <div class="rent">Total Monthly rent<span>&nbsp;&nbsp;&nbsp;</span><span class="price"></span></div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row2">
+                <span class="num">2</span>&nbsp;
+                <span class="row-detail"> Delivery Details</span>
+                <span class="right">This is where we'll ship your package</span>
+        </div>
+        <div class="row3">
+            <span class="num">3</span>&nbsp;
+            <span class="row-detail"> Order Summary</span>
+            <span class="right">Review your order summary</span>
+        </div>
+        <div class="row4">
+            <span class="num">4</span>&nbsp;
+            <span class="row-detail"> Payment</span>
+            <span class="right">Choose your payment mode</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/a2bf3002b0.js" crossorigin="anonymous"></script>
+    <script>
+        let btn = document.querySelector('.continue')
+        btn.addEventListener("click",() => {
+            location = "checkout2.html"
+        })
+    </script>
+    <script src="checkout.js"></script>
+</body>
+</html>

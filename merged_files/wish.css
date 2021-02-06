@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.settings_container{
+    width: 100%;
+    height: 100vh;
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+.settings_container_left{
+    width:40%;
+    height: 100%;
+    /* border: 1px solid grey; */
+    background-color: rgba(192, 192, 192, 0.212);
+    margin-top: 10px;
+}
+
+.settings_container_left .circle{
+    width: 50px;
+    height: 70px;
+    background-color: rgba(0, 0, 128, 0.719);
+    border-radius: 50%;
+    /* margin: auto; */
+    margin-top: 50px;
+    margin-left: 130px;
+    color: #FFF;    
+}
+
+.settings_container_left div{
+    font-size: 18px;
+    height: 40px;
+    margin-top: 60px;
+    padding-left: 25px;
+    color: grey;
+    padding-top: 5px;
+  margin-left: 100px;
+}
+
+.settings_container_left div:hover{
+    color: rgba(0, 0, 128, 0.829);
+    cursor: pointer;
+    background-color:#FFF;
+    box-shadow: -3px -3px -5px rgba(255,255,255,0.8),
+                3px 3px 5px rgba(0,0,0,0.5)
+    /* padding-left: 55px; */
+}
+
+#circle{
+    margin-top: 20px;
+    margin-left: 7px;
+    font-family: 'Roboto', sans-serif;
+}
+#usenmdisplay{
+    color: black;
+    margin-top: 40px;
+    margin-left: -20px;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+a:focus{
+    text-decoration: none;
+}
+
+#res {
+    width: 100%;
+    height: 100%;
+    /* border:1px solid black; */
+    float: left;
+    /* border: 1px solid red; */
+    margin-left: 40px;
+    
+}
+
+
+.tval {
+    width: 100%;
+    background: #D6D6D6;
+    padding-left: 10px;
+    height: 50px;
+    padding-top: 25px;
+    margin-top: 10px;
+    /* border: 1px solid blue; */
+}
+
+.val {
+    width: 300px;
+    box-shadow: 1px 1px 2px rgb(224, 223, 223);
+    padding:15px;
+    text-align: justify;
+    /* border: 1px solid black; */
+    float: left;
+    margin-left: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    margin-bottom: 50px;
+}
+
+.val:hover {
+    box-shadow: 1px 1px 35px rgb(224, 223, 223);
+}

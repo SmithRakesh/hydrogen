@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="stylesheet" href="settings.css">
+    <link rel="stylesheet" href="nav_s_w.css">
+    <link rel="shortcut icon" href="src/main_logo_title.png" />       
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   
+</head>
+<body>
+
+    <div class="container">
+        <div class="offersContainer">
+            <img src="src/nav_offers.svg">
+            <p class="offers">GO RENT-FREE FOR 4 MONTHS. GET FLAT 50% OFF PER MONTH. HURRY! OFFER ENDS AT MIDNIGHT. T&C APPLY</p>
+            <button class="explore">Explore</button>
+        </div>
+        <div class="menu">
+            <a href="" class="borderless"><img class="main_logo" src="src/main_logo.png"></a>
+            <a href="" class="borderless" id="menu_products"></a>
+            <a href="" class="borderless" id="menu_collection"></a>
+            <a href="" class="borderless" id="menu_build_your_own"></a>
+            <a href="" class="borderless rightBorder">
+                
+            </a>
+            <a href="">
+                <img src="src/nav_offers.svg" />2 OFFERS
+            </a>
+            <a href="" class="login" id="logged_out">
+                <span class="login" id="logged_out">
+                    <img  class="login" id="logged_out" src="src/menu/user.svg">
+                </span> MY ACCOUNT
+                <div class="logout_dropdown">
+                    <p class="wishlist">WISHLIST</p>
+                    <p class="setting">SETTING</p>
+                    <p class="logout">LOGOUT</p>
+                </div>
+            </a>
+            <a href="" id="menu_cart">
+                <span>
+                    <img src="src/menu/cart.svg">
+                </span>
+                <div class="show_cart" id="cart">
+                    <p>YOUR SHOPPING CART IS EMPTY</p>
+                    <img src="src/dropdowns/empty_cart.png" />
+                    <p>But it does not have to be</p>
+                </div>
+            </a>
+            <div class="location">
+                <span class="material-icons">
+                    location_on
+                </span>
+                <div id="location_selected">BENGALURU</div>
+                <div class="location_selectable">
+                    <p>BENGALURU</p>
+                    <p>MUMBAI</p>
+                    <p>PUNE</p>
+                    <p>DELHI</p>
+                    <p>GURUGRAM</p>
+                    <p>HYDERABAD</p>
+                    <p>CHENNAI</p>
+                </div>
+            </div>
+        </div>
+        <!-- end of nav  -->
+
+
+    
+    <div class="settings_container">
+        <div class="settings_container_left">
+            <div class="circle" >
+                <p class="userdisplay" id="circle" ></p>
+                <p id="usenmdisplay"></p>
+            </div>
+            <div class="wishlist"> <a href="wish.html"> Wishlist </a></div>
+            <div class="Settings"> <a href="settings.html"> Settings </a></div>
+            <div class="Logout"> <a href="HomePage nav.html"> Logout </a>  </div>
+        </div>
+        <div class="settings_container_right">
+
+            <h1>Settings</h1>
+            <div class="settings_reset">
+                <h2> Change Password</h2>
+                <input type="password" name="oldpass" id="oldpass" placeholder="Old Password*" required> <br>
+                <input type="password" name="newpass" id="newpass" placeholder="New Password*" required> <br>
+                <input type="password" name="repass" id="repass" placeholder="Retype Password*" required> <br>
+                <button type="submit" id="saveBtn">Save Changes</button>
+            </div>
+            <div class="error_display"></div>
+        </div>
+    </div>
+<script src="settings.js"></script>
+<script src ="nav_s_w.js">
+    
+</script>
+</body>
+</html>

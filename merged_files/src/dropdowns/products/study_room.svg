@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="38" height="30" viewBox="0 0 38 30">
+    <defs>
+        <linearGradient id="ic_study_full_room_a" x1="-60.384%" x2="61.429%" y1="130.931%" y2="33.968%">
+            <stop offset="0%" stop-color="#A3DBFF"/>
+            <stop offset="100%" stop-color="#346AA0"/>
+        </linearGradient>
+        <path id="ic_study_full_room_b" d="M25.6 16h8.8v4.8h-8.8z"/>
+        <path id="ic_study_full_room_c" d="M25.6 21.6h8.8v4.8h-8.8z"/>
+        <path id="ic_study_full_room_d" d="M8 1.6h.8l1.6 3.2h-4z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path stroke="#346AA0" stroke-linecap="round" stroke-width="1.2" d="M1.4 28.46V12.8h36v16"/>
+        <g transform="translate(1.4 -1.6)">
+            <use fill="url(#ic_study_full_room_a)" xlink:href="#ic_study_full_room_b"/>
+            <path stroke="#346AA0" stroke-width="1.2" d="M26.2 16.6h7.6v3.6h-7.6z"/>
+        </g>
+        <g transform="translate(1.4 -1.6)">
+            <use fill="url(#ic_study_full_room_a)" xlink:href="#ic_study_full_room_c"/>
+            <path stroke="#346AA0" stroke-width="1.2" d="M26.2 22.2h7.6v3.6h-7.6z"/>
+        </g>
+        <path stroke="#346AA0" stroke-linecap="round" stroke-width="1.2" d="M7.31 12.8L4.6 8.034 9.4 1.6"/>
+        <g transform="rotate(-46 7.215 .75)">
+            <use fill="url(#ic_study_full_room_a)" xlink:href="#ic_study_full_room_d"/>
+            <path stroke="#346AA0" stroke-width="1.2" d="M8.328 1.997l.072-.044.072.044-.072.145-.072-.145zm.043.203l-1 2h2.058l-1-2h-.058z"/>
+        </g>
+    </g>
+</svg>
