@@ -17,3 +17,30 @@
 * CSS,
 * Java Script
 
+
+
+## Screenshots of our work
+![Landing page](projectImages/landing page.png)
+\
+\
+\
+\
+![Main_page](projectImages/main page.png)
+\
+\
+\
+\
+![Checkout page](projectImages/checkout page.png)
+\
+\
+\
+\
+![Wishlist page](projectImages/wishlist page.png)
+\
+\
+\
+\![Settings page](projectImages/settings page.png)
+\
+\
+\
+\
