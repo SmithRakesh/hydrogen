@@ -39,7 +39,7 @@
 \
 \
 \
-\![Settings page](projectImages/settings%20page.png)
+![Settings page](projectImages/settings%20page.png)
 
 
 
