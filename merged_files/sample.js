@@ -1,4 +1,21 @@
 window.addEventListener('load',addEvents);
+        document.querySelector('.logout').addEventListener('click',() => {
+            event.preventDefault();
+            console.log('logout');
+            window.location = 'HomePage nav.html'
+        });
+        //Link wishlist page 
+        document.querySelector('.wishlist').addEventListener('click',() => {
+            event.preventDefault();
+            console.log('wishlist');
+            window.location = 'wish.html';
+        });
+        //Link Setting page
+        document.querySelector('.setting').addEventListener('click',() => {
+            event.preventDefault();
+            console.log('setting');
+            window.location = 'settings.html';
+        });
 
 function addEvents() {
     //Adding Mouse events to show Menu items
@@ -121,21 +138,7 @@ function living(main){
             document.getElementById("screen").innerHTML=output;
         })
 }
-    function loadData(e){
-    main=JSON.parse(localStorage.getItem("main_thing"))
 
-    console.log(e.id)
-    let params= new URLSearchParams()
-    params.append("main",main)
-    params.append('id',e.id)
-    params.toString()
-    console.log(params)
-    let url="desc.html"
-    console.log(url+"?"+params.toString())
-    window.location.assign(url+"?"+params.toString())
-    }
-
-  // let x=JSON.parse(localStorage.getItem("addCart"))
 
 function loadValue(ei){
     id=ei.id;
@@ -178,7 +181,23 @@ function loadPrime(ei){
         }
     })
 }
-let x=JSON.parse(localStorage.getItem("addCart"))
 
+function loadData(e){
+    main=JSON.parse(localStorage.getItem("main_thing"))
+
+    console.log(e.id)
+    let params= new URLSearchParams()
+    params.append("main",main)
+    params.append('id',e.id)
+    params.toString()
+    console.log(params)
+    let url="desc.html"
+    console.log(url+"?"+params.toString())
+    window.location.assign(url+"?"+params.toString())
+    }
+
+
+    let x=JSON.parse(localStorage.getItem("addCart"))
     console.log(x.length)
     document.getElementById("num_cart").textContent=x.length
+

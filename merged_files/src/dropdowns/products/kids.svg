@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46" height="28" viewBox="0 0 46 28">
+    <defs>
+        <linearGradient id="ic_kids_a" x1="-60.384%" x2="61.429%" y1="130.931%" y2="33.968%">
+            <stop offset="0%" stop-color="#A3DBFF"/>
+            <stop offset="100%" stop-color="#346AA0"/>
+        </linearGradient>
+        <path id="ic_kids_b" d="M.975 15.6h44.684v6.915H.975z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(-.85 .8)">
+            <use fill="url(#ic_kids_a)" xlink:href="#ic_kids_b"/>
+            <path stroke="#346AA0" stroke-width="1.2" d="M1.575 16.2h43.484v5.715H1.575z"/>
+        </g>
+        <path stroke="#346AA0" stroke-linecap="round" stroke-width="1.2" d="M.612 1.288v25.368M44.487 1.288v25.368M.612 6.163h43.77"/>
+        <path stroke="#346AA0" stroke-linecap="square" stroke-width="1.2" d="M7.437 6.163v9.75M13.287 6.163v9.75M19.137 6.163v9.75M24.987 6.163v9.75M30.837 6.163v9.75M36.688 6.163v9.75"/>
+    </g>
+</svg>

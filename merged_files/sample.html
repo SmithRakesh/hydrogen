@@ -281,7 +281,29 @@
             .btn_nav a{
                 color: #346aa0;
             }
-
+            .login:hover .logout_dropdown {
+                display: block;
+            }
+            .logout_dropdown {
+                position: absolute;
+                width: 15vw;
+                left: 62.5vw;
+                top: 6.7vh;
+                display: none;
+                background-color: white;
+                box-shadow: 1px 1px 15px lightgray;
+            }
+            .logout_dropdown > p {
+                color: #356BA0;
+                margin: 0;
+                font-size: 1.2em;
+                padding: 3% 10%;
+            }
+            .logout_dropdown > p:hover {
+                color: white;
+                background-color: #356BA0;
+                cursor: pointer;
+            }
 
 
 
@@ -414,30 +436,35 @@
             <button class="explore">Explore</button>
         </nav>
         <div class="menu">
-            <a href=""><img class="main_logo" src="src/main_logo.png"></a>
-            <a href="" id="menu_products">PRODUCTS</a>
-            <a href="" id="menu_collection">COLLECTION</a>
-            <a href="" id="menu_build_your_own">BUILD YOUR OWN</a>
-            <a href="">
+            <a href="#"><img class="main_logo" src="src/main_logo.png"></a>
+            <a href="#" id="menu_products">PRODUCTS</a>
+            <a href="#" id="menu_collection">COLLECTION</a>
+            <a href="#" id="menu_build_your_own">BUILD YOUR OWN</a>
+            <a href="#">
                 <span class="material-icons">
                     search
                 </span>
             </a>
-            <a href="">
+            <a href="#">
                 <img src="src/nav_offers.svg" />2 OFFERS
             </a>
-            <a href="">
-                <span class="material-icons">
-                person_outline
-                </span> LOGIN
+            <a href="" class="login" id="logged_out">
+                <span class="login" id="logged_out">
+                    <img  class="login" id="logged_out" src="src/menu/user.svg">
+                </span> MY ACCOUNT
+                <div class="logout_dropdown">
+                    <p class="wishlist">WISHLIST</p>
+                    <p class="setting">SETTING</p>
+                    <p class="logout">LOGOUT</p>
+                </div>
             </a>
-            <a href="" id="menu_cart">
+            <a href="checkout.html" id="menu_cart">
                 <span class="material-icons cart_position">
                 shopping_cart
                 </span>
                 <div id="num_cart" class="num_cart"></div>
             </a>
-            <!-- <a href="" class="rightBorder" id="menu_location"> -->
+            <!-- <a href="#" class="rightBorder" id="menu_location"> -->
             <div>
                 <span class="material-icons">
                     location_on
@@ -459,57 +486,54 @@
                 <button id="bedroom" class="btn_nav" onclick="living(this)"><img src="src/dropdowns/products/bedroom.svg"/>BEDROOM</button>
             </div>
             <div>
-                <button id="living_room" class="btn_nav" onclick="living(this)"><img src="src/dropdowns/products/living_room.svg" />LIVING ROOM</a></button>
+                <button id="living_room" class="btn_nav" onclick="living(this)"><img src="src/dropdowns/products/living_room.svg" />LIVING ROOM</button>
             </div>
             <div>
-                <button id="appliances" class="btn_nav" onclick="living(this)"><img src="src/dropdowns/products/appliances.svg" />APPLIANCES</a>
-                    </button>
-                </div>
-            <div>
-                <button id="living_room" class="btn_nav" onclick="living(this)"><img src="src/dropdowns/products/sp_deals.svg" />SPECIAL DEALS</a>
-                    </button>
-                </div>
-            <div>
-                <button id="full_home" class="btn_nav" onclick="living(this)"><img src="src/dropdowns/products/full_home.svg" />FULL HOME</a>
+                <button id="appliances" class="btn_nav" onclick="living(this)"><img src="src/dropdowns/products/appliances.svg" />APPLIANCES</button>
             </div>
             <div>
-                <button id="storage" class="btn_nav" onclick="living(this)"><img src="src/dropdowns/products/storage.svg" />STORAGE</a>
-                    </button>
+                <button id="living_room" class="btn_nav" onclick="living(this)"><img src="src/dropdowns/products/sp_deals.svg" />SPECIAL DEALS</button>
             </div>
             <div>
-                <a href=""><img src="src/dropdowns/products/study_room.svg" />WORKSTATIONS</a>
+                <button id="full_home" class="btn_nav" onclick="living(this)"><img src="src/dropdowns/products/full_home.svg" />FULL HOME</button>
             </div>
             <div>
-                <a href=""><img src="src/dropdowns/products/kids.svg" />KIDS ROOM</a>
+                <button id="storage" class="btn_nav" onclick="living(this)"><img src="src/dropdowns/products/storage.svg" />STORAGE</button>
             </div>
             <div>
-                <a href=""><img src="src/dropdowns/products/dining_room.svg" />DINING ROOM</a>
+                <button id="bedroom" class="btn_nav" onclick="living(this)"><img src="src/dropdowns/products/study_room.svg" />WORKSTATIONS</button>
             </div>
             <div>
-                <a href=""><img src="src/dropdowns/products/bike-rental_2.svg" />2-WHEELER</a>
+                <button id="bedroom" class="btn_nav" onclick="living(this)"><img src="src/dropdowns/products/kids.svg" />KIDS ROOM</button>
+            </div>
+            <div>
+                <button id="bedroom" class="btn_nav" onclick="living(this)"><img src="src/dropdowns/products/dining_room.svg" />DINING ROOM</button>
+            </div>
+            <div>
+                <button id="bedroom" class="btn_nav" onclick="living(this)"><img src="src/dropdowns/products/bike-rental_2.svg" />2-WHEELER</button>
             </div>
         </div>
         <div class="nav_dropdowns" id="collection">
             <div>
-                <a href=""><img src="src/dropdowns/collection/2020.svg" />20-20 COLLECTION</a>
+                <a href="#"><img src="src/dropdowns/collection/2020.svg" />20-20 COLLECTION</a>
             </div>
             <div>
-                <a href=""><img src="src/dropdowns/collection/most_popular.svg" />MOST POPULAR</a>
+                <a href="#"><img src="src/dropdowns/collection/most_popular.svg" />MOST POPULAR</a>
             </div>
             <div>
-                <a href=""><img src="src/dropdowns/collection/essentials.svg" />ESSENTIALS</a>
+                <a href="#"><img src="src/dropdowns/collection/essentials.svg" />ESSENTIALS</a>
             </div>
             <div>
-                <a href=""><img src="src/dropdowns/collection/newly_launched_rocket.svg" />NEWLY LAUNCHED</a>
+                <a href="#"><img src="src/dropdowns/collection/newly_launched_rocket.svg" />NEWLY LAUNCHED</a>
             </div>
             <div>
-                <a href=""><img src="src/dropdowns/collection/storage.svg" />STORAGE COMBOS</a>
+                <a href="#"><img src="src/dropdowns/collection/storage.svg" />STORAGE COMBOS</a>
             </div>
             <div>
-                <a href=""><img src="src/dropdowns/collection/award_winning.svg" />AWARD WINNERS</a>
+                <a href="#"><img src="src/dropdowns/collection/award_winning.svg" />AWARD WINNERS</a>
             </div>
             <div>
-                <a href=""><img src="src/dropdowns/collection/fab_rich.svg" />FAB RICH COLLECTION</a>
+                <a href="#"><img src="src/dropdowns/collection/fab_rich.svg" />FAB RICH COLLECTION</a>
             </div>
         </div>
         <div class="nav_dropdowns_build_your_own" id="build_your_own">
@@ -521,11 +545,11 @@
                 <button class="">GET STARTED</button>
             </div>
         </div>
-        <div class="nav_dropdowns_cart" id="cart">
+        <!-- <div class="nav_dropdowns_cart" id="cart">
             <p id="">YOUR SHOPPING CART IS EMPTY</p>
             <img src="src/dropdowns/empty_cart.png" />
             <p>But it does not have to be</p>
-        </div>
+        </div> -->
         <div class="head">
             <p>BEDROOM</p>
         </div>
@@ -536,27 +560,27 @@
         <div class="categories">
             <div class="category">
                 <img src="src/queen_bed.svg"/>
-                <a href="">Queen Bed</a>
+                <a href="#">Queen Bed</a>
             </div>
             <div class="category">
                 <img src="src/storage_bed.svg"/>
-                <a href="">Storage Bed</a>
+                <a href="#">Storage Bed</a>
             </div>
             <div class="category">
                 <img src="src/single_bed.svg"/>
-                <a href="">Single Bed</a>
+                <a href="#">Single Bed</a>
             </div>
             <div class="category">
                 <img src="src/multifunctional.svg"/>
-                <a href="">Multifunctional</a>
+                <a href="#">Multifunctional</a>
             </div>
             <div class="category">
                 <img src="src/bedroom_storage.svg"/>
-                <a href="">Bedroom Strorage</a>
+                <a href="#">Bedroom Strorage</a>
             </div>
             <div class="category">
                 <img src="src/deals_and_combos.svg"/>
-                <a href="">Deals & Combos</a>
+                <a href="#">Deals & Combos</a>
             </div>
         </div>
     </div>

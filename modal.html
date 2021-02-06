@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Roboto', sans-serif;
+        }
+        .modal-bg{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            background-color: rgba(0, 0 ,0 , 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            visibility: hidden;
+            opacity: 0;
+            transition: visibility 0 ,opacity 0.5s;
+        }
+        .modal{
+            background-color: white;
+            width: 26%;
+            height: 60%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+            position: relative;
+        }
+        .modal-active{
+            visibility: visible;
+            opacity: 1;
+        }
+        .close-btn{
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            top:-10px ;
+            right: -10px;
+            border: none;
+            border-radius: 50%;
+        }
+        .close-btn:focus{
+            outline: none;
+            border: none;
+        }
+        .login{
+            width: 100px;
+            height: 30px;
+            border: 1px solid lightgray;
+            padding: 5px;
+            background-color: #346aa0;
+            color: #f8f8f8;
+            border-radius: 25px;
+        }
+        .signup{
+            width: 100px;
+            height: 20px;
+            border: 1px solid #346aa0;
+            padding: 5px;
+            color: #346aa0;
+            text-align: center;
+            border-radius: 25px;
+        }
+        .login:focus{
+            outline: none;
+            border: none;
+        }
+        .login-input{
+            padding:5px 15px;
+            border: 1px solid lightgray;
+        }
+        .login-input:focus{
+            outline: none;
+        }
+        .logo{
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+    <button class="btn">Click</button>
+    <div class="modal-bg">
+        <div class="modal">
+                <div>Login</div>
+                <button class="close-btn">&times;</button>
+                <input class="login-input " type="mail" placeholder="Enter your phone no or mail id" required id="mail" >
+                <input class="login-input" type="password" placeholder="Enter your password" required id="password" >
+                <input type="submit" class="login" value="login">
+                <div>Login Using</div>
+                <div>
+                    <span><img class="logo" src="https://assets.furlenco.com/s3-furlenco-images/desktop_web/hulk/icons/facebook-inverted.svg" alt="facebook-inverted"></span>
+                    <span>&nbsp;&nbsp;</span>
+                    <span><img class="logo" src="https://img-authors.flaticon.com/google.jpg" alt="google-color"></span>
+                </div>
+                <div>New user</div>
+                <div>Signup to enjoy 40% faster checkout</div>
+                <div class="signup">Sign-up</div>
+
+                
+            </div>
+        </div>
+    </div>
+    <script>
+        let username = document.getElementById('mail')
+        let password = document.getElementById('password')
+
+        let btn = document.querySelector('.btn')
+        let modalBg = document.querySelector('.modal-bg')
+        let login = document.querySelector('.login')
+        let closeBtn = document.querySelector('.close-btn')
+
+        btn.addEventListener('click',function() {
+            modalBg.classList.add('modal-active')
+        })
+
+        login.addEventListener('submit',function(e) {
+            e.preventDefault()
+
+            fetch("http://localhost:3000/login").then(res => res.json())
+            .then(res => {
+               let user =  res.username;
+               let pass = res.password
+               if((username.value === user) && (password.value === pass)){
+                   location === "http://localhost:3000/description"
+               }
+            })
+        })
+        
+
+        closeBtn.addEventListener('click',function() {
+            modalBg.classList.remove("modal-active")
+        })
+
+
+
+        
+    </script>
+</body>
+</html>

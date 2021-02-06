@@ -1,0 +1,1218 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Furlenco: Home Page</title>
+        <link rel="shortcut icon" href="src/main_logo_title.png" />
+        <style>
+            body {
+                font-family: Roboto, Helvetica, sans-serif;
+                margin: 0;
+            }
+            a {
+                text-decoration: none;
+            }
+            .material-icons {
+                color: #356BA0;
+            }
+            .offersContainer {
+                display: flex;
+                margin: 0.5% 15%;
+                position: sticky;
+            }
+            .offers {
+                margin: 0 1%;
+                font-size: 0.8em;
+                position: relative;
+                top: 5px;
+                right: 35px;
+            }
+            .offers:hover {
+                color: rgb(207, 154, 18);
+                cursor: pointer;
+            }
+            .explore {
+                background-color: #356BA0;
+                color: white;
+                border-radius: 25px;
+                border: none;
+            }
+            .explore:hover {
+                background-color: #6a91bb;
+                cursor: pointer;
+            }
+            .menu {
+                position: sticky;
+                background-color: white;
+                top: 0;
+                border: 2px solid lightgray;
+                display: grid;
+                padding: 0 5%;
+                grid-template-columns: 15% 10% 5% 15% 5% 15% 15% 5% 15%;
+                z-index: 1;
+            }
+            .main_logo {
+                height: 5vh;
+            }
+            .menu > a {
+                letter-spacing: 1px;
+                border-right: 2px solid lightgray;
+                margin: 0;
+                padding: 3% 5%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color:rgb(99, 99, 99);
+                font-size: 0.9em;
+                font-weight: 500;
+            }
+            .menu > div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .menu a:hover {
+                background-color: rgb(236, 236, 236);
+            }
+            .search_bar {
+                position: absolute;
+                top: 4.7vh;
+                left: 22.6vw;
+                display: none;
+            }
+            .search_bar > input {
+                font-size: 1.4em;
+                padding: 2.7%;
+                width: 30vw;
+                border: 2px solid darkblue;
+            }
+            .search_icon {
+                position: absolute;
+                top: 0.1vw;
+                left: 18.1em;
+                padding: 3%;
+            }
+            .search_icon:hover {
+                cursor: pointer;
+            }
+            .menu > a:nth-child(1):hover {
+                background: none;
+            }
+            .menu > * > span,img {
+                padding: 0 3%;
+                color: #356BA0;
+            }
+            .borderless {
+                border: none !important;
+            }
+            .borderless:hover {
+                background-color: transparent !important;
+                cursor: default;
+            }
+            .rightBorder {
+                border-right: 2px solid lightgray !important;
+            }
+            #menu_cart:hover .show_cart {
+                display: flex;
+            }
+            .show_cart {
+                display: none;
+                height: 27vh;
+                width: 25vw;
+                position: absolute;
+                top: 7vh;
+                left: 57%;
+                border-top: 5px solid rgb(240, 180, 30);
+                border-bottom: 5px solid goldenrod;
+                background-color: white;
+                box-shadow: 1px 1px 10px gray;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .show_cart > img {
+                width: 40%;
+            }
+            .show_cart > p {
+                margin: 0;
+                color: rgb(114, 113, 113);
+            }
+            .search_block {
+                height: 60vh;
+            }
+            .search_block > img {
+                width: 100%;
+                position: absolute;
+                margin: 0;
+                padding: 0;
+                height: 60vh;
+                z-index: -1;
+            }
+            .search_text {
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                top: 20vh;
+                right: 8vw;
+                align-items: center;
+            }
+            .search_text > img {
+                width: 10%;
+                position: relative;
+                right: 4vw;
+            }
+            .search_text > p {
+                position: relative;
+                right: 2vw;
+            }
+            .search_block > div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                z-index: -1;
+            }
+            .search_block > div > #search {
+                font-size: 1em;
+                width: 30vw;
+                padding: 1.3%;
+                border: none;
+                border-radius: 5px;
+                position: relative;
+                top: 20vh;
+            }
+            .search_icon_block {
+                position: relative;
+                right: 50px;
+                top: 20vh;
+                appearance: none;
+                background: transparent;
+                border: none;
+                z-index: -1;
+            }
+            .search_icon_block:hover {
+                cursor: pointer ;
+            }
+            .menu_down_container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-bottom: 1px solid lightgray;
+            }
+            .menu_down_container > p {
+                color: rgb(85, 85, 85);
+                padding: 1% 3%;
+                margin: 0;
+                border-right: 1px solid lightgray;
+                border-bottom: 3px solid white;
+            }
+            .menu_down_container > p:nth-child(1) {
+                border-left: 1px solid lightgray;
+                border-bottom: 3px solid goldenrod;
+            }
+            .menu_down_container > p:hover {
+                cursor: pointer;
+            }
+            .categories {
+                background-color: rgb(248, 248, 248);
+                position: absolute;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                padding: 1.3% 0;
+                border-bottom: 0.1px solid rgb(241, 241, 241);
+            }
+            .categories > div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 6.5vw;
+                height: 10vh;
+                padding: 1% 0.7%;
+                margin: 0 0.5%;
+                box-shadow: 1px 1px 10px gray;
+                border-radius: 10px;
+                background-color: white;
+            }
+            .categories > div:hover {
+                transform: scale(1.1);
+            }
+            .categories > div > a {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                font-size: 0.8em;
+                text-align: center;
+                color: #356BA0;
+            }
+            .categories > div > a > img{
+                padding: 7% 0 10%;
+            }
+            .categories > div {
+                cursor: pointer;
+            }
+            .categories_build {
+                background-color: #fcfcfc;
+                position: absolute;
+                width: 100%;
+                height: 10vh;
+                display: none;
+                justify-content: center;
+                padding: 2.3% 0;
+                border-bottom: 0.1px solid rgb(241, 241, 241);
+            }
+            .categories_build > div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 1% 3%;
+            }
+            .categories_build > div:nth-child(1) {
+                color: grey;
+                width: 25%;
+                letter-spacing: 1.5px;
+                border-right: 1px solid gray;
+            }
+            .categories_build > div > img {
+                width: 65%;
+            }
+            .categories_build > div > button {
+                font-size: 1em;
+                color: white;
+                background-color: #356BA0;
+                padding: 1% 3%;
+                border: none;
+                border-radius: 25px;
+            }
+            .categories_build > div > button:hover{
+                background-color: #6a91bb;
+                cursor: pointer;
+            }
+            .location:hover {
+                cursor: pointer;
+            }
+            .location:hover .location_selectable {
+                display: block;
+            }
+            .location_selectable {
+                display: none;
+                position: absolute;
+                top: 6.5vh;
+                width: 13.5vw;
+                background-color: white;
+                border-radius: 10px;
+                box-shadow: 1px 1px 20px lightgray;
+            }
+            .location_selectable > p {
+                margin: 0;
+                padding: 3% 30%;
+                color: #356BA0;
+                font-size: 1.1em;
+            }
+            .location_selectable > p:hover {
+                background-color: #356BA0;
+                color: white;
+                cursor: pointer;
+            }
+            .login:hover .logout_dropdown {
+                display: block;
+            }
+            .logout_dropdown {
+                position: absolute;
+                width: 15vw;
+                left: 62.5vw;
+                top: 6.7vh;
+                display: none;
+                background-color: white;
+                box-shadow: 1px 1px 15px lightgray;
+            }
+            .logout_dropdown > p {
+                color: #356BA0;
+                margin: 0;
+                font-size: 1.2em;
+                padding: 3% 10%;
+            }
+            .logout_dropdown > p:hover {
+                color: white;
+                background-color: #356BA0;
+                cursor: pointer;
+            }
+            /* //////////////////////////////////////////////STYLE//////////////////////////////////////////////////////////// */
+            /* homepage body */
+            .home-img-div{
+                margin-top:9.6%;
+                width: 80%;
+                margin-left: 150px;
+            }
+            .home-img-div div{
+                margin: 20px 0;
+            }
+            .home-img{
+                width: 100%;
+                border-radius: 15px;
+            }
+            .home-img-head{
+                text-align: center;
+            }
+            .home-img2-div{
+                text-align: center;
+                margin: 0 auto;
+                width: 90%;
+            }
+            .home-img2-head{
+                font-size: 24px;
+                margin: 25px 0;
+                color: #444444;
+                letter-spacing: 6px;
+            }
+            .home-divs{
+                width: 100%;
+                display: grid;
+                grid-template-columns: 25% 25% 25%;
+                grid-template-rows: 400px;
+                grid-template-areas: "box1 box2 box3";
+                grid-gap: 10%;
+            }
+
+            .home-divs img{
+                width: 400px;
+                height: 300px;
+            }
+            .box-title{
+                color: #333333;
+                letter-spacing: 2px;
+                font-size: 24px;
+            }
+
+            .home-divs p {
+                font-size: 20px;
+                letter-spacing: 0.3px;
+                color: #666666;
+            }
+
+            .explore-blue{
+                color: #346aa0;
+            }
+            .home3, .home4{
+                margin-top: 10%;
+            }
+            .home3-head ,.home4-head{
+                letter-spacing: 6px;
+                text-align: center;
+                font-size: 24px;
+                color: #2e2e2e;
+            }
+            .home3-content{
+                display: grid;
+                grid-template-columns: 60% 40%;
+                grid-template-rows: 400px;
+                grid-template-areas: "home3-left home3-right";
+            }
+            .home4-content{
+                display: grid;
+                grid-template-columns: 60% 40%;
+                grid-template-rows: 400px;
+                grid-template-areas: "home4-left home4-right";
+            }
+            .img-head{
+                font-size: 24px;
+                color: #2e2e2e;
+            }
+            .home3-left img,.home4-left img{
+                width: 100%;
+            }
+            .home3-right,.home4-right{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .explore-products{
+                background-color: #346aa0;
+                color: white;
+                padding: 10px;
+                border-radius: 25px;
+                cursor: pointer;
+            }
+
+            .home4-head{
+                letter-spacing: 6px;
+                text-align: center;
+                font-size: 24px;
+                color: #2e2e2e;
+            }
+            .home5{
+                background-color: #eff1f4;
+            }
+            .home5-head{
+                letter-spacing: 6px;
+                text-align: center;
+                font-size: 24px;
+                color: #333333;
+                padding: 5%;
+            }
+            .cards{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
+            .card{
+                width: 25%;
+                margin-top: 15px;
+                background-color: white;
+            }
+
+            /* login popup */
+            .modal-bg{
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100vh;
+                background-color: rgba(0, 0 ,0 , 0.5);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                visibility: hidden;
+                opacity: 0;
+                transition: visibility 0 ,opacity 0.5s;
+            }
+            .modal{
+                background-color: white;
+                width: 26%;
+                height: 60%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                flex-direction: column;
+                /* position: relative; */
+                border-radius: 5px;
+                padding: 2%;
+                font-size: 1.2em;
+                color: gray;
+                font-weight: 100;
+            }
+            .modal > input {
+                width: 20vw;
+                font-size: 1em;
+                margin: 2% !important;
+            }
+            .modal-active{
+                visibility: visible;
+                opacity: 1;
+            }
+            .close-btn{
+                position: absolute;
+                width: 30px;
+                height: 30px;
+                top: 7.2vw ;
+                right: 34vw;
+                border: none;
+                border-radius: 50%;
+            }
+            .close-btn {
+                cursor: pointer;
+            }
+            .close-btn:focus{
+                outline: none;
+                border: none;
+            }
+            .login_modal{
+                width: 100px;
+                border: 1px solid lightgray;
+                padding: 5px;
+                background-color: #346aa0;
+                color: #f8f8f8;
+                border-radius: 25px;
+            }
+            .login_modal:hover {
+                background-color: #5a91c7;
+                color: #f8f8f8;
+                cursor: pointer;
+            }
+            .signup{
+                border: 1px solid #346aa0;
+                padding: 1% 3%;
+                color: #356BA0;
+                border-radius: 25px;
+            }
+            .signup:hover {
+                background-color: #356BA0;
+                color: white;
+                cursor: pointer;
+            }
+            .login_modal:focus{
+                outline: none;
+                border: none;
+            }
+            .login-input{
+                padding:5px 15px;
+                width: 10vw;
+                border: 1px solid lightgray;
+            }
+            .login-input:focus{
+                outline: none;
+            }
+            .logo{
+                position: relative;
+                right: 2.8em;
+                width: 3vw;
+                border: 5px solid white;
+                border-radius: 50%;
+                box-shadow: 1px 1px 10px gray;
+            }
+            .login_modal_social {
+                display: flex;
+            }
+            .login_modal_social > img {
+                padding: 4%;
+                margin: 0 20%;
+            }
+            #loginError {
+                display: none;
+                padding-bottom: 1em;
+            }
+
+            /* ///////////////////////////////////////////STYLE-FOOTER//////////////////////////////////////////////////////////// */
+            .footer_1 {
+                background-color: #F5F6FA;
+            }
+            .footer_1_1 {
+                display: flex;
+                align-items: center;
+                justify-content: left;
+                border-bottom: 1px solid rgb(177, 177, 177);
+                padding: 3% 0;
+                /* border:1px solid red; */
+                margin: 0 5%;
+            }
+            .footer_1_1 > * {
+                color: rgb(85, 85, 85);
+                padding: 0 1.5%;
+                font-size: 1.1em;
+            }
+            .footer_1_1 > a:nth-child(3) {
+                border-left: 3px solid gray;
+            }
+            .footer_1_1 > .border {
+                border-right: 3px solid gray;
+            }
+            .footer_1_1 > *:hover {
+                color: black;
+            }
+            .footer_1_1 > img {
+                width: 4vw;
+            }
+            .footer_1_2 {
+                display: grid;
+                grid-template-columns: 30% 20% 25% 25%;              
+                border-bottom: 1px solid rgb(228, 228, 228);
+                padding: 3% 0;
+                /* border:1px solid red; */
+                margin: 0 5%;
+                font-size: 0.90em;
+            }
+            .footer_1_2 > div {
+                padding: 0 10%;
+            }
+            .footer_1_2 > .footer_1_2_div:nth-child(2),
+            .footer_1_2_div:nth-child(3) {
+                border-left: 1px solid gray;
+            }
+            .footer_1_2 > div:nth-child(3) {
+                border-right: 1px solid gray;
+            }
+            .footer_1_2 > div > * {
+                color: rgb(85, 85, 85);
+                padding: 0 1.5%;
+                font-size: 1.1em;
+                /* margin: 0; */
+            }
+            .footer_1_2 > div:nth-child(1) > a {
+                color: #356BA0;
+                padding-left: 0;
+                position: relative;
+                left: -0.3vw;
+                /* border: 1px solid gray; */
+            }
+            .footer_1_2 > div:nth-child(1) > a:hover {
+                color: black;
+                cursor: default;
+            }
+            .footer_1_2 > div:nth-child(1) > a > img {
+                position: relative;
+                top: 0.3em;
+                border: 1px solid white;
+                border-radius: 50%;
+                padding: 0;
+            }
+            .footer_1_2 > div:nth-child(1) > a > img:hover {
+                border: 1px solid #356BA0;
+            }
+            .footer_1_2 > div:nth-child(3) > img {
+                width: 7em;
+                filter: brightness(90%);
+            }
+            .footer_1_2 > div:nth-child(3) > img:hover {
+                filter: brightness(150%);
+                cursor: pointer;
+            }
+            .footer_1_2 > div:nth-child(4) > img {
+                padding: 0;
+                border: 5px double white;
+                border-radius: 50%;
+            }
+
+            .footer_1_2 > div:nth-child(4) > img:hover {
+                border: 5px double #556BA0;
+                cursor: pointer;
+            }
+
+            .footer_1_2 > div > button {
+                border: 2px solid #356BA0;
+                color: rgb(73, 73, 73);
+                font-size: 1em;
+                padding: 0 1.5%;
+                border-radius: 25px;
+            }
+            .footer_1_2 > div > button:hover {
+                color: white;
+                background-color: #356BA0;
+                cursor: pointer;
+            }
+            .footer_info {
+                padding: 1% 5%;
+                font-size: 1.01em;
+                letter-spacing: 0.07em;
+                line-height: 2.7vh;
+                border-bottom: 1px solid lightgray;
+            }
+            .footer_info > h3 {
+                font-weight: 500;
+                color: black;
+            }
+            .footer_info > p {
+                color: rgb(80, 80, 80);
+            }
+
+            .footer_img_copyright {
+                background-color: #F5F6FA;
+                padding: 1% 0;
+            }
+            .footer_img_copyright > div > img {
+                width: 90%;
+                justify-content: center;
+            }
+            .footer_img_copyright > div {
+                text-align: center;
+                color: rgb(133, 133, 133);
+                padding: 0.5%;
+            }
+
+            /* ////////////////////////////////////////////////////MODEL/////////////////////////////////////////////////////////////// */
+
+
+        </style>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="offersContainer">
+                <img src="src/nav_offers.svg">
+                <p class="offers">GO RENT-FREE FOR 4 MONTHS. GET FLAT 50% OFF PER MONTH. HURRY! OFFER ENDS AT MIDNIGHT. T&C APPLY</p>
+                <button class="explore">Explore</button>
+            </div>
+            <div class="menu">
+                <a href="" class="borderless"><img class="main_logo" src="src/main_logo.png"></a>
+                <a href="" class="borderless" id="menu_products"></a>
+                <a href="" class="borderless" id="menu_collection"></a>
+                <a href="" class="borderless" id="menu_build_your_own"></a>
+                <a href="" class="borderless rightBorder">
+                    
+                </a>
+                <a href="">
+                    <img src="src/nav_offers.svg" />2 OFFERS
+                </a>
+                <a href="#" class="login" id="logged_out">
+                    <span class="login" id="logged_out">
+                        <img  class="login" id="logged_out" src="src/menu/user.svg">
+                    </span> MY ACCOUNT
+                    <div class="logout_dropdown">
+                        <p class="wishlist">WISHLIST</p>
+                        <p class="setting">SETTING</p>
+                        <p class="logout">LOGOUT</p>
+                    </div>
+                </a>
+                <a href="checkout.html" id="menu_cart">
+                    <span>
+                        <img src="src/menu/cart.svg">
+                    </span>
+                    <!-- <div class="show_cart" id="cart">
+                        <p>YOUR SHOPPING CART IS EMPTY</p>
+                        <img src="src/dropdowns/empty_cart.png" />
+                        <p>But it does not have to be</p>
+                    </div> -->
+                </a>
+                <div class="location">
+                    <span class="material-icons">
+                        location_on
+                    </span>
+                    <div id="location_selected">BENGALURU</div>
+                    <div class="location_selectable">
+                        <p>BENGALURU</p>
+                        <p>MUMBAI</p>
+                        <p>PUNE</p>
+                        <p>DELHI</p>
+                        <p>GURUGRAM</p>
+                        <p>HYDERABAD</p>
+                        <p>CHENNAI</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="search_bar">
+                <input class="search_input" placeholder="What are you looking for?" />
+                <span class="material-icons search_icon">search</span>
+            </div>
+
+            <div class="search_block">
+                <img class="search-bar-bg-img" src="src/search-bar homepage/search_bar_bg_2.jpg" />
+                <span class="search_text">
+                    <img src="src/logo-with-text_homepage.svg" />
+                    <p>A different furniture company.</p>
+                </span>
+                <div>
+                    <input type="text" placeholder="What are you searching for?" id="search" />
+                    <input type="submit" class="material-icons search_icon_block" value="search"/>
+                </div>
+            </div>
+            <div class="menu_down_container">
+                <p class="menu_down" id="mdproducts">PRODUCTS</p>
+                <p class="menu_down" id="mdcollection">COLLECTIONS</p>
+                <p class="menu_down" id="mdbuild">BUILD YOUR OWN</p>
+            </div>
+            <div class="categories">
+                <div>
+                    <a href="sample.html"><img src="src/dropdowns/products/bedroom.svg"/>BEDROOM</a>
+                </div>
+                <div>
+                    <a href=""><img src="src/dropdowns/products/living_room.svg" />LIVING ROOM</a>
+                </div>
+                <div>
+                    <a href=""><img src="src/dropdowns/products/appliances.svg" />APPLIANCES</a>
+                </div>
+                <div>
+                    <a href=""><img src="src/dropdowns/products/sp_deals.svg" />SPECIAL DEALS</a>
+                </div>
+                <div>
+                    <a href=""><img src="src/dropdowns/products/full_home.svg" />FULL HOME</a>
+                </div>
+                <div>
+                    <a href=""><img src="src/dropdowns/products/storage.svg" />STORAGE</a>
+                </div>
+                <div>
+                    <a href=""><img src="src/dropdowns/products/study_room.svg" />WORKSTATIONS</a>
+                </div>
+                <div>
+                    <a href=""><img src="src/dropdowns/products/kids.svg" />KIDS ROOM</a>
+                </div>
+                <div>
+                    <a href=""><img src="src/dropdowns/products/dining_room.svg" />DINING ROOM</a>
+                </div>
+                <div>
+                    <a href=""><img src="src/dropdowns/products/bike-rental_2.svg" />2-WHEELER</a>
+                </div>
+            </div>
+            <div class="categories_build">
+                <div>
+                    <p>Unleash the designer in you and create<br/> a package that suits your needs.</p>
+                </div>
+                <div>
+                    <img src="src/dropdowns/build_your_own/build_your_own_steps.png" />
+                    <button class="">GET STARTED</button>
+                </div>
+            </div>
+            <!-- //////////////////////////////////////////////////HTML///////////////////////////////////////////////////////////////////// -->
+            <!-- Login Popup -->
+            <!-- <button class="btn">Click</button> -->
+            <div class="modal-bg">
+                <div class="modal">
+                    <div>Login</div>
+                    <button class="close-btn">&times;</button>
+                    <input class="login-input " type="mail" placeholder="Enter your phone no or mail id" required id="mail" >
+                    <input class="login-input" type="password" placeholder="Enter your password" required id="password" >
+                    <input type="submit" class="login_modal" value="LOGIN">
+                    <div id="loginError">Invalid Credentials!!</div>
+                    <div>Login Using</div>
+                    <div class="login_modal_social">
+                        <img class="logo" src="https://assets.furlenco.com/s3-furlenco-images/desktop_web/hulk/icons/facebook-inverted.svg" alt="facebook-inverted">
+                        <!--&nbsp;&nbsp; -->
+                        <img class="logo" src="https://assets.furlenco.com/s3-furlenco-images/desktop_web/hulk/icons/google-color.svg" alt="google-color">
+                    </div>
+                    <div>New user</div>
+                    <div>Signup to enjoy 40% faster checkout</div>
+                    <div class="signup">Sign-up</div>
+                </div>
+            </div>
+
+            <!-- div with img1 -->
+            <div class="home-img-div">
+                <div class="home-img-head">Rent Furniture & Appliances in Bengaluru</div>
+                <img class="home-img" src="https://assets.furlenco.com/image/upload/dpr_1.0,f_auto,q_auto/v1/s3-furlenco-images/desktop_web/optimus/banners/newyear_homepage_banner.jpg" alt="Rent">
+            </div>
+                        <!-- div with img2 -->
+                        <div class="home-img2-div">
+                <div class="home-img2-head">WHY YOU SHOULD RENT!</div>
+                <div class="home-divs">
+                    <div class="box1">
+                        <img src="https://assets.furlenco.com/image/upload/dpr_1.0,f_auto,q_auto/v1/s3-furlenco-images/hulk/home/whyRentPhotos/why_rent_01.jpg" alt="furniture">
+                        <div class="box-title">LIVE BETTER NOW</div>
+                        <p>With our award-winning furniture complete with decor, create your dream home today. Without waiting for that elusive tomorrow.</p>
+                        <div class="explore-blue">EXPLORE PRODUCTS</div>
+                    </div>
+                    <div class="box2">
+                        <img src="https://assets.furlenco.com/image/upload/dpr_1.0,f_auto,q_auto/v1/s3-furlenco-images/hulk/home/whyRentPhotos/why_rent_02.jpg" alt="furniture">
+                        <div class="box-title">LIVE BETTER NOW</div>
+                        <p>With our award-winning furniture complete with decor, create your dream home today. Without waiting for that elusive tomorrow.</p>
+                        <div class="explore-blue">EXPLORE PRODUCTS</div>
+                    </div>
+                    <div class="box3">
+                        <img src="https://assets.furlenco.com/image/upload/dpr_1.0,f_auto,q_auto/v1/s3-furlenco-images/hulk/home/whyRentPhotos/why_rent_03.jpg" alt="furniture">
+                        <div class="box-title">LIVE BETTER NOW</div>
+                        <p>With our award-winning furniture complete with decor, create your dream home today. Without waiting for that elusive tomorrow.</p>
+                        <div class="explore-blue">EXPLORE PRODUCTS</div>
+                    </div>
+                </div>
+
+                <!-- div with img3 -->
+                <div class="home3">
+                    <div class="home3-head">AWESOME FURNITURE</div>
+                    <div class="home3-content">
+                        <div class="home3-left"><img src="https://assets.furlenco.com/image/upload/dpr_1.0,f_auto,q_auto/v1/s3-furlenco-images/hulk/home/pico_1.png" alt="bed"></div>
+                        <div class="home3-right">
+                            <div class="img-head">DESIGNED BY AN AWARD WINNING TEAM</div>
+                            <p>Our designs are user inspired, and our furniture is uniquely designed by in-house experts to solve your day to day problems.</p>
+                            <p>Our designers ensure that all furniture is designed to the highest standards of quality and craftsmanship.</p>
+                            <div class="explore-products">explore products</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- div with img4 -->
+                <div class="home4">
+                    <div class="home4-head">LIFE WITH FURLENCO</div>
+                    <div class="home4-content">
+                        <div class="home4-left"><img src="https://assets.furlenco.com/image/upload/dpr_1.0,f_auto,q_auto/v1/s3-furlenco-images/hulk/home/img-life-with-furlenco-swap-1.png" alt="bed"></div>
+                        <div class="home4-right">
+                            <div class="img-head">DESIGNED BY AN AWARD WINNING TEAM</div>
+                            <p>Our designs are user inspired, and our furniture is uniquely designed by in-house experts to solve your day to day problems.</p>
+                            <p>Our designers ensure that all furniture is designed to the highest standards of quality and craftsmanship.</p>
+                            <div class="explore-products">explore products</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- div with img5 -->
+                <div class="home5">
+                    <div class="home5-head">Our Customers Love Our Products</div>
+                    <div class="cards">
+                        <div class="card">
+                            <img src="https://assets.furlenco.com/s3-furlenco-images/thorin/testimony/quote-icon.png" alt="inverted commas">
+                            <div>@furlenco thanks for the service , it was wonderfull. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni quisquam minus dolor eius aliquam nulla similique vitae labore dolores quo.</div>
+                        </div>
+                        <div class="card">
+                            <img src="https://assets.furlenco.com/s3-furlenco-images/thorin/testimony/quote-icon.png" alt="inverted commas">
+                            <div>@furlenco thanks for the service , it was wonderfull. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, neque?</div>
+                        </div>
+                        <div class="card">
+                            <img src="https://assets.furlenco.com/s3-furlenco-images/thorin/testimony/quote-icon.png" alt="inverted commas">
+                            <div>@furlenco thanks for the service , it was wonderfull.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ////////////////////////////////////////////////////MODEL///////////////////////////////////////////////////////////////  -->
+
+
+            <!-- ///////////////////////////////////////////////HTML-FOOTER///////////////////////////////////////////////////////////// -->
+            <div class="footer">
+                <div class="footer_1">
+                    <div class="footer_1_1">
+                        <img src="src/main_logo_footer.png" />
+                        <a href="">About Us</a>
+                        <a class="border"href="">Refer A Friend</a>
+                        <a class="border"href="">Career</a>
+                        <a class="border"href="">FAQ</a>
+                        <a class="border"href="">Blog</a>
+                        <a class="border"href="">Furniture Package</a>
+                        <a class="border"href="">Privacy</a>
+                        <a class="border"href="">T&C</a>
+                        <a href="">How it Works</a>
+                    </div>
+                    <div class="footer_1_2">
+                        <div class="footer_1_2_div">
+                            <p>CONNECT WITH US</p>
+                            <a href="">
+                                <img src="//assets.furlenco.com/s3-furlenco-images/optimus/footer/email.svg" />
+                                customercare@furlenco.com</a>
+                            <br/>
+                            <a href="">
+                                <img src="//assets.furlenco.com/s3-furlenco-images/optimus/footer/phone.svg" />
+                                080-9876543210 (10 AM to 7:30 PM)</a>
+                        </div>
+                        <div class="footer_1_2_div">
+                            <p>NEED HELP?</p>
+                            <p>Want us to call you back?</p>
+                            <button>Get in touch</button>
+                        </div>
+                        <div class="footer_1_2_div">
+                            <p>EXPERIENCE OUR APP ON MOBILE</p>
+                            <img src="src/google-play-hover.svg" />
+                            <img src="src/app-store-hover.svg" />
+                        </div>
+                        <div class="footer_1_2_div">
+                            <p>FOLLOW US ON</p>
+                            <img class="social" id="facebook" src="//assets.furlenco.com/s3-furlenco-images/optimus/footer/facebook.svg" />
+                            <img class="social" id="twitter" src="//assets.furlenco.com/s3-furlenco-images/optimus/footer/twitter.svg" />
+                            <img class="social" id="linkedin" src="//assets.furlenco.com/s3-furlenco-images/optimus/footer/linkedin.svg" />
+                            <img class="social" id="instagram" src="//assets.furlenco.com/s3-furlenco-images/optimus/footer/instagram.svg" />
+                            <img class="social" id="youtube" src="//assets.furlenco.com/s3-furlenco-images/optimus/footer/youtube.svg" />
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_info">
+                    <h3 class="footer_place">Bengaluru</h3>
+                    <p class="footer_place_info">Welcome to the Silicon Valley of India. Bengaluru has some of the world’s fastest growing companies, the best weather in the country and everything else that can make you call it home. Spread across the most convenient locations across the city, are some of the best residential facilities and office spaces. With Furlenco, you can rent furniture and appliances of your choice, and furnish your space. Be it bedroom, living room, dining room, balcony or the kids room - you’ll have everything your home needs.</p>
+    
+                    <h3 class="footer_abt_place">Furlenco: Your furniture solution in Namma Bengaluru</h3>
+                    <p class="footer_abt_place_info">Is this the sofa I want? Can I afford this bed? Will this table last me a while? These are the kind of questions you’ll have when you start looking for furniture. Now, renting furniture might not be the first thing you’ll think of, but it has answers to all of your questions. What are they? You’ll find out if you keep reading.</p>
+                </div>
+                <div class="footer_img_copyright">
+                    <div class="footer_img">
+                        <img src="src/footer-illustration.svg" />
+                    </div>
+                    <div class="footer_copyright">Copyright © 2021 Kieraya Furnishing Solutions Pvt. Ltd.</div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            window.addEventListener('load',() => {
+                //search bar bg-img dynamic change
+                changeSearchBarBg();
+                addEvents();
+            });
+
+            function changeSearchBarBg() {
+                function image_1() {
+                    setInterval(() => {
+                        document.querySelector(".search-bar-bg-img").src ='src/search-bar homepage/search_bar_bg_1.jpg';
+                        image_2()
+                    },5000);
+                }
+                function image_2() {
+                    setInterval(() => {
+                        document.querySelector(".search-bar-bg-img").src ='src/search-bar homepage/search_bar_bg_2.jpg';
+                        image_1()
+                    },5000);
+                }
+                image_1()
+            }
+ 
+            function addEvents() {
+                //selecting all a tags to add preventDefault
+                // document.querySelectorAll('a').forEach(ele => ele.addEventListener('click',() => event.preventDefault()));
+                // document.querySelectorAll('.login').addEventListener('click',() => event.preventDefault());
+                
+
+                document.querySelector('.logout').addEventListener('click',() => window.location = 'HomePage nav.html');
+                //Link wishlist page 
+                document.querySelector('.wishlist').addEventListener('click',() => window.location = '');
+                //Link Setting page
+                document.querySelector('.setting').addEventListener('click',() => window.location = '');
+
+                //apperance & dissaperance of the searchbar 
+                document.querySelector('body').addEventListener('click', () => {
+                    // console.log(event.target);
+                    if(event.target.className === 'search' || event.target.className === 'search material-icons' || event.target.className === 'search_input' || event.target.className === 'material-icons search_icon') {
+                        document.querySelector('.search_bar').style.display = 'block';
+                    }
+                    else if (event.target.className === 'login') {
+                        handleLogin();
+                        document.querySelector('.search_bar').style.display = 'none';
+                    }
+                    else {
+                        document.querySelector('.search_bar').style.display = 'none';
+                    }
+                });
+
+                //search bar text color change
+                document.querySelector("#search").addEventListener('click',() => event.target.style.color = 'gray');
+
+                //menu_down buttons onclick events
+                let menu_down = document.querySelectorAll('.menu_down');
+                menu_down.forEach(ele => ele.addEventListener('click',() => highlight(menu_down)));
+
+
+            }
+
+            function highlight(menu_down) {
+                // console.log(event.target.id);
+                menu_down.forEach(ele => ele.style.borderBottom = `3px solid white`);
+                let menuId = event.target.id;
+                
+                if (menuId === 'mdproducts') {
+                    event.target.style.borderBottom = `3px solid goldenrod`;
+                    showProducts()
+                }
+                else if (menuId === 'mdcollection') {
+                    event.target.style.borderBottom = `3px solid goldenrod`;
+                    showCollections();
+                }
+                else if (menuId === 'mdbuild') {
+                    event.target.style.borderBottom = `3px solid goldenrod`;
+                    showBuild();
+                }
+            }
+            function showProducts() {
+                document.querySelector('.categories_build').style.display = 'none';
+                let categories = document.querySelector('.categories');
+                categories.innerHTML = '';
+                categories.innerHTML += `<div>
+                    <a href=""><img src="src/dropdowns/products/bedroom.svg" />BEDROOM</a>
+                </div>
+                <div>
+                    <a href=""><img src="src/dropdowns/products/living_room.svg" />LIVING ROOM</a>
+                </div>
+                <div>
+                    <a href=""><img src="src/dropdowns/products/appliances.svg" />APPLIANCES</a>
+                </div>
+                <div>
+                    <a href=""><img src="src/dropdowns/products/sp_deals.svg" />SPECIAL DEALS</a>
+                </div>
+                <div>
+                    <a href=""><img src="src/dropdowns/products/full_home.svg" />FULL HOME</a>
+                </div>
+                <div>
+                    <a href=""><img src="src/dropdowns/products/storage.svg" />STORAGE</a>
+                </div>
+                <div>
+                    <a href=""><img src="src/dropdowns/products/study_room.svg" />WORKSTATIONS</a>
+                </div>
+                <div>
+                    <a href=""><img src="src/dropdowns/products/kids.svg" />KIDS ROOM</a>
+                </div>
+                <div>
+                    <a href=""><img src="src/dropdowns/products/dining_room.svg" />DINING ROOM</a>
+                </div>
+                <div>
+                    <a href=""><img src="src/dropdowns/products/bike-rental_2.svg" />2-WHEELER</a>
+                </div>`;
+                categories.style.display = 'flex';
+            }
+            function showCollections() {
+                document.querySelector('.categories_build').style.display = 'none';
+                let categories = document.querySelector('.categories');
+                categories.innerHTML = '';
+                categories.innerHTML += `<div>
+                    <a href=""><img src="src/dropdowns/collection/2020.svg" />20-20 COLLECTION</a>
+                </div>
+                <div>
+                    <a href=""><img src="src/dropdowns/collection/most_popular.svg" />MOST POPULAR</a>
+                </div>
+                <div>
+                    <a href=""><img src="src/dropdowns/collection/essentials.svg" />ESSENTIALS</a>
+                </div>
+                <div>
+                    <a href=""><img src="src/dropdowns/collection/newly_launched_rocket.svg" />NEWLY LAUNCHED</a>
+                </div>
+                <div>
+                    <a href=""><img src="src/dropdowns/collection/storage.svg" />STORAGE COMBOS</a>
+                </div>
+                <div>
+                    <a href=""><img src="src/dropdowns/collection/award_winning.svg" />AWARD WINNERS</a>
+                </div>
+                <div>
+                    <a href=""><img src="src/dropdowns/collection/fab_rich.svg" />FAB RICH COLLECTION</a>
+                </div>`;
+                categories.style.display = 'flex';
+            }
+            function showBuild() {
+                document.querySelector('.categories').style.display = 'none';
+                let categories = document.querySelector('.categories_build');
+                categories.style.display = 'flex';
+            }
+
+            ///////////////////////////////////////////////////////JS//////////////////////////////////////////////////////////////////
+            function handleLogin() {
+                console.log(event.target);
+                if (event.target.id === 'logged_out') {
+                    showLogin();
+                }
+                else {
+                    showLogout();
+                }
+            }
+
+            function showLogin() {
+                console.log('Login module');
+                // console.log(event.target)
+
+                var username = document.getElementById('mail').value
+                var password = document.getElementById('password').value
+
+                let btn = document.querySelector('.btn')
+                let modalBg = document.querySelector('.modal-bg')
+                let login = document.querySelector('.login_modal')
+                let closeBtn = document.querySelector('.close-btn')
+
+                modalBg.classList.add('modal-active');
+
+                login.addEventListener('click',function(e) {
+                    e.preventDefault();
+
+                    fetch("http://localhost:3000/login").then(res => res.json())
+                    .then(res => {checkuser(res)})
+                    .catch(err=>console.log(err))
+                });
+                function checkuser(data)
+                {
+                    console.log('checking....')
+                    var username = document.getElementById('mail').value
+                    var password = document.getElementById('password').value
+                    for( i in data)
+                    {
+                        if((username=== data[i].username) && (password=== data[i].password))
+                        {
+                            window.location= "Homepage nav 1.html"
+                            document.getElementById('logged_out').textContent = 'My Account';
+                        }
+                        else {
+                            console.log('Invalid');
+                            document.querySelector('#loginError').style.display = 'block';
+                            document.querySelector('#loginError').style.color = 'red';
+                        }
+                    }
+                }
+                closeBtn.addEventListener('click',function() {
+                    modalBg.classList.remove("modal-active")
+                })
+
+
+                //on successive login change ids to logged-in
+                document.querySelectorAll('#logged_out').forEach(ele => ele.id = 'logged_in');
+                document.querySelector('.logout_dropdown').style.display = 'block';
+                document.querySelector('.login').addEventListener('mouseover',() => document.querySelector('.logout_dropdown').style.display = ' block');
+            }
+            function showLogout() {
+                console.log('Logout module');
+
+                // on successive logout change ids to logged-out
+                document.querySelectorAll('#logged_in').forEach(ele => ele.id = 'logged_out');
+                document.querySelector('.logout_dropdown').style.display = 'none';
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45" height="23" viewBox="0 0 45 23">
+    <defs>
+        <linearGradient id="ic_bedroom_a" x1="-60.384%" x2="61.429%" y1="130.931%" y2="33.968%">
+            <stop offset="0%" stop-color="#A3DBFF"/>
+            <stop offset="100%" stop-color="#346AA0"/>
+        </linearGradient>
+        <path id="ic_bedroom_b" d="M1.324 11.4h44.16v7.997l-44.16-.117z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path stroke="#346AA0" stroke-linecap="round" stroke-width="1.2" d="M.871.77v21.66M44.329 9.838V22.43"/>
+        <g transform="translate(-.8 .2)">
+            <use fill="url(#ic_bedroom_a)" xlink:href="#ic_bedroom_b"/>
+            <path stroke="#346AA0" stroke-width="1.2" d="M1.924 12v6.682l42.96.114V12H1.924z"/>
+        </g>
+        <path stroke="#346AA0" stroke-linecap="round" stroke-width="1.2" d="M1.205 8.113c3.262-.098 4.76 1.215 4.495 3.94"/>
+    </g>
+</svg>

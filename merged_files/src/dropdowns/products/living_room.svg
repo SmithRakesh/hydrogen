@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44" height="20" viewBox="0 0 44 20">
+    <defs>
+        <linearGradient id="ic_living_room_a" x1="-60.384%" x2="61.429%" y1="130.931%" y2="33.968%">
+            <stop offset="0%" stop-color="#A3DBFF"/>
+            <stop offset="100%" stop-color="#346AA0"/>
+        </linearGradient>
+        <path id="ic_living_room_b" d="M2.753 10.094h41.294v3.671H2.753z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path stroke="#346AA0" stroke-width="1.2" d="M2.438 11.776h38.824V1.4H2.438z"/>
+        <g transform="translate(-1.55 2)">
+            <use fill="url(#ic_living_room_a)" xlink:href="#ic_living_room_b"/>
+            <path stroke="#346AA0" stroke-width="1.2" d="M2.153 9.494h42.494v4.871H2.153z"/>
+        </g>
+        <path stroke="#346AA0" stroke-linecap="square" stroke-width="1.2" d="M.744 15.612v3.059M42.956 15.612v3.059"/>
+    </g>
+</svg>

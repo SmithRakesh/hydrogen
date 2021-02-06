@@ -401,6 +401,7 @@ function showLogout() {
         res[0].quantity=1
         console.log(main_thing)
         a.push(res)
+        console.log(a)
         localStorage.setItem("addCart",JSON.stringify(a))
         })
         location.href="sample.html"

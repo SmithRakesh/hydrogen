@@ -1,0 +1,372 @@
+body {
+    font-family: Roboto, Helvetica, sans-serif;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+.material-icons {
+    color: #356BA0;
+}
+nav {
+    display: flex;
+    margin: 0.5% 15%;
+    position: sticky;
+}
+.offers {
+    margin: 0 1%;
+    font-size: 0.8em;
+    position: relative;
+    top: 5px;
+    right: 35px;
+}
+.offers:hover {
+    color: rgb(207, 154, 18);
+    cursor: pointer;
+}
+.explore {
+    background-color: #356BA0;
+    color: white;
+    border-radius: 25px;
+    border: none;
+}
+.explore:hover {
+    background-color: #6a91bb;
+    cursor: pointer;
+}
+.menu {
+    position: sticky;
+    border: 2px solid lightgray;
+    display: grid;
+    padding: 0 5%;
+    grid-template-columns: 15% 10% 10% 15% 5% 15% 10% 5% 15%;
+}
+.main_logo {
+    height: 5vh;
+}
+.menu > a {
+    letter-spacing: 1px;
+    border-right: 2px solid lightgray;
+    margin: 0;
+    padding: 3% 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(99, 99, 99);
+    font-size: 0.9em;
+    font-weight: 500;
+}
+.menu > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu > div > select {
+    color:rgb(99, 99, 99);
+    font-size: 0.9em;
+    font-weight: 500;
+    border: none;
+    padding: 1%;
+    text-decoration: none;
+    background: transparent;
+    appearance: none;
+    letter-spacing: 2px;
+}
+.menu a:hover {
+    background-color: rgb(236, 236, 236);
+}
+.menu > div > select:hover {
+    background-color: rgb(236, 236, 236);
+    cursor: pointer;
+}
+.menu > a:nth-child(1):hover {
+    background: none;
+}
+.menu > * > span,img {
+    padding: 0 3%;
+    color: #356BA0;
+}
+#products,
+#collection,
+#build_your_own,
+#cart {
+    display: none;
+}
+.nav_dropdowns {
+    background-color: rgb(248, 248, 248);
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1.3% 0;
+    border-bottom: 0.1px solid rgb(241, 241, 241);
+}
+.nav_dropdowns > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6.5vw;
+    height: 10vh;
+    padding: 1% 0.7%;
+    margin: 0 0.5%;
+    box-shadow: 1px 1px 10px gray;
+    border-radius: 10px;
+    background-color: white;
+}
+.nav_dropdowns > div > a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 0.8em;
+    text-align: center;
+    color: #356BA0;
+}
+.nav_dropdowns > div > a > img{
+    padding: 7% 0 10%;
+}
+.nav_dropdowns > div {
+    cursor: pointer;
+}
+.nav_dropdowns_build_your_own {
+    background-color: #fcfcfc;
+    position: absolute;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    padding: 2.3% 0;
+    border-bottom: 0.1px solid rgb(241, 241, 241);
+}
+.nav_dropdowns_build_your_own > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 3%;
+}
+.nav_dropdowns_build_your_own > div:nth-child(1) {
+    color: grey;
+    width: 25%;
+    letter-spacing: 1.5px;
+    border-right: 1px solid gray;
+}
+.nav_dropdowns_build_your_own > div > img {
+    width: 65%;
+}
+.nav_dropdowns_build_your_own > div > button {
+    font-size: 1em;
+    color: white;
+    background-color: #356BA0;
+    padding: 1% 3%;
+    border: none;
+    border-radius: 25px;
+}
+.nav_dropdowns_build_your_own > div > button:hover{
+    background-color: #6a91bb;
+    cursor: pointer;
+}
+.nav_dropdowns_cart {
+    height: 27vh;
+    width: 25vw;
+    position: absolute;
+    left: 57%;
+    border-top: 5px solid rgb(240, 180, 30);
+    border-bottom: 5px solid goldenrod;
+    background-color: white;
+    box-shadow: 1px 1px 10px gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav_dropdowns_cart >img {
+    width: 40%;
+}
+.nav_dropdowns_cart > p {
+    margin: 0;
+    color: rgb(114, 113, 113);
+}
+.head {
+    letter-spacing: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    color:rgb(99, 99, 99);
+    padding: 2%;
+    /* border-bottom: 2px solid lightgray; */
+}
+.filters {
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    padding: 0.5%;
+    margin: 1% 5%;
+}
+.filters > div {
+    background-color:white;
+    color:#356BA0;
+    border: 2px solid #356BA0;
+    border-radius: 25px;
+    padding: 0.3% 1%;
+    margin: 0 0.5%;
+}
+.filters > div:nth-child(1) {
+    background-color: #356BA0;
+    color: white;
+}
+.filters > div:hover {
+    cursor: pointer;
+    background-color: #acd5ff;
+}
+.categories {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid lightgray;
+    position: sticky;
+}
+.categories > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1%;
+    margin: 0 1%;
+    border-bottom: 4px solid white;
+}
+.categories > div:nth-child(1) {
+    border-bottom: 4px solid rgb(253, 191, 32);
+}
+.categories > div:hover {
+    cursor: pointer;
+}
+.categories > div > img {
+    height: 5vh;
+}
+.categories > div > * {
+    margin: 1% 0;
+    color: #356BA0;
+    padding: 1% 0;
+    font-size: 0.9em;
+    text-decoration: none;
+}
+
+
+
+
+
+.main{
+background-color: rgb(241, 234, 234);
+/* display: grid; */
+/* grid-gap:15px; */
+/* grid-template-columns: 28% 28% 28%; */
+/* justify-content: center; */
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.box{
+width: 350px;
+height: 350px;
+margin-top: 50px ;
+margin-right:20px ;
+/* border: 2px solid grey; */
+cursor: pointer;
+border-radius: 10px;
+background-color: white;
+position: relative;
+font-family: Roboto;
+color: #444444;
+}
+.change>img{
+width: 95% ;
+}
+.price_button,.value,.prime{
+margin:15px;
+width: 100px;
+height: 20px;
+border-radius: 24px;
+background-color:white;
+border:1px solid #4789ca;
+columns: #478dd3;
+font-size: 16px;
+}
+.price_button{
+margin:15px 0px 50px 220px;
+}
+/* .box:hover .price_button,.value:hover .price_button,.prime:hover .price_button{
+margin: 15px 0px 50px 240px;
+color: white;
+background-color: rgb(177, 177, 236);
+} */
+p{
+font-size: 10px;
+}
+.hidden_files{
+display: none;
+margin: 0px;
+border-radius: 0px;
+}
+.box:hover{
+padding: 10px;
+height: 450px;
+display: block;
+}
+.hidden_files>button{
+margin: 10px;
+border-radius: 0px;
+height: 30px;
+}
+.box:hover .hidden_files{
+display: block;
+}
+.image_hover{
+width: 40px;
+height: 40px;
+border:1px solid grey;
+border-radius: 20px;
+margin: 5px;
+}
+.value:hover,.prime:hover{
+background-color: rgb(175, 175, 224);
+color: white;
+}
+h3{
+margin: 10px;
+font-size: 16px;
+}
+p{
+margin: 10px;
+}
+.wish{
+position: absolute;
+top: 20px;
+right: 25px;
+/* background-color: white; */
+width: 40%;
+display: flex;
+justify-content: space-around;
+cursor: pointer;
+}
+.value:hover .wish{
+position: absolute;
+top: 20px;
+right: 25px;
+background-color: white;
+width: 40%;
+display: flex;
+justify-content: space-around;
+cursor: pointer;
+}
+.box:hover .wish,.value:hover .wish,.prime:hover .wish{
+position: absolute;
+top: 20px;
+right: 25px;
+background-color: white;
+width: 40%;
+display: flex;
+justify-content: space-around;
+cursor: pointer;
+}
+.hidden_images{
+width: 40px;
+height: 40px;
+border-radius: 20px;
+}
