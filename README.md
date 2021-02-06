@@ -20,26 +20,26 @@
 
 
 ## Screenshots of our work
-![Landing page](projectImages/landing page.png)
+![Landing page](projectImages/landing%20page.png)
 \
 \
 \
 \
-![Main_page](projectImages/main page.png)
+![Main_page](projectImages/main%20page.png)
 \
 \
 \
 \
-![Checkout page](projectImages/checkout page.png)
+![Checkout page](projectImages/checkout%20page.png)
 \
 \
 \
 \
-![Wishlist page](projectImages/wishlist page.png)
+![Wishlist page](projectImages/wishlist%20page.png)
 \
 \
 \
-\![Settings page](projectImages/settings page.png)
+\![Settings page](projectImages/settings%20page.png)
 \
 \
 \
